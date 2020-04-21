@@ -1,0 +1,62 @@
+@import './colors.scss';
+
+$gigantic: 4rem;
+$huge: 2.5rem;
+$large: 1.5rem;
+$normal: 1rem;
+$small: 0.75rem;
+
+$gigantic-line-height: 4rem;
+$huge-line-height: 2.5rem;
+$large-line-height: 2rem;
+$normal-line-height: 1.5rem;
+$small-line-height: 1rem;
+
+%accent-font {
+  font-family: 'Roboto Slab', serif;
+}
+
+%main-font {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-normal {
+  @extend %main-font;
+  color: $grey-10;
+  font-size: $normal;
+  line-height: $normal-line-height;
+}
+
+@mixin font-small {
+  @extend %main-font;
+  color: $grey-10;
+  font-size: $small;
+  line-height: $small-line-height;
+}
+
+@mixin font-title {
+  @extend %accent-font;
+  color: $grey-9;
+  font-size: $huge;
+  line-height: $huge-line-height;
+}
+
+@mixin font-subtitle {
+  @extend %accent-font;
+  color: $blue-4;
+  font-size: $large;
+  line-height: $large-line-height;
+}
+
+@mixin font-link {
+  @extend %main-font;
+  color: $blue-3;
+  font-size: $normal;
+  line-height: $normal-line-height;
+}
+
+.font-oversized {
+  @extend %accent-font;
+  font-size: $gigantic;
+}

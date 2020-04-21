@@ -1,0 +1,48 @@
+@import './sass-mixins/mixins.scss';
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  @include font-normal;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  @include font-title;
+  margin: 0;
+}
+
+h2 {
+  @include font-subtitle;
+  margin: 0;
+}
+
+ol,
+ul {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  @include font-link;
+  cursor: pointer;
+  text-decoration: none;
+
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: $blue-6;
+    text-decoration: underline;
+  }
+}

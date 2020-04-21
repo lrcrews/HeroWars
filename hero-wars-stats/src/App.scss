@@ -1,0 +1,22 @@
+@import './sass-mixins/mixins.scss';
+
+section#app-container {
+  > header {
+    height: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+
+  > section {
+    background-color: $white-1;
+    height: calc(100% - 2rem);
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+
+    > * {
+      position: relative;
+    }
+  }
+}
