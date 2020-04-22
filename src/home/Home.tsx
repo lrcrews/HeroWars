@@ -5,7 +5,7 @@ import './Home.scss';
 const Home: React.FC = () => {
   return (
     <main id="home-page">
-      <h1>Welcome home</h1>
+      <h1>Hello Assassins!</h1>
     </main>
   );
 };
