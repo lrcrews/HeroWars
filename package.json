@@ -48,8 +48,5 @@
   },
   "devDependencies": {
     "prettier": "2.0.4"
-  },
-  "engines": {
-    "node": "13.x"
   }
 }
