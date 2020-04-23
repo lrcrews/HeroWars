@@ -44,7 +44,7 @@ $small-line-height: 1rem;
 
 @mixin font-subtitle {
   @extend %accent-font;
-  color: $blue-4;
+  color: $red-6;
   font-size: $large;
   line-height: $large-line-height;
 }
@@ -59,4 +59,16 @@ $small-line-height: 1rem;
 .font-oversized {
   @extend %accent-font;
   font-size: $gigantic;
+}
+
+.font-title {
+  @include font-title;
+}
+
+.font-subtitle {
+  @include font-subtitle;
+}
+
+.font-normal {
+  @include font-normal;
 }

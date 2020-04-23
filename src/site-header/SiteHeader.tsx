@@ -9,11 +9,9 @@ import './SiteHeader.scss';
 const SiteHeader: React.FC = () => {
   return (
     <header id="site-header">
+      <img src={guildBannerImg} alt="Assassins guild banner" className="guild-banner" />
       <Link to="/">
-        <div className="logo-container">
-          <img src={guildBannerImg} alt="Assassins guild banner" className="guild-banner" />
-          <div className="name">Assassins | Hero Wars</div>
-        </div>
+        <div className="name">Assassins | Hero Wars</div>
       </Link>
       <ul className="links">
         <li>

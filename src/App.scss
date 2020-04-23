@@ -2,7 +2,10 @@
 
 section#app-container {
   > section {
-    background-color: $white-1;
+    background-image: radial-gradient(circle at top right, $white-1, $grey-4);
+    box-sizing: border-box;
+    height: calc(100% - #{$site-header-height});
+    overflow: auto;
     padding: 2rem 1.5rem;
     position: absolute;
     top: $site-header-height;
