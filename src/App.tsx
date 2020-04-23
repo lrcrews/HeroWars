@@ -4,13 +4,14 @@ import { Route, Switch } from 'react-router-dom';
 import routes from './routes';
 
 import PageNotFound from './404/PageNotFound';
+import SiteHeader from './site-header/SiteHeader';
 
 import './App.scss';
 
 const App: React.FC = () => {
   return (
     <section id="app-container">
-      <header>{/* <SiteHeader></SiteHeader> */}</header>
+      <SiteHeader></SiteHeader>
       <section>
         <Switch>
           {routes.map((route, i) => (

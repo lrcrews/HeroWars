@@ -1,18 +1,11 @@
 @import './sass-mixins/mixins.scss';
 
 section#app-container {
-  > header {
-    height: 2rem;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-  }
-
   > section {
     background-color: $white-1;
-    height: calc(100% - 2rem);
+    padding: 2rem 1.5rem;
     position: absolute;
-    top: 2rem;
+    top: $site-header-height;
     width: 100%;
 
     > * {
