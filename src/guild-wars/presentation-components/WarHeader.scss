@@ -12,6 +12,63 @@
       color: $grey-6;
       padding-left: 0.5rem;
     }
+
+    .war-select {
+      position: relative;
+
+      &:hover {
+        > .current-selection {
+          border: 1px solid $red-6;
+        }
+      }
+
+      > .current-selection {
+        border: 1px solid $grey-8;
+        border-radius: 3px;
+        cursor: pointer;
+        padding: 0.25rem;
+        width: 16.5rem;
+
+        > .affordance {
+          float: right;
+          height: 1rem;
+        }
+      }
+
+      > .options {
+        background-color: $white-1;
+        border: 1px solid $grey-8;
+        border-radius: 0 3px 3px 0;
+        display: none;
+        padding: 0.25rem 0;
+        position: absolute;
+        width: 17rem;
+        z-index: 100;
+
+        &.visible {
+          display: block;
+        }
+
+        > .option {
+          cursor: pointer;
+          padding: 0.5rem 0.25rem;
+
+          &:hover {
+            background-color: $grey-2;
+          }
+
+          &.selected {
+            background-color: $blue-1;
+          }
+
+          > .icon {
+            color: $blue-4;
+            float: right;
+            height: 1rem;
+          }
+        }
+      }
+    }
   }
 
   .matchup {
@@ -118,6 +175,25 @@
             }
           }
         }
+      }
+    }
+  }
+
+  .stats {
+    margin-top: 1rem;
+
+    > .stat {
+      background-color: $grey-1;
+      border: 1px solid $grey-4;
+      border-radius: 3px;
+      display: inline-block;
+      margin: 0 2rem 2rem 0;
+      padding: 0.5rem;
+      text-align: center;
+      width: 5rem;
+
+      &:last-child {
+        margin-right: 0;
       }
     }
   }

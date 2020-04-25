@@ -19,6 +19,7 @@ export class GuildWar {
       const warDateString = json['war_date'];
       return new GuildWar(
         Battle.arrayFromJson(json['battles'], warDateString),
+        json['id'],
         json['losing_guild_id'],
         json['losing_point_total'],
         warDateString,
@@ -34,6 +35,7 @@ export class GuildWar {
 
   constructor(
     public battles: Array<Battle>,
+    public id: number,
     public losingGuildId: number,
     public losingPointTotal: number,
     public warDateString: string,

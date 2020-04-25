@@ -121,5 +121,42 @@
         }
       }
     }
+
+    .battles-table-toggle {
+      border-bottom: 1px solid $grey-4;
+      border-top: 1px solid $grey-4;
+      cursor: pointer;
+      margin-left: -1rem;
+      padding: 1rem;
+      width: 100%;
+
+      &:hover {
+        border-color: $red-6;
+      }
+
+      &.expanded {
+        border-bottom: none;
+      }
+
+      .affordance {
+        float: right;
+        height: 2.5rem;
+      }
+    }
+
+    .battles-table-container {
+      display: none;
+
+      &.visible {
+        display: block;
+      }
+    }
+  }
+
+  .all-battles {
+    .mini-title {
+      font-weight: 600;
+      margin-top: -0.5rem;
+    }
   }
 }

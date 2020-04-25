@@ -2,8 +2,13 @@ import React, { useEffect, useState } from 'react';
 
 import * as _ from 'lodash';
 
-import WarHeader from './presentation-components/WarHeader';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretDown, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
+import BattlesTable from './presentation-components/BattlesTable';
+import WarHeader, { WarOption } from './presentation-components/WarHeader';
+
+import { Battle } from '../models/battle';
 import { Guild } from '../models/guild';
 import { GuildWar } from '../models/guild-war';
 
@@ -19,8 +24,10 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
 
   const [assassinsGuild, setAssassinsGuild] = useState<Guild>();
 
-  const [latestCompetitor, setLatestCompetitor] = useState<Guild>();
-  const [latestWar, setLatestWar] = useState<GuildWar>();
+  const [displayedCompetitor, setDisplayedCompetitor] = useState<Guild>();
+  const [displayedWar, setDisplayedWar] = useState<GuildWar>();
+  const [displayedWarBattlesExpanded, setDisplayedWarBattlesExpanded] = useState(false);
+  const [warOptions, setWarOptions] = useState<Array<WarOption>>([]);
 
   useEffect(() => {
     // we're number 1!
@@ -31,13 +38,20 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
     // we assume the given data is sorted by war date already, so...
     const mostRecentWar = _.last(wars);
     if (mostRecentWar) {
-      setLatestWar(mostRecentWar);
+      setWarOptions(buildWarOptions(wars));
+      setDisplayedWar(mostRecentWar);
       const competitor = competitorFromWar(mostRecentWar);
       if (competitor) {
-        setLatestCompetitor(competitor);
+        setDisplayedCompetitor(competitor);
       }
     }
   }, [wars]);
+
+  const buildWarOptions = (wars: Array<GuildWar>): Array<WarOption> => {
+    return _.map(wars, (war: GuildWar) => {
+      return { display: `War Week ${war.warWeek} | ${war.warDay}  (${war.warDateString})`, id: war.id };
+    });
+  };
 
   const competitorFromWar = (war: GuildWar): Guild | undefined => {
     if (war) {
@@ -49,12 +63,51 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
     }
   };
 
+  const updateDisplayedWar = (warId: number): void => {
+    setDisplayedWar(_.find(wars, (war) => war.id === warId));
+  };
+
+  const allBattles = (): Array<Battle> => {
+    return _.chain(wars)
+      .map((war) => war.battles)
+      .flatten()
+      .value();
+  };
+
   return (
     <section id="guild-wars-page">
       <div className="latest-war tile">
-        {assassinsGuild && latestCompetitor && latestWar && (
-          <WarHeader assassinsGuild={assassinsGuild} competitorGuild={latestCompetitor} war={latestWar} />
+        {assassinsGuild && displayedCompetitor && displayedWar && (
+          <WarHeader
+            assassinsGuild={assassinsGuild}
+            competitorGuild={displayedCompetitor}
+            war={displayedWar}
+            warOptions={warOptions}
+            onWarUpdate={updateDisplayedWar}
+          >
+            <div
+              className={
+                displayedWarBattlesExpanded
+                  ? 'battles-table-toggle font-subtitle expanded'
+                  : 'battles-table-toggle font-subtitle'
+              }
+              onClick={(): void => setDisplayedWarBattlesExpanded(!displayedWarBattlesExpanded)}
+            >
+              Battles
+              {!displayedWarBattlesExpanded && <FontAwesomeIcon icon={faCaretRight} className="affordance" />}
+              {displayedWarBattlesExpanded && <FontAwesomeIcon icon={faCaretDown} className="affordance" />}
+            </div>
+            <div
+              className={displayedWarBattlesExpanded ? 'battles-table-container visible' : 'battles-table-container'}
+            >
+              <BattlesTable battles={displayedWar.battles} guilds={guilds} />
+            </div>
+          </WarHeader>
         )}
+      </div>
+      <div className="all-battles tile">
+        <div className="mini-title font-small">All Battles</div>
+        <BattlesTable battles={allBattles()} guilds={guilds} />
       </div>
     </section>
   );
