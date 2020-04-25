@@ -1,0 +1,38 @@
+[
+  {
+    "banner_image_name": "assassinsBannerImg",
+    "id": 1,
+    "name": "Assassins",
+    "server": 184
+  },
+  {
+    "banner_image_name": "anarchyBannerImg",
+    "id": 2,
+    "name": "Anarchy",
+    "server": 184
+  },
+  {
+    "banner_image_name": "lesFrancsBannerImg",
+    "id": 3,
+    "name": "les francs",
+    "server": 184
+  },
+  {
+    "banner_image_name": "mericaBannerImg",
+    "id": 4,
+    "name": "Merica",
+    "server": 184
+  },
+  {
+    "banner_image_name": "mrcoBannerImg",
+    "id": 5,
+    "name": "Mяco",
+    "server": 184
+  },
+  {
+    "banner_image_name": "romaniaBannerImg",
+    "id": 6,
+    "name": "Romania",
+    "server": 184
+  }
+]

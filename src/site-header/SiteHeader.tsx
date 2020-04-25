@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import guildBannerImg from './guild-banner.png';
+import guildBannerImg from '../data/guild-banners/assassins-banner.png';
 
 import './SiteHeader.scss';
 

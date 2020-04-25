@@ -72,3 +72,7 @@ $small-line-height: 1rem;
 .font-normal {
   @include font-normal;
 }
+
+.font-small {
+  @include font-small;
+}
