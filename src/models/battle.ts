@@ -34,7 +34,7 @@ export class Battle {
       return new Battle(
         attacker,
         defender,
-        json['fotification'],
+        json['fortification'],
         json['points_earned'],
         json['position'],
         json['position_captured'],
@@ -49,7 +49,7 @@ export class Battle {
   constructor(
     public attacker: Player,
     public defender: Player,
-    public fotification: string,
+    public fortification: string,
     public pointsEarned: number,
     public position: number,
     public positionCaptured: boolean,

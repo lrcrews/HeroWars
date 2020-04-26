@@ -1,6 +1,7 @@
 @import '../../sass-mixins/mixins.scss';
 
 .custom-select {
+  display: inline-block;
   position: relative;
 
   &:hover {

@@ -4,13 +4,9 @@
   .matchup-date {
     margin-top: -0.5rem;
 
-    .war-week {
-      font-weight: 600;
-    }
-
-    .date {
-      color: $grey-6;
-      padding-left: 0.5rem;
+    > * {
+      display: inline-block;
+      vertical-align: middle;
     }
   }
 

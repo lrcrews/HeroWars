@@ -14,7 +14,7 @@
           "name": "Sardine",
           "power": 264910
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 17,
         "position": 1,
         "position_captured": false,
@@ -34,7 +34,7 @@
           "name": "Gardakus",
           "power": 268882
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 10,
         "position": 2,
         "position_captured": false,
@@ -54,7 +54,7 @@
           "name": "Angelina",
           "power": 144961
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -74,7 +74,7 @@
           "name": "Saucy",
           "power": 121868
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -94,7 +94,7 @@
           "name": "Indred Cole",
           "power": 139181
         },
-        "fotification": "Mage Academy",
+        "fortification": "Mage Academy",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -114,7 +114,7 @@
           "name": "Williepint1982",
           "power": 124758
         },
-        "fotification": "Mage Academy",
+        "fortification": "Mage Academy",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -134,7 +134,7 @@
           "name": "Gardakus",
           "power": 268882
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 10,
         "position": 2,
         "position_captured": true,
@@ -154,7 +154,7 @@
           "name": "Sardine",
           "power": 264910
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 3,
         "position": 1,
         "position_captured": true,
@@ -174,7 +174,7 @@
           "name": "Jeep Jerry",
           "power": 211443
         },
-        "fotification": "Mage Academy",
+        "fortification": "Mage Academy",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -194,7 +194,7 @@
           "name": "Williepint1982",
           "power": 66464
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -214,7 +214,7 @@
           "name": "Indred Cole",
           "power": 67788
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -234,7 +234,7 @@
           "name": "Wallario",
           "power": 73282
         },
-        "fotification": "Gates of Nature",
+        "fortification": "Gates of Nature",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -254,7 +254,7 @@
           "name": "Amothep",
           "power": 70251
         },
-        "fotification": "Bastion of Ice",
+        "fortification": "Bastion of Ice",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -274,7 +274,7 @@
           "name": "budge",
           "power": 110197
         },
-        "fotification": "Bastion of Ice",
+        "fortification": "Bastion of Ice",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -294,7 +294,7 @@
           "name": "badianchick",
           "power": 104285
         },
-        "fotification": "Gates of Nature",
+        "fortification": "Gates of Nature",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -314,7 +314,7 @@
           "name": "MrTom",
           "power": 88617
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -334,7 +334,7 @@
           "name": "BIG D",
           "power": 83445
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -354,7 +354,7 @@
           "name": "Sardine",
           "power": 389774
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -374,7 +374,7 @@
           "name": "Anhvilla",
           "power": 64962
         },
-        "fotification": "Bastion of Ice",
+        "fortification": "Bastion of Ice",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -394,7 +394,7 @@
           "name": "_DAZ_",
           "power": 63641
         },
-        "fotification": "Bastion of Ice",
+        "fortification": "Bastion of Ice",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -414,7 +414,7 @@
           "name": "RadRob",
           "power": 152558
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -434,7 +434,7 @@
           "name": "Amothep",
           "power": 166601
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -454,7 +454,7 @@
           "name": "Jeep Jerry",
           "power": 54747
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -474,7 +474,7 @@
           "name": "Netle",
           "power": 48247
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -494,7 +494,7 @@
           "name": "ecka",
           "power": 162430
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -514,7 +514,7 @@
           "name": "Anhvilla",
           "power": 135292
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 20,
         "position": 5,
         "position_captured": true,
@@ -534,7 +534,7 @@
           "name": "Tfy :)",
           "power": 139582
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 20,
         "position": 6,
         "position_captured": true,
@@ -554,7 +554,7 @@
           "name": "BIG D",
           "power": 121935
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 20,
         "position": 7,
         "position_captured": true,
@@ -574,7 +574,7 @@
           "name": "Revan",
           "power": 61704
         },
-        "fotification": "Gates of Nature",
+        "fortification": "Gates of Nature",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -594,7 +594,7 @@
           "name": "Tfy :)",
           "power": 58973
         },
-        "fotification": "Gates of Nature",
+        "fortification": "Gates of Nature",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -614,7 +614,7 @@
           "name": "Revan",
           "power": 175670
         },
-        "fotification": "Foundry",
+        "fortification": "Foundry",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -634,7 +634,7 @@
           "name": "Saucy",
           "power": 193339
         },
-        "fotification": "Foundry",
+        "fortification": "Foundry",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -654,7 +654,7 @@
           "name": "ecka",
           "power": 59273
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -674,7 +674,7 @@
           "name": "RadRob",
           "power": 42632
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -694,7 +694,7 @@
           "name": "badianchick",
           "power": 188555
         },
-        "fotification": "Lighthouse",
+        "fortification": "Lighthouse",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -714,7 +714,7 @@
           "name": "MrTom",
           "power": 197332
         },
-        "fotification": "Foundry",
+        "fortification": "Foundry",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -734,7 +734,7 @@
           "name": "Wallario",
           "power": 145074
         },
-        "fotification": "Foundry",
+        "fortification": "Foundry",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -754,7 +754,7 @@
           "name": "Angelina",
           "power": 271857
         },
-        "fotification": "Lighthouse",
+        "fortification": "Lighthouse",
         "points_earned": 2,
         "position": 1,
         "position_captured": false,
@@ -774,7 +774,7 @@
           "name": "Netle",
           "power": 142701
         },
-        "fotification": "Lighthouse",
+        "fortification": "Lighthouse",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -794,7 +794,7 @@
           "name": "_DAZ_",
           "power": 158861
         },
-        "fotification": "Barracks",
+        "fortification": "Barracks",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -814,7 +814,7 @@
           "name": "gertyman",
           "power": 233281
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -834,7 +834,7 @@
           "name": "Gom",
           "power": 222775
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -854,7 +854,7 @@
           "name": "Buffy",
           "power": 131385
         },
-        "fotification": "Barracks",
+        "fortification": "Barracks",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -874,7 +874,7 @@
           "name": "Dagul",
           "power": 146820
         },
-        "fotification": "Mage Academy",
+        "fortification": "Mage Academy",
         "points_earned": 10,
         "position": 2,
         "position_captured": false,
@@ -894,7 +894,7 @@
           "name": "KP",
           "power": 184473
         },
-        "fotification": "Lighthouse",
+        "fortification": "Lighthouse",
         "points_earned": 12,
         "position": 2,
         "position_captured": false,
@@ -914,7 +914,7 @@
           "name": "KP",
           "power": 184473
         },
-        "fotification": "Lighthouse",
+        "fortification": "Lighthouse",
         "points_earned": 8,
         "position": 2,
         "position_captured": true,
@@ -934,7 +934,7 @@
           "name": "gertyman",
           "power": 249465
         },
-        "fotification": "Lighthouse",
+        "fortification": "Lighthouse",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -954,7 +954,7 @@
           "name": "GurraBurra",
           "power": 248626
         },
-        "fotification": "Barracks",
+        "fortification": "Barracks",
         "points_earned": 8,
         "position": 3,
         "position_captured": false,
@@ -974,7 +974,7 @@
           "name": "Post Goats",
           "power": 212136
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -994,7 +994,7 @@
           "name": "LOD 2020",
           "power": 186074
         },
-        "fotification": "Bridge",
+        "fortification": "Bridge",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -1014,7 +1014,7 @@
           "name": "Don",
           "power": 178042
         },
-        "fotification": "Foundry",
+        "fortification": "Foundry",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -1034,7 +1034,7 @@
           "name": "doublejam",
           "power": 139549
         },
-        "fotification": "Bastion of Ice",
+        "fortification": "Bastion of Ice",
         "points_earned": 12,
         "position": 1,
         "position_captured": false,
@@ -1054,7 +1054,7 @@
           "name": "Dagul",
           "power": 99431
         },
-        "fotification": "Bastion of Ice",
+        "fortification": "Bastion of Ice",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -1074,7 +1074,7 @@
           "name": "wookie",
           "power": 163758
         },
-        "fotification": "Foundry",
+        "fortification": "Foundry",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -1094,7 +1094,7 @@
           "name": "Dikree",
           "power": 107556
         },
-        "fotification": "Gates of Nature",
+        "fortification": "Gates of Nature",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -1114,7 +1114,7 @@
           "name": "Naked Ninja",
           "power": 83829
         },
-        "fotification": "Gates of Nature",
+        "fortification": "Gates of Nature",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -1134,7 +1134,7 @@
           "name": "Forblitz",
           "power": 121796
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -1154,7 +1154,7 @@
           "name": "GurraBurra",
           "power": 130240
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 11,
         "position": 2,
         "position_captured": false,
@@ -1174,7 +1174,7 @@
           "name": "Don",
           "power": 59260
         },
-        "fotification": "Gates of Nature",
+        "fortification": "Gates of Nature",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -1194,7 +1194,7 @@
           "name": "GurraBurra",
           "power": 130240
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 3,
         "position": 2,
         "position_captured": false,
@@ -1214,7 +1214,7 @@
           "name": "GurraBurra",
           "power": 130240
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 3,
         "position": 2,
         "position_captured": false,
@@ -1234,7 +1234,7 @@
           "name": "KP",
           "power": 86232
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 11,
         "position": 4,
         "position_captured": false,
@@ -1254,7 +1254,7 @@
           "name": "Disciple",
           "power": 72662
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -1274,7 +1274,7 @@
           "name": "KP",
           "power": 86232
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 9,
         "position": 4,
         "position_captured": true,
@@ -1294,7 +1294,7 @@
           "name": "GurraBurra",
           "power": 130240
         },
-        "fotification": "Bastion of Fire",
+        "fortification": "Bastion of Fire",
         "points_earned": 3,
         "position": 2,
         "position_captured": true,
@@ -1314,7 +1314,7 @@
           "name": "Sheevara",
           "power": 142922
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 5,
         "position": 7,
         "position_captured": false,
@@ -1334,7 +1334,7 @@
           "name": "Fuzzy",
           "power": 140424
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 1,
         "position": 2,
         "position_captured": false,
@@ -1354,7 +1354,7 @@
           "name": "Disciple",
           "power": 152877
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
@@ -1374,7 +1374,7 @@
           "name": "Fuzzy",
           "power": 140424
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 19,
         "position": 2,
         "position_captured": true,
@@ -1394,7 +1394,7 @@
           "name": "Sheevara",
           "power": 142922
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 15,
         "position": 7,
         "position_captured": true,
@@ -1414,7 +1414,7 @@
           "name": "Naked Ninja",
           "power": 160955
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 14,
         "position": 3,
         "position_captured": false,
@@ -1434,7 +1434,7 @@
           "name": "wookie",
           "power": 78904
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
@@ -1454,7 +1454,7 @@
           "name": "agent_chu",
           "power": 78475
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -1474,7 +1474,7 @@
           "name": "Sheevara",
           "power": 71782
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 10,
         "position": 4,
         "position_captured": false,
@@ -1494,7 +1494,7 @@
           "name": "Sheevara",
           "power": 71782
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 10,
         "position": 4,
         "position_captured": true,
@@ -1514,7 +1514,7 @@
           "name": "Forblitz",
           "power": 181423
         },
-        "fotification": "Lighthouse",
+        "fortification": "Lighthouse",
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
@@ -1534,7 +1534,7 @@
           "name": "Dikree",
           "power": 159791
         },
-        "fotification": "Foundry",
+        "fortification": "Foundry",
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
@@ -1554,7 +1554,7 @@
           "name": "Buffy",
           "power": 78205
         },
-        "fotification": "Spring of Elements",
+        "fortification": "Spring of Elements",
         "points_earned": 16,
         "position": 2,
         "position_captured": false,
@@ -1574,7 +1574,7 @@
           "name": "Naked Ninja",
           "power": 160955
         },
-        "fotification": "Citadel",
+        "fortification": "Citadel",
         "points_earned": 6,
         "position": 3,
         "position_captured": true,

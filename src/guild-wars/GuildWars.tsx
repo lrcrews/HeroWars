@@ -21,6 +21,8 @@ export interface GuildWarsProps {
   wars: Array<GuildWar>;
 }
 
+const ALL_BATTLES_OPTION = { display: 'All', id: 'ALL' };
+
 const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
   const { guilds = [], wars = [] } = props;
 
@@ -35,14 +37,9 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
   const [displayedBattles, setDisplayedBattles] = useState<Array<Battle>>([]);
   const [selectedBattleOption, setSelectedBattleOption] = useState<Option>();
 
-  const ALL_BATTLES_OPTION = { display: 'All', id: 'ALL' };
-
   useEffect(() => {
     // we're number 1!
     setAssassinsGuild(_.find(guilds, (guild: Guild) => guild.id === 1));
-  }, [guilds]);
-
-  useEffect(() => {
     setBattlesOptions(buildBattlesOptions(wars));
     setDisplayedBattles(battlesFromWars(wars));
     setSelectedBattleOption(ALL_BATTLES_OPTION);
@@ -51,21 +48,19 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
     if (mostRecentWar) {
       setWarOptions(buildWarOptions(wars));
       setDisplayedWar(mostRecentWar);
-      const competitor = competitorFromWar(mostRecentWar);
+      const competitor = competitorFromWar(mostRecentWar, guilds);
       if (competitor) {
         setDisplayedCompetitor(competitor);
       }
     }
-  }, [wars]);
+  }, [guilds, wars]);
 
-  const buildBattlesOptions = (wars: Array<GuildWar>): Array<Option> => {
-    const dupOptions = _.map(wars, (war: GuildWar) => {
+  const buildBattlesOptions = (availableWars: Array<GuildWar>): Array<Option> => {
+    const dupOptions = _.map(availableWars, (war: GuildWar) => {
       return { display: `War Week ${war.warWeek}`, id: `${war.warDateString.substring(0, 4)}${war.warWeek}` };
     });
-    console.log(`dupOptions: ${JSON.stringify(dupOptions)}`);
     const options = _.uniqWith(dupOptions, _.isEqual);
     options.unshift(ALL_BATTLES_OPTION);
-    console.log(`options: ${JSON.stringify(options)}`);
     return options;
   };
 
@@ -75,11 +70,11 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
     });
   };
 
-  const competitorFromWar = (war: GuildWar): Guild | undefined => {
+  const competitorFromWar = (war: GuildWar, warGuilds: Array<Guild>): Guild | undefined => {
     if (war) {
       // using known id check here instead of less brittle logic, b/c, you know, we can
       const competitorId = war.winningGuildId === 1 ? war.losingGuildId : war.winningGuildId;
-      return _.find(guilds, (guild: Guild) => guild.id === competitorId);
+      return _.find(warGuilds, (guild: Guild) => guild.id === competitorId);
     } else {
       return undefined;
     }
@@ -89,7 +84,7 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
     const war = _.find(wars, (war) => war.id === option.id);
     if (war) {
       setDisplayedWar(war);
-      setDisplayedCompetitor(competitorFromWar(war));
+      setDisplayedCompetitor(competitorFromWar(war, guilds));
     }
   };
 

@@ -2,6 +2,11 @@
 
 .battles-view {
   .wars-selection {
-    margin-top: -0.5rem;
+    margin: -0.5rem 0 1.5rem;
+
+    > * {
+      display: inline-block;
+      vertical-align: middle;
+    }
   }
 }

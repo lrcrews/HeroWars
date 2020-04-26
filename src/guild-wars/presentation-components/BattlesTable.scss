@@ -1,26 +1,120 @@
 @import '../../sass-mixins/mixins.scss';
 
 .battles-table {
-  .table {
+  overflow: auto;
+
+  table {
     border-collapse: separate;
     border-spacing: 0;
     display: block;
-    overflow: auto;
+    height: 32.5rem;
+    overflow-y: scroll;
+    table-layout: fixed;
     width: 100%;
+
+    .table-header,
+    .table-body {
+      display: block;
+      overflow-x: visible;
+    }
+
+    .table-header {
+      position: sticky;
+      top: 0;
+    }
+
+    .header-row {
+      background-color: $white-1;
+
+      .attacker-grouping {
+        background-color: $blue-1;
+      }
+
+      .defender-grouping {
+        background-color: $red-1;
+      }
+    }
+
+    .data-row {
+      > td {
+        background-color: $white-1;
+      }
+
+      &:nth-child(even) {
+        > td {
+          background-color: $grey-2;
+        }
+      }
+    }
+
+    .small-column {
+      max-width: 2.5rem;
+      min-width: 2.5rem;
+    }
+
+    .medium-column {
+      max-width: 5rem;
+      min-width: 5rem;
+    }
+
+    .large-column {
+      max-width: 8rem;
+      min-width: 8rem;
+    }
+
+    .centered {
+      text-align: center;
+    }
 
     > thead,
     > tbody {
       > tr {
-        border-bottom: 1px solid $grey-2;
         width: 100%;
+
+        > th,
+        > td {
+          border-bottom: 1px solid $grey-4;
+          padding: 0.75rem 0 0.75rem 0.5rem;
+          text-align: left;
+          white-space: nowrap;
+
+          &:first-child {
+            padding-left: 1rem;
+          }
+
+          &:last-child {
+            padding-right: 1rem;
+          }
+
+          > * {
+            display: inline-block;
+            vertical-align: middle;
+          }
+
+          > .affordance {
+            font-size: $small;
+            padding-left: 0.25rem;
+          }
+
+          > img {
+            width: 2rem;
+          }
+        }
       }
     }
 
     > thead {
+      background-color: $white-1;
+
       > tr {
         > th {
           cursor: pointer;
+          font-size: 1rem;
           font-weight: 600;
+
+          &:hover {
+            color: $red-6;
+          }
         }
       }
     }
@@ -28,8 +122,16 @@
 
   > tbody {
     > tr {
-      &:nth-child(even) {
-        background-color: $grey-1;
+      > td {
+        .display-text {
+          font-size: 0.875rem;
+          height: 1rem;
+          line-height: 1rem;
+          overflow: hidden;
+          padding-right: 1rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
       }
     }
   }
