@@ -2,9 +2,6 @@ import React, { PropsWithChildren, useEffect, useState } from 'react';
 
 import * as _ from 'lodash';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown, faAngleUp, faCheck } from '@fortawesome/free-solid-svg-icons';
-
 import badgeImg from '../../data/misc-images/icon-battle.png';
 import victoryPointIconImg from '../../data/misc-images/icon-victory-point.png';
 import vsIconImg from '../../data/misc-images/icon-vs.png';
@@ -12,25 +9,22 @@ import vsIconImg from '../../data/misc-images/icon-vs.png';
 import { Guild } from '../../models/guild';
 import { GuildWar } from '../../models/guild-war';
 
-import './WarHeader.scss';
+import CustomSelect, { Option } from './CustomSelect';
 
-export interface WarOption {
-  display: string;
-  id: number;
-}
+import './WarView.scss';
 
-export interface WarHeaderProps extends PropsWithChildren<{}> {
+export interface WarViewProps extends PropsWithChildren<{}> {
   assassinsGuild: Guild;
   competitorGuild: Guild;
   war: GuildWar;
-  warOptions: Array<WarOption>;
-  onWarUpdate: (warId: number) => void;
+  warOptions: Array<Option>;
+  onWarUpdate: (option: Option) => void;
 }
 
-const WarHeader: React.FC<WarHeaderProps> = (props: WarHeaderProps) => {
+const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
   const { assassinsGuild, children, competitorGuild, war, warOptions, onWarUpdate } = props;
 
-  const [optionsVisible, setOptionsVisible] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(_.last(warOptions));
 
   const [attacksUsed, setAttacksUsed] = useState(0);
   const [defensesWon, setDefensesWon] = useState(0);
@@ -100,44 +94,15 @@ const WarHeader: React.FC<WarHeaderProps> = (props: WarHeaderProps) => {
     return { width: `${100 - assassinsPointRatio()}%` };
   };
 
-  const optionSelected = (id: number): boolean => {
-    return id === war.id;
-  };
-
-  const updateWarSelection = (id: number): void => {
-    setOptionsVisible(false);
-    if (id !== war.id) {
-      onWarUpdate(id);
-    }
+  const onOptionUpdate = (option: Option): void => {
+    setSelectedOption(option);
+    onWarUpdate(option);
   };
 
   return (
-    <div className="war-header">
+    <div className="war-view">
       <div className="matchup-date font-small">
-        <div className="war-select">
-          <div className="current-selection" onClick={(): void => setOptionsVisible(!optionsVisible)}>
-            <span className="war-week">
-              War Week {war?.warWeek} | {war?.warDay}
-            </span>
-            <span className="date">({war?.warDateString})</span>
-            {!optionsVisible && <FontAwesomeIcon icon={faAngleDown} className="affordance" />}
-            {optionsVisible && <FontAwesomeIcon icon={faAngleUp} className="affordance" />}
-          </div>
-          <ul className={optionsVisible ? 'options visible' : 'options'}>
-            {warOptions.map((warOption, index) => {
-              return (
-                <li
-                  key={index}
-                  className={optionSelected(warOption.id) ? 'selected option' : 'option'}
-                  onClick={(): void => updateWarSelection(warOption.id)}
-                >
-                  {warOption.display}
-                  {optionSelected(warOption.id) && <FontAwesomeIcon icon={faCheck} className="icon" />}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+        <CustomSelect options={warOptions} selectedOption={selectedOption} onOptionUpdate={onOptionUpdate} />
       </div>
       <div className="matchup">
         <img src={assassinsGuild?.bannerImagePath} alt="Assassins guild banner" className="guild-banner" />
@@ -208,4 +173,4 @@ const WarHeader: React.FC<WarHeaderProps> = (props: WarHeaderProps) => {
     </div>
   );
 };
-export default WarHeader;
+export default WarView;

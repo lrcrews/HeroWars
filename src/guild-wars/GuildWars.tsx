@@ -6,13 +6,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
 import BattlesTable from './presentation-components/BattlesTable';
-import WarHeader, { WarOption } from './presentation-components/WarHeader';
+import WarView from './presentation-components/WarView';
 
 import { Battle } from '../models/battle';
 import { Guild } from '../models/guild';
 import { GuildWar } from '../models/guild-war';
+import { Option } from './presentation-components/CustomSelect';
 
 import './GuildWars.scss';
+import BattlesView from './presentation-components/BattlesView';
 
 export interface GuildWarsProps {
   guilds: Array<Guild>;
@@ -27,7 +29,13 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
   const [displayedCompetitor, setDisplayedCompetitor] = useState<Guild>();
   const [displayedWar, setDisplayedWar] = useState<GuildWar>();
   const [displayedWarBattlesExpanded, setDisplayedWarBattlesExpanded] = useState(false);
-  const [warOptions, setWarOptions] = useState<Array<WarOption>>([]);
+  const [warOptions, setWarOptions] = useState<Array<Option>>([]);
+
+  const [battlesOptions, setBattlesOptions] = useState<Array<Option>>([]);
+  const [displayedBattles, setDisplayedBattles] = useState<Array<Battle>>([]);
+  const [selectedBattleOption, setSelectedBattleOption] = useState<Option>();
+
+  const ALL_BATTLES_OPTION = { display: 'All', id: 'ALL' };
 
   useEffect(() => {
     // we're number 1!
@@ -35,6 +43,9 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
   }, [guilds]);
 
   useEffect(() => {
+    setBattlesOptions(buildBattlesOptions(wars));
+    setDisplayedBattles(battlesFromWars(wars));
+    setSelectedBattleOption(ALL_BATTLES_OPTION);
     // we assume the given data is sorted by war date already, so...
     const mostRecentWar = _.last(wars);
     if (mostRecentWar) {
@@ -47,7 +58,18 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
     }
   }, [wars]);
 
-  const buildWarOptions = (wars: Array<GuildWar>): Array<WarOption> => {
+  const buildBattlesOptions = (wars: Array<GuildWar>): Array<Option> => {
+    const dupOptions = _.map(wars, (war: GuildWar) => {
+      return { display: `War Week ${war.warWeek}`, id: `${war.warDateString.substring(0, 4)}${war.warWeek}` };
+    });
+    console.log(`dupOptions: ${JSON.stringify(dupOptions)}`);
+    const options = _.uniqWith(dupOptions, _.isEqual);
+    options.unshift(ALL_BATTLES_OPTION);
+    console.log(`options: ${JSON.stringify(options)}`);
+    return options;
+  };
+
+  const buildWarOptions = (wars: Array<GuildWar>): Array<Option> => {
     return _.map(wars, (war: GuildWar) => {
       return { display: `War Week ${war.warWeek} | ${war.warDay}  (${war.warDateString})`, id: war.id };
     });
@@ -63,12 +85,26 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
     }
   };
 
-  const updateDisplayedWar = (warId: number): void => {
-    setDisplayedWar(_.find(wars, (war) => war.id === warId));
+  const updateDisplayedWar = (option: Option): void => {
+    const war = _.find(wars, (war) => war.id === option.id);
+    if (war) {
+      setDisplayedWar(war);
+      setDisplayedCompetitor(competitorFromWar(war));
+    }
   };
 
-  const allBattles = (): Array<Battle> => {
-    return _.chain(wars)
+  const updateDisplayedBattles = (option: Option): void => {
+    setSelectedBattleOption(option);
+    if (option.id === ALL_BATTLES_OPTION.id) {
+      setDisplayedBattles(battlesFromWars(wars));
+    } else {
+      const filteredWars = _.filter(wars, (war) => war.warDateString === option.id);
+      setDisplayedBattles(battlesFromWars(filteredWars));
+    }
+  };
+
+  const battlesFromWars = (selectedWars: Array<GuildWar>): Array<Battle> => {
+    return _.chain(selectedWars)
       .map((war) => war.battles)
       .flatten()
       .value();
@@ -78,7 +114,7 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
     <section id="guild-wars-page">
       <div className="latest-war tile">
         {assassinsGuild && displayedCompetitor && displayedWar && (
-          <WarHeader
+          <WarView
             assassinsGuild={assassinsGuild}
             competitorGuild={displayedCompetitor}
             war={displayedWar}
@@ -102,12 +138,17 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
             >
               <BattlesTable battles={displayedWar.battles} guilds={guilds} />
             </div>
-          </WarHeader>
+          </WarView>
         )}
       </div>
       <div className="all-battles tile">
-        <div className="mini-title font-small">All Battles</div>
-        <BattlesTable battles={allBattles()} guilds={guilds} />
+        <BattlesView
+          options={battlesOptions}
+          selectedOption={selectedBattleOption}
+          onUpdateSelectedWars={updateDisplayedBattles}
+        >
+          <BattlesTable battles={displayedBattles} guilds={guilds} />
+        </BattlesView>
       </div>
     </section>
   );
