@@ -14,12 +14,11 @@
           "name": "Sardine",
           "power": 264910
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 17,
         "position": 1,
         "position_captured": false,
-        "time": "T01:24:58",
-        "type": "Titan"
+        "time": "T01:24:58"
       },
       {
         "attacker": {
@@ -34,12 +33,11 @@
           "name": "Gardakus",
           "power": 268882
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 10,
         "position": 2,
         "position_captured": false,
-        "time": "T01:25:45",
-        "type": "Titan"
+        "time": "T01:25:45"
       },
       {
         "attacker": {
@@ -54,12 +52,11 @@
           "name": "Angelina",
           "power": 144961
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T05:18:19",
-        "type": "Titan"
+        "time": "T05:18:19"
       },
       {
         "attacker": {
@@ -74,12 +71,11 @@
           "name": "Saucy",
           "power": 121868
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T05:18:38",
-        "type": "Titan"
+        "time": "T05:18:38"
       },
       {
         "attacker": {
@@ -94,12 +90,11 @@
           "name": "Indred Cole",
           "power": 139181
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T06:00:31",
-        "type": "Hero"
+        "time": "T06:00:31"
       },
       {
         "attacker": {
@@ -114,12 +109,11 @@
           "name": "Williepint1982",
           "power": 124758
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T06:01:15",
-        "type": "Hero"
+        "time": "T06:01:15"
       },
       {
         "attacker": {
@@ -134,12 +128,11 @@
           "name": "Gardakus",
           "power": 268882
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 10,
         "position": 2,
         "position_captured": true,
-        "time": "T06:09:42",
-        "type": "Titan"
+        "time": "T06:09:42"
       },
       {
         "attacker": {
@@ -154,12 +147,11 @@
           "name": "Sardine",
           "power": 264910
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 3,
         "position": 1,
         "position_captured": true,
-        "time": "T08:20:21",
-        "type": "Titan"
+        "time": "T08:20:21"
       },
       {
         "attacker": {
@@ -174,12 +166,11 @@
           "name": "Jeep Jerry",
           "power": 211443
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T08:21:26",
-        "type": "Hero"
+        "time": "T08:21:26"
       },
       {
         "attacker": {
@@ -194,12 +185,11 @@
           "name": "Williepint1982",
           "power": 66464
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T08:40:48",
-        "type": "Titan"
+        "time": "T08:40:48"
       },
       {
         "attacker": {
@@ -214,12 +204,11 @@
           "name": "Indred Cole",
           "power": 67788
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T08:41:32",
-        "type": "Titan"
+        "time": "T08:41:32"
       },
       {
         "attacker": {
@@ -234,12 +223,11 @@
           "name": "Wallario",
           "power": 73282
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T08:54:39",
-        "type": "Titan"
+        "time": "T08:54:39"
       },
       {
         "attacker": {
@@ -254,12 +242,11 @@
           "name": "Amothep",
           "power": 70251
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T08:55:08",
-        "type": "Titan"
+        "time": "T08:55:08"
       },
       {
         "attacker": {
@@ -274,12 +261,11 @@
           "name": "budge",
           "power": 110197
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T08:59:39",
-        "type": "Titan"
+        "time": "T08:59:39"
       },
       {
         "attacker": {
@@ -294,12 +280,11 @@
           "name": "badianchick",
           "power": 104285
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T09:00:08",
-        "type": "Titan"
+        "time": "T09:00:08"
       },
       {
         "attacker": {
@@ -314,12 +299,11 @@
           "name": "MrTom",
           "power": 88617
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T09:12:23",
-        "type": "Titan"
+        "time": "T09:12:23"
       },
       {
         "attacker": {
@@ -334,12 +318,11 @@
           "name": "BIG D",
           "power": 83445
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T09:12:44",
-        "type": "Titan"
+        "time": "T09:12:44"
       },
       {
         "attacker": {
@@ -354,12 +337,11 @@
           "name": "Sardine",
           "power": 389774
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T09:20:53",
-        "type": "Hero"
+        "time": "T09:20:53"
       },
       {
         "attacker": {
@@ -374,12 +356,11 @@
           "name": "Anhvilla",
           "power": 64962
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T09:21:59",
-        "type": "Titan"
+        "time": "T09:21:59"
       },
       {
         "attacker": {
@@ -394,12 +375,11 @@
           "name": "_DAZ_",
           "power": 63641
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T09:22:24",
-        "type": "Titan"
+        "time": "T09:22:24"
       },
       {
         "attacker": {
@@ -414,12 +394,11 @@
           "name": "RadRob",
           "power": 152558
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T09:28:50",
-        "type": "Hero"
+        "time": "T09:28:50"
       },
       {
         "attacker": {
@@ -434,12 +413,11 @@
           "name": "Amothep",
           "power": 166601
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T09:29:20",
-        "type": "Hero"
+        "time": "T09:29:20"
       },
       {
         "attacker": {
@@ -454,12 +432,11 @@
           "name": "Jeep Jerry",
           "power": 54747
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T09:35:52",
-        "type": "Titan"
+        "time": "T09:35:52"
       },
       {
         "attacker": {
@@ -474,12 +451,11 @@
           "name": "Netle",
           "power": 48247
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T09:36:44",
-        "type": "Titan"
+        "time": "T09:36:44"
       },
       {
         "attacker": {
@@ -494,12 +470,11 @@
           "name": "ecka",
           "power": 162430
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T09:56:11",
-        "type": "Hero"
+        "time": "T09:56:11"
       },
       {
         "attacker": {
@@ -514,12 +489,11 @@
           "name": "Anhvilla",
           "power": 135292
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 5,
         "position_captured": true,
-        "time": "T09:57:17",
-        "type": "Hero"
+        "time": "T09:57:17"
       },
       {
         "attacker": {
@@ -534,12 +508,11 @@
           "name": "Tfy :)",
           "power": 139582
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 6,
         "position_captured": true,
-        "time": "T10:08:08",
-        "type": "Hero"
+        "time": "T10:08:08"
       },
       {
         "attacker": {
@@ -554,12 +527,11 @@
           "name": "BIG D",
           "power": 121935
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 7,
         "position_captured": true,
-        "time": "T10:08:58",
-        "type": "Hero"
+        "time": "T10:08:58"
       },
       {
         "attacker": {
@@ -574,12 +546,11 @@
           "name": "Revan",
           "power": 61704
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T10:18:40",
-        "type": "Titan"
+        "time": "T10:18:40"
       },
       {
         "attacker": {
@@ -594,12 +565,11 @@
           "name": "Tfy :)",
           "power": 58973
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T10:19:02",
-        "type": "Titan"
+        "time": "T10:19:02"
       },
       {
         "attacker": {
@@ -614,12 +584,11 @@
           "name": "Revan",
           "power": 175670
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T10:26:37",
-        "type": "Hero"
+        "time": "T10:26:37"
       },
       {
         "attacker": {
@@ -634,12 +603,11 @@
           "name": "Saucy",
           "power": 193339
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T10:36:46",
-        "type": "Hero"
+        "time": "T10:36:46"
       },
       {
         "attacker": {
@@ -654,12 +622,11 @@
           "name": "ecka",
           "power": 59273
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T12:05:09",
-        "type": "Titan"
+        "time": "T12:05:09"
       },
       {
         "attacker": {
@@ -674,12 +641,11 @@
           "name": "RadRob",
           "power": 42632
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T12:05:28",
-        "type": "Titan"
+        "time": "T12:05:28"
       },
       {
         "attacker": {
@@ -694,12 +660,11 @@
           "name": "badianchick",
           "power": 188555
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T12:21:46",
-        "type": "Hero"
+        "time": "T12:21:46"
       },
       {
         "attacker": {
@@ -714,12 +679,11 @@
           "name": "MrTom",
           "power": 197332
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T12:22:17",
-        "type": "Hero"
+        "time": "T12:22:17"
       },
       {
         "attacker": {
@@ -734,12 +698,11 @@
           "name": "Wallario",
           "power": 145074
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T12:39:19",
-        "type": "Hero"
+        "time": "T12:39:19"
       },
       {
         "attacker": {
@@ -754,12 +717,11 @@
           "name": "Angelina",
           "power": 271857
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 2,
         "position": 1,
         "position_captured": false,
-        "time": "T12:43:42",
-        "type": "Hero"
+        "time": "T12:43:42"
       },
       {
         "attacker": {
@@ -774,12 +736,11 @@
           "name": "Netle",
           "power": 142701
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T12:56:48",
-        "type": "Hero"
+        "time": "T12:56:48"
       },
       {
         "attacker": {
@@ -794,12 +755,11 @@
           "name": "_DAZ_",
           "power": 158861
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T12:57:34",
-        "type": "Hero"
+        "time": "T12:57:34"
       },
       {
         "attacker": {
@@ -814,12 +774,11 @@
           "name": "gertyman",
           "power": 233281
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T00:02:04",
-        "type": "Titan"
+        "time": "T00:02:04"
       },
       {
         "attacker": {
@@ -834,12 +793,11 @@
           "name": "Gom",
           "power": 222775
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T00:02:32",
-        "type": "Titan"
+        "time": "T00:02:32"
       },
       {
         "attacker": {
@@ -854,12 +812,11 @@
           "name": "Buffy",
           "power": 131385
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T00:08:09",
-        "type": "Hero"
+        "time": "T00:08:09"
       },
       {
         "attacker": {
@@ -874,12 +831,11 @@
           "name": "Dagul",
           "power": 146820
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 10,
         "position": 2,
         "position_captured": false,
-        "time": "T00:09:14",
-        "type": "Hero"
+        "time": "T00:09:14"
       },
       {
         "attacker": {
@@ -894,12 +850,11 @@
           "name": "KP",
           "power": 184473
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 12,
         "position": 2,
         "position_captured": false,
-        "time": "T00:53:23",
-        "type": "Hero"
+        "time": "T00:53:23"
       },
       {
         "attacker": {
@@ -914,12 +869,11 @@
           "name": "KP",
           "power": 184473
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 8,
         "position": 2,
         "position_captured": true,
-        "time": "T00:54:35",
-        "type": "Hero"
+        "time": "T00:54:35"
       },
       {
         "attacker": {
@@ -934,12 +888,11 @@
           "name": "gertyman",
           "power": 249465
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T02:35:05",
-        "type": "Hero"
+        "time": "T02:35:05"
       },
       {
         "attacker": {
@@ -954,12 +907,11 @@
           "name": "GurraBurra",
           "power": 248626
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 8,
         "position": 3,
         "position_captured": false,
-        "time": "T02:35:58",
-        "type": "Hero"
+        "time": "T02:35:58"
       },
       {
         "attacker": {
@@ -974,12 +926,11 @@
           "name": "Post Goats",
           "power": 212136
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T02:52:38",
-        "type": "Titan"
+        "time": "T02:52:38"
       },
       {
         "attacker": {
@@ -994,12 +945,11 @@
           "name": "LOD 2020",
           "power": 186074
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T02:53:16",
-        "type": "Titan"
+        "time": "T02:53:16"
       },
       {
         "attacker": {
@@ -1014,12 +964,11 @@
           "name": "Don",
           "power": 178042
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T03:01:45",
-        "type": "Hero"
+        "time": "T03:01:45"
       },
       {
         "attacker": {
@@ -1034,12 +983,11 @@
           "name": "doublejam",
           "power": 139549
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 12,
         "position": 1,
         "position_captured": false,
-        "time": "T03:05:11",
-        "type": "Titan"
+        "time": "T03:05:11"
       },
       {
         "attacker": {
@@ -1054,12 +1002,11 @@
           "name": "Dagul",
           "power": 99431
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T03:05:40",
-        "type": "Titan"
+        "time": "T03:05:40"
       },
       {
         "attacker": {
@@ -1074,12 +1021,11 @@
           "name": "wookie",
           "power": 163758
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T03:07:46",
-        "type": "Hero"
+        "time": "T03:07:46"
       },
       {
         "attacker": {
@@ -1094,12 +1040,11 @@
           "name": "Dikree",
           "power": 107556
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T03:12:38",
-        "type": "Titan"
+        "time": "T03:12:38"
       },
       {
         "attacker": {
@@ -1114,12 +1059,11 @@
           "name": "Naked Ninja",
           "power": 83829
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T03:13:04",
-        "type": "Titan"
+        "time": "T03:13:04"
       },
       {
         "attacker": {
@@ -1134,12 +1078,11 @@
           "name": "Forblitz",
           "power": 121796
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T03:18:29",
-        "type": "Titan"
+        "time": "T03:18:29"
       },
       {
         "attacker": {
@@ -1154,12 +1097,11 @@
           "name": "GurraBurra",
           "power": 130240
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 11,
         "position": 2,
         "position_captured": false,
-        "time": "T03:19:55",
-        "type": "Titan"
+        "time": "T03:19:55"
       },
       {
         "attacker": {
@@ -1174,12 +1116,11 @@
           "name": "Don",
           "power": 59260
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T03:32:58",
-        "type": "Titan"
+        "time": "T03:32:58"
       },
       {
         "attacker": {
@@ -1194,12 +1135,11 @@
           "name": "GurraBurra",
           "power": 130240
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 3,
         "position": 2,
         "position_captured": false,
-        "time": "T04:14:01",
-        "type": "Titan"
+        "time": "T04:14:01"
       },
       {
         "attacker": {
@@ -1214,12 +1154,11 @@
           "name": "GurraBurra",
           "power": 130240
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 3,
         "position": 2,
         "position_captured": false,
-        "time": "T04:14:43",
-        "type": "Titan"
+        "time": "T04:14:43"
       },
       {
         "attacker": {
@@ -1234,12 +1173,11 @@
           "name": "KP",
           "power": 86232
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 11,
         "position": 4,
         "position_captured": false,
-        "time": "T05:24:04",
-        "type": "Titan"
+        "time": "T05:24:04"
       },
       {
         "attacker": {
@@ -1254,12 +1192,11 @@
           "name": "Disciple",
           "power": 72662
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T06:47:18",
-        "type": "Titan"
+        "time": "T06:47:18"
       },
       {
         "attacker": {
@@ -1274,12 +1211,11 @@
           "name": "KP",
           "power": 86232
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 9,
         "position": 4,
         "position_captured": true,
-        "time": "T06:47:42",
-        "type": "Titan"
+        "time": "T06:47:42"
       },
       {
         "attacker": {
@@ -1294,12 +1230,11 @@
           "name": "GurraBurra",
           "power": 130240
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 3,
         "position": 2,
         "position_captured": true,
-        "time": "T07:03:59",
-        "type": "Titan"
+        "time": "T07:03:59"
       },
       {
         "attacker": {
@@ -1314,12 +1249,11 @@
           "name": "Sheevara",
           "power": 142922
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 5,
         "position": 7,
         "position_captured": false,
-        "time": "T07:11:36",
-        "type": "Hero"
+        "time": "T07:11:36"
       },
       {
         "attacker": {
@@ -1334,12 +1268,11 @@
           "name": "Fuzzy",
           "power": 140424
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 1,
         "position": 2,
         "position_captured": false,
-        "time": "T07:13:06",
-        "type": "Hero"
+        "time": "T07:13:06"
       },
       {
         "attacker": {
@@ -1354,12 +1287,11 @@
           "name": "Disciple",
           "power": 152877
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T07:24:19",
-        "type": "Hero"
+        "time": "T07:24:19"
       },
       {
         "attacker": {
@@ -1374,12 +1306,11 @@
           "name": "Fuzzy",
           "power": 140424
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 19,
         "position": 2,
         "position_captured": true,
-        "time": "T07:26:04",
-        "type": "Hero"
+        "time": "T07:26:04"
       },
       {
         "attacker": {
@@ -1394,12 +1325,11 @@
           "name": "Sheevara",
           "power": 142922
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 15,
         "position": 7,
         "position_captured": true,
-        "time": "T07:27:01",
-        "type": "Hero"
+        "time": "T07:27:01"
       },
       {
         "attacker": {
@@ -1414,12 +1344,11 @@
           "name": "Naked Ninja",
           "power": 160955
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 14,
         "position": 3,
         "position_captured": false,
-        "time": "T07:57:51",
-        "type": "Hero"
+        "time": "T07:57:51"
       },
       {
         "attacker": {
@@ -1434,12 +1363,11 @@
           "name": "wookie",
           "power": 78904
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T09:07:55",
-        "type": "Titan"
+        "time": "T09:07:55"
       },
       {
         "attacker": {
@@ -1454,12 +1382,11 @@
           "name": "agent_chu",
           "power": 78475
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T09:09:03",
-        "type": "Titan"
+        "time": "T09:09:03"
       },
       {
         "attacker": {
@@ -1474,12 +1401,11 @@
           "name": "Sheevara",
           "power": 71782
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 10,
         "position": 4,
         "position_captured": false,
-        "time": "T10:22:24",
-        "type": "Titan"
+        "time": "T10:22:24"
       },
       {
         "attacker": {
@@ -1494,12 +1420,11 @@
           "name": "Sheevara",
           "power": 71782
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 10,
         "position": 4,
         "position_captured": true,
-        "time": "T10:23:06",
-        "type": "Titan"
+        "time": "T10:23:06"
       },
       {
         "attacker": {
@@ -1514,12 +1439,11 @@
           "name": "Forblitz",
           "power": 181423
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T11:14:13",
-        "type": "Hero"
+        "time": "T11:14:13"
       },
       {
         "attacker": {
@@ -1534,12 +1458,11 @@
           "name": "Dikree",
           "power": 159791
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T11:15:46",
-        "type": "Hero"
+        "time": "T11:15:46"
       },
       {
         "attacker": {
@@ -1554,12 +1477,11 @@
           "name": "Buffy",
           "power": 78205
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 16,
         "position": 2,
         "position_captured": false,
-        "time": "T12:26:54",
-        "type": "Titan"
+        "time": "T12:26:54"
       },
       {
         "attacker": {
@@ -1574,12 +1496,11 @@
           "name": "Naked Ninja",
           "power": 160955
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 6,
         "position": 3,
         "position_captured": true,
-        "time": "T12:36:30",
-        "type": "Titan"
+        "time": "T12:36:30"
       }
     ],
     "id": 1,
@@ -1606,12 +1527,11 @@
           "name": "Spymanu",
           "power": 119348
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T03:38:53",
-        "type": "Hero"
+        "time": "T03:38:53"
       },
       {
         "attacker": {
@@ -1626,12 +1546,11 @@
           "name": "Nick56450",
           "power": 118415
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T03:39:16",
-        "type": "Hero"
+        "time": "T03:39:16"
       },
       {
         "attacker": {
@@ -1646,12 +1565,11 @@
           "name": "sylvainwar",
           "power": 129367
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T03:43:23",
-        "type": "Titan"
+        "time": "T03:43:23"
       },
       {
         "attacker": {
@@ -1666,12 +1584,11 @@
           "name": "ATILLA",
           "power": 115411
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T03:43:49",
-        "type": "Titan"
+        "time": "T03:43:49"
       },
       {
         "attacker": {
@@ -1686,12 +1603,11 @@
           "name": "Akigis",
           "power": 171638
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T04:12:05",
-        "type": "Titan"
+        "time": "T04:12:05"
       },
       {
         "attacker": {
@@ -1706,12 +1622,11 @@
           "name": "genorho",
           "power": 110996
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T04:43:20",
-        "type": "Titan"
+        "time": "T04:43:20"
       },
       {
         "attacker": {
@@ -1726,12 +1641,11 @@
           "name": "snookerbibi",
           "power": 75873
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T04:49:09",
-        "type": "Titan"
+        "time": "T04:49:09"
       },
       {
         "attacker": {
@@ -1746,12 +1660,11 @@
           "name": "Jack",
           "power": 79884
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T04:49:41",
-        "type": "Titan"
+        "time": "T04:49:41"
       },
       {
         "attacker": {
@@ -1766,12 +1679,11 @@
           "name": "JustCIO",
           "power": 115403
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T05:05:18",
-        "type": "Hero"
+        "time": "T05:05:18"
       },
       {
         "attacker": {
@@ -1786,12 +1698,11 @@
           "name": "Ulol4free",
           "power": 137027
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T05:06:33",
-        "type": "Hero"
+        "time": "T05:06:33"
       },
       {
         "attacker": {
@@ -1806,12 +1717,11 @@
           "name": "jpMazura",
           "power": 50443
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T05:15:43",
-        "type": "Titan"
+        "time": "T05:15:43"
       },
       {
         "attacker": {
@@ -1826,12 +1736,11 @@
           "name": "JustCIO",
           "power": 59880
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T05:16:33",
-        "type": "Titan"
+        "time": "T05:16:33"
       },
       {
         "attacker": {
@@ -1846,12 +1755,11 @@
           "name": "lolodo",
           "power": 65046
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T05:44:36",
-        "type": "Titan"
+        "time": "T05:44:36"
       },
       {
         "attacker": {
@@ -1866,12 +1774,11 @@
           "name": "Ulol4free",
           "power": 75738
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T05:45:25",
-        "type": "Titan"
+        "time": "T05:45:25"
       },
       {
         "attacker": {
@@ -1886,12 +1793,11 @@
           "name": "lolodo",
           "power": 196927
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T07:00:05",
-        "type": "Hero"
+        "time": "T07:00:05"
       },
       {
         "attacker": {
@@ -1906,12 +1812,11 @@
           "name": "Spicitus",
           "power": 36686
         },
-        "fortification": "Bastion of Fire",
+        "fortification_id": 2,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T07:01:53",
-        "type": "Titan"
+        "time": "T07:01:53"
       },
       {
         "attacker": {
@@ -1926,12 +1831,11 @@
           "name": "Nick56450",
           "power": 52279
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T07:03:46",
-        "type": "Titan"
+        "time": "T07:03:46"
       },
       {
         "attacker": {
@@ -1946,12 +1850,11 @@
           "name": "genorho",
           "power": 184668
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T07:08:04",
-        "type": "Hero"
+        "time": "T07:08:04"
       },
       {
         "attacker": {
@@ -1966,12 +1869,11 @@
           "name": "Akigis",
           "power": 217498
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T07:11:43",
-        "type": "Hero"
+        "time": "T07:11:43"
       },
       {
         "attacker": {
@@ -1986,12 +1888,11 @@
           "name": "Scof14",
           "power": 53627
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T07:37:17",
-        "type": "Titan"
+        "time": "T07:37:17"
       },
       {
         "attacker": {
@@ -2006,12 +1907,11 @@
           "name": "Spymanu",
           "power": 48386
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T07:37:53",
-        "type": "Titan"
+        "time": "T07:37:53"
       },
       {
         "attacker": {
@@ -2026,12 +1926,11 @@
           "name": "darweesh999",
           "power": 44534
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T07:48:56",
-        "type": "Titan"
+        "time": "T07:48:56"
       },
       {
         "attacker": {
@@ -2046,12 +1945,11 @@
           "name": "ThanhDu",
           "power": 41619
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T07:49:20",
-        "type": "Titan"
+        "time": "T07:49:20"
       },
       {
         "attacker": {
@@ -2066,12 +1964,11 @@
           "name": "Jack",
           "power": 173473
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T08:15:07",
-        "type": "Hero"
+        "time": "T08:15:07"
       },
       {
         "attacker": {
@@ -2086,12 +1983,11 @@
           "name": "ATILLA",
           "power": 169668
         },
-        "fortification": "Foundry",
+        "fortification_id": 6,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T08:15:27",
-        "type": "Hero"
+        "time": "T08:15:27"
       },
       {
         "attacker": {
@@ -2106,12 +2002,11 @@
           "name": "ThanhDu",
           "power": 151202
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T08:16:34",
-        "type": "Hero"
+        "time": "T08:16:34"
       },
       {
         "attacker": {
@@ -2126,12 +2021,11 @@
           "name": "jpMazura",
           "power": 132297
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 6,
         "position_captured": true,
-        "time": "T08:17:06",
-        "type": "Hero"
+        "time": "T08:17:06"
       },
       {
         "attacker": {
@@ -2146,12 +2040,11 @@
           "name": "Scof14",
           "power": 125999
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 7,
         "position_captured": true,
-        "time": "T08:40:56",
-        "type": "Hero"
+        "time": "T08:40:56"
       },
       {
         "attacker": {
@@ -2166,12 +2059,11 @@
           "name": "darweesh999",
           "power": 128966
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T08:41:28",
-        "type": "Hero"
+        "time": "T08:41:28"
       },
       {
         "attacker": {
@@ -2186,12 +2078,11 @@
           "name": "Vorn",
           "power": 136816
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T08:47:05",
-        "type": "Hero"
+        "time": "T08:47:05"
       },
       {
         "attacker": {
@@ -2206,12 +2097,11 @@
           "name": "Vorn",
           "power": 32044
         },
-        "fortification": "Gates of Nature",
+        "fortification_id": 7,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T08:48:26",
-        "type": "Titan"
+        "time": "T08:48:26"
       },
       {
         "attacker": {
@@ -2226,12 +2116,11 @@
           "name": "DynasticDani",
           "power": 124607
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T08:48:53",
-        "type": "Hero"
+        "time": "T08:48:53"
       },
       {
         "attacker": {
@@ -2246,12 +2135,11 @@
           "name": "sylvainwar",
           "power": 156144
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T08:56:00",
-        "type": "Hero"
+        "time": "T08:56:00"
       },
       {
         "attacker": {
@@ -2266,12 +2154,11 @@
           "name": "King Oko",
           "power": 137888
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 20,
         "position": 2,
         "position_captured": true,
-        "time": "T08:56:47",
-        "type": "Hero"
+        "time": "T08:56:47"
       },
       {
         "attacker": {
@@ -2286,12 +2173,11 @@
           "name": "snookerbibi",
           "power": 124973
         },
-        "fortification": "Citadel",
+        "fortification_id": 5,
         "points_earned": 20,
         "position": 5,
         "position_captured": true,
-        "time": "T09:49:07",
-        "type": "Hero"
+        "time": "T09:49:07"
       },
       {
         "attacker": {
@@ -2306,12 +2192,11 @@
           "name": "Spicitus",
           "power": 109414
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T09:50:05",
-        "type": "Hero"
+        "time": "T09:50:05"
       },
       {
         "attacker": {
@@ -2326,12 +2211,11 @@
           "name": "King Oko",
           "power": 36763
         },
-        "fortification": "Bastion of Ice",
+        "fortification_id": 3,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T10:23:49",
-        "type": "Titan"
+        "time": "T10:23:49"
       },
       {
         "attacker": {
@@ -2346,12 +2230,11 @@
           "name": "val",
           "power": 105855
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T10:32:27",
-        "type": "Hero"
+        "time": "T10:32:27"
       },
       {
         "attacker": {
@@ -2366,12 +2249,11 @@
           "name": "val",
           "power": 40263
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T12:28:06",
-        "type": "Titan"
+        "time": "T12:28:06"
       },
       {
         "attacker": {
@@ -2386,12 +2268,11 @@
           "name": "DynasticDani",
           "power": 38453
         },
-        "fortification": "Spring of Elements",
+        "fortification_id": 10,
         "points_earned": 20,
         "position": 4,
         "position_captured": true,
-        "time": "T12:28:54",
-        "type": "Titan"
+        "time": "T12:28:54"
       },
       {
         "attacker": {
@@ -2406,12 +2287,11 @@
           "name": "Buffy",
           "power": 133542
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 20,
         "position": 1,
         "position_captured": true,
-        "time": "T01:18:10",
-        "type": "Hero"
+        "time": "T01:18:10"
       },
       {
         "attacker": {
@@ -2426,12 +2306,11 @@
           "name": "KP",
           "power": 187608
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 10,
         "position": 2,
         "position_captured": false,
-        "time": "T01:18:48",
-        "type": "Hero"
+        "time": "T01:18:48"
       },
       {
         "attacker": {
@@ -2446,12 +2325,11 @@
           "name": "KP",
           "power": 187608
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 1,
         "position": 2,
         "position_captured": false,
-        "time": "T02:45:36",
-        "type": "Hero"
+        "time": "T02:45:36"
       },
       {
         "attacker": {
@@ -2466,12 +2344,11 @@
           "name": "KP",
           "power": 187608
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 1,
         "position": 2,
         "position_captured": false,
-        "time": "T02:49:07",
-        "type": "Hero"
+        "time": "T02:49:07"
       },
       {
         "attacker": {
@@ -2486,12 +2363,11 @@
           "name": "agent_chu",
           "power": 197489
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 13,
         "position": 3,
         "position_captured": false,
-        "time": "T02:53:04",
-        "type": "Hero"
+        "time": "T02:53:04"
       },
       {
         "attacker": {
@@ -2506,12 +2382,11 @@
           "name": "LOD 2020",
           "power": 249387
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 3,
         "position": 1,
         "position_captured": false,
-        "time": "T02:53:47",
-        "type": "Hero"
+        "time": "T02:53:47"
       },
       {
         "attacker": {
@@ -2526,12 +2401,11 @@
           "name": "KP",
           "power": 187608
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 1,
         "position": 2,
         "position_captured": false,
-        "time": "T03:23:36",
-        "type": "Hero"
+        "time": "T03:23:36"
       },
       {
         "attacker": {
@@ -2546,12 +2420,11 @@
           "name": "KP",
           "power": 187608
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 1,
         "position": 2,
         "position_captured": false,
-        "time": "T03:23:53",
-        "type": "Hero"
+        "time": "T03:23:53"
       },
       {
         "attacker": {
@@ -2566,12 +2439,11 @@
           "name": "Forblitz",
           "power": 182229
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 20,
         "position": 3,
         "position_captured": true,
-        "time": "T03:34:08",
-        "type": "Hero"
+        "time": "T03:34:08"
       },
       {
         "attacker": {
@@ -2586,12 +2458,11 @@
           "name": "gertyman",
           "power": 250084
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 1,
         "position": 1,
         "position_captured": false,
-        "time": "T03:35:35",
-        "type": "Hero"
+        "time": "T03:35:35"
       },
       {
         "attacker": {
@@ -2606,12 +2477,11 @@
           "name": "doublejam",
           "power": 225111
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 8,
         "position": 2,
         "position_captured": false,
-        "time": "T04:08:28",
-        "type": "Hero"
+        "time": "T04:08:28"
       },
       {
         "attacker": {
@@ -2626,12 +2496,11 @@
           "name": "LOD 2020",
           "power": 187695
         },
-        "fortification": "Bridge",
+        "fortification_id": 4,
         "points_earned": 14,
         "position": 2,
         "position_captured": false,
-        "time": "T04:10:15",
-        "type": "Titan"
+        "time": "T04:10:15"
       },
       {
         "attacker": {
@@ -2646,12 +2515,11 @@
           "name": "Dagul",
           "power": 137374
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 11,
         "position": 2,
         "position_captured": false,
-        "time": "T04:42:40",
-        "type": "Hero"
+        "time": "T04:42:40"
       },
       {
         "attacker": {
@@ -2666,12 +2534,11 @@
           "name": "LOD 2020",
           "power": 249387
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 0,
         "position": 1,
         "position_captured": false,
-        "time": "T04:58:11",
-        "type": "Hero"
+        "time": "T04:58:11"
       },
       {
         "attacker": {
@@ -2686,12 +2553,11 @@
           "name": "KP",
           "power": 187608
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 3,
         "position": 2,
         "position_captured": false,
-        "time": "T05:03:57",
-        "type": "Hero"
+        "time": "T05:03:57"
       },
       {
         "attacker": {
@@ -2706,12 +2572,11 @@
           "name": "LOD 2020",
           "power": 249387
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 0,
         "position": 1,
         "position_captured": false,
-        "time": "T05:04:16",
-        "type": "Hero"
+        "time": "T05:04:16"
       },
       {
         "attacker": {
@@ -2726,12 +2591,11 @@
           "name": "KP",
           "power": 187608
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 3,
         "position": 2,
         "position_captured": true,
-        "time": "T05:04:34",
-        "type": "Hero"
+        "time": "T05:04:34"
       },
       {
         "attacker": {
@@ -2746,12 +2610,11 @@
           "name": "agent_chu",
           "power": 197489
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 0,
         "position": 3,
         "position_captured": false,
-        "time": "T06:32:47",
-        "type": "Hero"
+        "time": "T06:32:47"
       },
       {
         "attacker": {
@@ -2766,12 +2629,11 @@
           "name": "doublejam",
           "power": 225111
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 12,
         "position": 2,
         "position_captured": true,
-        "time": "T06:34:02",
-        "type": "Hero"
+        "time": "T06:34:02"
       },
       {
         "attacker": {
@@ -2786,12 +2648,11 @@
           "name": "Dagul",
           "power": 137374
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 9,
         "position": 2,
         "position_captured": true,
-        "time": "T07:10:20",
-        "type": "Hero"
+        "time": "T07:10:20"
       },
       {
         "attacker": {
@@ -2806,12 +2667,11 @@
           "name": "agent_chu",
           "power": 197489
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 1,
         "position": 3,
         "position_captured": false,
-        "time": "T07:11:00",
-        "type": "Hero"
+        "time": "T07:11:00"
       },
       {
         "attacker": {
@@ -2826,12 +2686,11 @@
           "name": "agent_chu",
           "power": 197489
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 2,
         "position": 3,
         "position_captured": false,
-        "time": "T07:25:14",
-        "type": "Hero"
+        "time": "T07:25:14"
       },
       {
         "attacker": {
@@ -2846,12 +2705,11 @@
           "name": "agent_chu",
           "power": 197489
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 4,
         "position": 3,
         "position_captured": true,
-        "time": "T07:31:43",
-        "type": "Hero"
+        "time": "T07:31:43"
       },
       {
         "attacker": {
@@ -2866,12 +2724,11 @@
           "name": "GurraBurra",
           "power": 249883
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 2,
         "position": 3,
         "position_captured": false,
-        "time": "T08:53:11",
-        "type": "Hero"
+        "time": "T08:53:11"
       },
       {
         "attacker": {
@@ -2886,12 +2743,11 @@
           "name": "gertyman",
           "power": 250084
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 4,
         "position": 1,
         "position_captured": false,
-        "time": "T09:13:40",
-        "type": "Hero"
+        "time": "T09:13:40"
       },
       {
         "attacker": {
@@ -2906,12 +2762,11 @@
           "name": "gertyman",
           "power": 250084
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 1,
         "position": 1,
         "position_captured": false,
-        "time": "T09:13:57",
-        "type": "Hero"
+        "time": "T09:13:57"
       },
       {
         "attacker": {
@@ -2926,12 +2781,11 @@
           "name": "LOD 2020",
           "power": 249387
         },
-        "fortification": "Mage Academy",
+        "fortification_id": 9,
         "points_earned": 0,
         "position": 1,
         "position_captured": false,
-        "time": "T10:08:17",
-        "type": "Hero"
+        "time": "T10:08:17"
       },
       {
         "attacker": {
@@ -2946,12 +2800,11 @@
           "name": "gertyman",
           "power": 250084
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 0,
         "position": 1,
         "position_captured": false,
-        "time": "T11:09:07",
-        "type": "Hero"
+        "time": "T11:09:07"
       },
       {
         "attacker": {
@@ -2966,12 +2819,11 @@
           "name": "GurraBurra",
           "power": 249883
         },
-        "fortification": "Barracks",
+        "fortification_id": 1,
         "points_earned": 0,
         "position": 3,
         "position_captured": false,
-        "time": "T11:09:54",
-        "type": "Hero"
+        "time": "T11:09:54"
       },
       {
         "attacker": {
@@ -2986,12 +2838,11 @@
           "name": "gertyman",
           "power": 250084
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 0,
         "position": 1,
         "position_captured": false,
-        "time": "T12:30:03",
-        "type": "Hero"
+        "time": "T12:30:03"
       },
       {
         "attacker": {
@@ -3006,12 +2857,11 @@
           "name": "gertyman",
           "power": 250084
         },
-        "fortification": "Lighthouse",
+        "fortification_id": 8,
         "points_earned": 1,
         "position": 1,
         "position_captured": false,
-        "time": "T12:30:29",
-        "type": "Hero"
+        "time": "T12:30:29"
       }
     ],
     "id": 2,

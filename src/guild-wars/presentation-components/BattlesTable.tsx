@@ -70,11 +70,11 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
             case COLUMN_ATK_POWER:
               return battle.attacker.power;
             case COLUMN_BATTLE_FORTIFICATION:
-              return battle.fortification;
+              return battle.fortification.name;
             case COLUMN_BATTLE_POSITION:
               return battle.position;
             case COLUMN_BATTLE_TYPE:
-              return battle.type;
+              return battle.fortification.type;
             case COLUMN_DEFENDER:
               return battle.defender.name;
             case COLUMN_DEF_POWER:
@@ -204,11 +204,11 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
                   {battle.positionCaptured && <FontAwesomeIcon icon={faCheck} className="affordance" />}
                 </td>
                 <td className="small-column centered">
-                  {battle.type === 'Titan' && <img src={titanBattleTypeImg} alt="Titan battle" />}
-                  {battle.type === 'Hero' && <img src={heroBattleTypeImg} alt="Hero battle" />}
+                  {battle.fortification.isTitan() && <img src={titanBattleTypeImg} alt="Titan battle" />}
+                  {battle.fortification.isHero() && <img src={heroBattleTypeImg} alt="Hero battle" />}
                 </td>
                 <td className="large-column">
-                  <div className="display-text">{battle.fortification}</div>
+                  <div className="display-text">{battle.fortification.name}</div>
                 </td>
               </tr>
             );
