@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import guildsJson from './data/guilds.json';
-import guildWarsJson from './data/guild-wars.json';
 
 import { Route, Switch } from 'react-router-dom';
 
 import { Guild } from './models/guild';
 import { GuildWar } from './models/guild-war';
+import { GuildWarsData } from './data/guild-wars/guild-wars-data';
 
 import GuildWars from './guild-wars/GuildWars';
 import Home from './home/Home';
@@ -18,13 +18,8 @@ import Tournaments from './tournaments/Tournaments';
 import './App.scss';
 
 const App: React.FC = () => {
-  const [guilds, setGuilds] = useState<Array<Guild>>([]);
-  const [guildWars, setGuildWars] = useState<Array<GuildWar>>([]);
-
-  useEffect(() => {
-    setGuilds(Guild.arrayFromJson(guildsJson));
-    setGuildWars(GuildWar.arrayFromJson(guildWarsJson));
-  }, []);
+  const guilds = Guild.arrayFromJson(guildsJson);
+  const guildWars = GuildWar.arrayFromJson(GuildWarsData.data());
 
   return (
     <section id="app-container">

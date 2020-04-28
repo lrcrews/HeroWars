@@ -24,7 +24,7 @@ export interface WarViewProps extends PropsWithChildren<{}> {
 const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
   const { assassinsGuild, children, competitorGuild, war, warOptions, onWarUpdate } = props;
 
-  const [selectedOption, setSelectedOption] = useState(_.last(warOptions));
+  const [selectedOption, setSelectedOption] = useState(_.first(warOptions));
 
   const [attacksUsed, setAttacksUsed] = useState(0);
   const [defensesWon, setDefensesWon] = useState(0);

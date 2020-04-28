@@ -1,0 +1,1513 @@
+{
+  "battles": [
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "Gom",
+        "power": 222775
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Sardine",
+        "power": 264910
+      },
+      "fortification_id": 4,
+      "points_earned": 17,
+      "position": 1,
+      "position_captured": false,
+      "time": "T01:24:58"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "Gom",
+        "power": 222775
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Gardakus",
+        "power": 268882
+      },
+      "fortification_id": 4,
+      "points_earned": 10,
+      "position": 2,
+      "position_captured": false,
+      "time": "T01:25:45"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "doublejam",
+        "power": 139549
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Angelina",
+        "power": 144961
+      },
+      "fortification_id": 4,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T05:18:19"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "doublejam",
+        "power": 139549
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Saucy",
+        "power": 121868
+      },
+      "fortification_id": 4,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T05:18:38"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 111,
+        "name": "Dikree",
+        "power": 160194
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 97,
+        "name": "Indred Cole",
+        "power": 139181
+      },
+      "fortification_id": 9,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T06:00:31"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 111,
+        "name": "Dikree",
+        "power": 160194
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 95,
+        "name": "Williepint1982",
+        "power": 124758
+      },
+      "fortification_id": 9,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T06:01:15"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "gertyman",
+        "power": 233281
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Gardakus",
+        "power": 268882
+      },
+      "fortification_id": 4,
+      "points_earned": 10,
+      "position": 2,
+      "position_captured": true,
+      "time": "T06:09:42"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "GurraBurra",
+        "power": 130240
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Sardine",
+        "power": 264910
+      },
+      "fortification_id": 4,
+      "points_earned": 3,
+      "position": 1,
+      "position_captured": true,
+      "time": "T08:20:21"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "GurraBurra",
+        "power": 247891
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Jeep Jerry",
+        "power": 211443
+      },
+      "fortification_id": 9,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T08:21:26"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Disciple",
+        "power": 72662
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 95,
+        "name": "Williepint1982",
+        "power": 66464
+      },
+      "fortification_id": 2,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T08:40:48"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Disciple",
+        "power": 72662
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 97,
+        "name": "Indred Cole",
+        "power": 67788
+      },
+      "fortification_id": 2,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T08:41:32"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 90,
+        "name": "Fuzzy",
+        "power": 85907
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 92,
+        "name": "Wallario",
+        "power": 73282
+      },
+      "fortification_id": 7,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T08:54:39"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 90,
+        "name": "Fuzzy",
+        "power": 85907
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "Amothep",
+        "power": 70251
+      },
+      "fortification_id": 3,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T08:55:08"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 106,
+        "name": "Dan",
+        "power": 155643
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "budge",
+        "power": 110197
+      },
+      "fortification_id": 3,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T08:59:39"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 106,
+        "name": "Dan",
+        "power": 155643
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 114,
+        "name": "badianchick",
+        "power": 104285
+      },
+      "fortification_id": 7,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T09:00:08"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 112,
+        "name": "Dagul",
+        "power": 100805
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 113,
+        "name": "MrTom",
+        "power": 88617
+      },
+      "fortification_id": 2,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T09:12:23"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 112,
+        "name": "Dagul",
+        "power": 100805
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "BIG D",
+        "power": 83445
+      },
+      "fortification_id": 2,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T09:12:44"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "Post Goats",
+        "power": 323295
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Sardine",
+        "power": 389774
+      },
+      "fortification_id": 5,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T09:20:53"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Buffy",
+        "power": 78202
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "Anhvilla",
+        "power": 64962
+      },
+      "fortification_id": 3,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T09:21:59"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Buffy",
+        "power": 78202
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 103,
+        "name": "_DAZ_",
+        "power": 63641
+      },
+      "fortification_id": 3,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T09:22:24"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 104,
+        "name": "Forblitz",
+        "power": 181423
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 95,
+        "name": "RadRob",
+        "power": 152558
+      },
+      "fortification_id": 5,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T09:28:50"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 104,
+        "name": "Forblitz",
+        "power": 181423
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "Amothep",
+        "power": 166601
+      },
+      "fortification_id": 5,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T09:29:20"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 108,
+        "name": "Sheevara",
+        "power": 71782
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Jeep Jerry",
+        "power": 54747
+      },
+      "fortification_id": 10,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T09:35:52"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 108,
+        "name": "Sheevara",
+        "power": 71782
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 102,
+        "name": "Netle",
+        "power": 48247
+      },
+      "fortification_id": 10,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T09:36:44"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "KP",
+        "power": 187231
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 105,
+        "name": "ecka",
+        "power": 162430
+      },
+      "fortification_id": 5,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T09:56:11"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "KP",
+        "power": 187231
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "Anhvilla",
+        "power": 135292
+      },
+      "fortification_id": 5,
+      "points_earned": 20,
+      "position": 5,
+      "position_captured": true,
+      "time": "T09:57:17"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 110,
+        "name": "elo",
+        "power": 161638
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 100,
+        "name": "Tfy :)",
+        "power": 139582
+      },
+      "fortification_id": 5,
+      "points_earned": 20,
+      "position": 6,
+      "position_captured": true,
+      "time": "T10:08:08"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 110,
+        "name": "elo",
+        "power": 161638
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "BIG D",
+        "power": 121935
+      },
+      "fortification_id": 5,
+      "points_earned": 20,
+      "position": 7,
+      "position_captured": true,
+      "time": "T10:08:58"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 106,
+        "name": "wookie",
+        "power": 81934
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 111,
+        "name": "Revan",
+        "power": 61704
+      },
+      "fortification_id": 7,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T10:18:40"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 106,
+        "name": "wookie",
+        "power": 81934
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 100,
+        "name": "Tfy :)",
+        "power": 58973
+      },
+      "fortification_id": 7,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T10:19:02"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 104,
+        "name": "agent_chu",
+        "power": 192266
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 111,
+        "name": "Revan",
+        "power": 175670
+      },
+      "fortification_id": 6,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T10:26:37"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "gertyman",
+        "power": 250014
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Saucy",
+        "power": 193339
+      },
+      "fortification_id": 6,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T10:36:46"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "Naked Ninja",
+        "power": 83829
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 105,
+        "name": "ecka",
+        "power": 59273
+      },
+      "fortification_id": 10,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T12:05:09"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "Naked Ninja",
+        "power": 83829
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 95,
+        "name": "RadRob",
+        "power": 42632
+      },
+      "fortification_id": 10,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T12:05:28"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "LOD 2020",
+        "power": 249351
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 114,
+        "name": "badianchick",
+        "power": 188555
+      },
+      "fortification_id": 8,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T12:21:46"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "LOD 2020",
+        "power": 249351
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 113,
+        "name": "MrTom",
+        "power": 197332
+      },
+      "fortification_id": 6,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T12:22:17"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 104,
+        "name": "agent_chu",
+        "power": 196171
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 92,
+        "name": "Wallario",
+        "power": 145074
+      },
+      "fortification_id": 6,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T12:39:19"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "Post Goats",
+        "power": 323667
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Angelina",
+        "power": 271857
+      },
+      "fortification_id": 8,
+      "points_earned": 2,
+      "position": 1,
+      "position_captured": false,
+      "time": "T12:43:42"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Don",
+        "power": 178042
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 102,
+        "name": "Netle",
+        "power": 142701
+      },
+      "fortification_id": 8,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T12:56:48"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Don",
+        "power": 178042
+      },
+      "defender": {
+        "guild_id": 5,
+        "level": 103,
+        "name": "_DAZ_",
+        "power": 158861
+      },
+      "fortification_id": 1,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T12:57:34"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Gardakus",
+        "power": 268882
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "gertyman",
+        "power": 233281
+      },
+      "fortification_id": 4,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T00:02:04"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Gardakus",
+        "power": 268882
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "Gom",
+        "power": 222775
+      },
+      "fortification_id": 4,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T00:02:32"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 103,
+        "name": "Netle",
+        "power": 144970
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Buffy",
+        "power": 131385
+      },
+      "fortification_id": 1,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T00:08:09"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 103,
+        "name": "Netle",
+        "power": 144970
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 112,
+        "name": "Dagul",
+        "power": 146820
+      },
+      "fortification_id": 9,
+      "points_earned": 10,
+      "position": 2,
+      "position_captured": false,
+      "time": "T00:09:14"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 105,
+        "name": "ecka",
+        "power": 162585
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "KP",
+        "power": 184473
+      },
+      "fortification_id": 8,
+      "points_earned": 12,
+      "position": 2,
+      "position_captured": false,
+      "time": "T00:53:23"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 105,
+        "name": "ecka",
+        "power": 162585
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "KP",
+        "power": 184473
+      },
+      "fortification_id": 8,
+      "points_earned": 8,
+      "position": 2,
+      "position_captured": true,
+      "time": "T00:54:35"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Angelina",
+        "power": 272059
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "gertyman",
+        "power": 249465
+      },
+      "fortification_id": 8,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T02:35:05"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Angelina",
+        "power": 272059
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "GurraBurra",
+        "power": 248626
+      },
+      "fortification_id": 1,
+      "points_earned": 8,
+      "position": 3,
+      "position_captured": false,
+      "time": "T02:35:58"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Sardine",
+        "power": 264910
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "Post Goats",
+        "power": 212136
+      },
+      "fortification_id": 4,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T02:52:38"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Sardine",
+        "power": 264910
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "LOD 2020",
+        "power": 186074
+      },
+      "fortification_id": 4,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T02:53:16"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 111,
+        "name": "Revan",
+        "power": 175670
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Don",
+        "power": 178042
+      },
+      "fortification_id": 6,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T03:01:45"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 115,
+        "name": "badianchick",
+        "power": 104285
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "doublejam",
+        "power": 139549
+      },
+      "fortification_id": 3,
+      "points_earned": 12,
+      "position": 1,
+      "position_captured": false,
+      "time": "T03:05:11"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 115,
+        "name": "badianchick",
+        "power": 104285
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 112,
+        "name": "Dagul",
+        "power": 99431
+      },
+      "fortification_id": 3,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T03:05:40"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 111,
+        "name": "Revan",
+        "power": 175670
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 106,
+        "name": "wookie",
+        "power": 163758
+      },
+      "fortification_id": 6,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T03:07:46"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "budge",
+        "power": 112711
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 111,
+        "name": "Dikree",
+        "power": 107556
+      },
+      "fortification_id": 7,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T03:12:38"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "budge",
+        "power": 112711
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "Naked Ninja",
+        "power": 83829
+      },
+      "fortification_id": 7,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T03:13:04"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Saucy",
+        "power": 121868
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 104,
+        "name": "Forblitz",
+        "power": 121796
+      },
+      "fortification_id": 2,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T03:18:29"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Saucy",
+        "power": 119247
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "GurraBurra",
+        "power": 130240
+      },
+      "fortification_id": 2,
+      "points_earned": 11,
+      "position": 2,
+      "position_captured": false,
+      "time": "T03:19:55"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "Amothep",
+        "power": 70251
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Don",
+        "power": 59260
+      },
+      "fortification_id": 7,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T03:32:58"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 96,
+        "name": "Williepint1982",
+        "power": 66464
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "GurraBurra",
+        "power": 130240
+      },
+      "fortification_id": 2,
+      "points_earned": 3,
+      "position": 2,
+      "position_captured": false,
+      "time": "T04:14:01"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 96,
+        "name": "Williepint1982",
+        "power": 66464
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "GurraBurra",
+        "power": 130240
+      },
+      "fortification_id": 2,
+      "points_earned": 3,
+      "position": 2,
+      "position_captured": false,
+      "time": "T04:14:43"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "Amothep",
+        "power": 75009
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "KP",
+        "power": 86232
+      },
+      "fortification_id": 2,
+      "points_earned": 11,
+      "position": 4,
+      "position_captured": false,
+      "time": "T05:24:04"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 113,
+        "name": "MrTom",
+        "power": 79900
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Disciple",
+        "power": 72662
+      },
+      "fortification_id": 2,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T06:47:18"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 113,
+        "name": "MrTom",
+        "power": 79900
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "KP",
+        "power": 86232
+      },
+      "fortification_id": 2,
+      "points_earned": 9,
+      "position": 4,
+      "position_captured": true,
+      "time": "T06:47:42"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 97,
+        "name": "Indred Cole",
+        "power": 67788
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 120,
+        "name": "GurraBurra",
+        "power": 130240
+      },
+      "fortification_id": 2,
+      "points_earned": 3,
+      "position": 2,
+      "position_captured": true,
+      "time": "T07:03:59"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 100,
+        "name": "Tfy :)",
+        "power": 139763
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 108,
+        "name": "Sheevara",
+        "power": 142922
+      },
+      "fortification_id": 5,
+      "points_earned": 5,
+      "position": 7,
+      "position_captured": false,
+      "time": "T07:11:36"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 100,
+        "name": "Tfy :)",
+        "power": 139763
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 90,
+        "name": "Fuzzy",
+        "power": 140424
+      },
+      "fortification_id": 5,
+      "points_earned": 1,
+      "position": 2,
+      "position_captured": false,
+      "time": "T07:13:06"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 103,
+        "name": "_DAZ_",
+        "power": 158861
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Disciple",
+        "power": 152877
+      },
+      "fortification_id": 5,
+      "points_earned": 20,
+      "position": 4,
+      "position_captured": true,
+      "time": "T07:24:19"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "Anhvilla",
+        "power": 154874
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 90,
+        "name": "Fuzzy",
+        "power": 140424
+      },
+      "fortification_id": 5,
+      "points_earned": 19,
+      "position": 2,
+      "position_captured": true,
+      "time": "T07:26:04"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "Anhvilla",
+        "power": 154874
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 108,
+        "name": "Sheevara",
+        "power": 142922
+      },
+      "fortification_id": 5,
+      "points_earned": 15,
+      "position": 7,
+      "position_captured": true,
+      "time": "T07:27:01"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 103,
+        "name": "_DAZ_",
+        "power": 156174
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "Naked Ninja",
+        "power": 160955
+      },
+      "fortification_id": 5,
+      "points_earned": 14,
+      "position": 3,
+      "position_captured": false,
+      "time": "T07:57:51"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "BIG D",
+        "power": 83445
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 106,
+        "name": "wookie",
+        "power": 78904
+      },
+      "fortification_id": 10,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T09:07:55"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 106,
+        "name": "BIG D",
+        "power": 83445
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 104,
+        "name": "agent_chu",
+        "power": 78475
+      },
+      "fortification_id": 10,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T09:09:03"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 93,
+        "name": "Wallario",
+        "power": 74082
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 108,
+        "name": "Sheevara",
+        "power": 71782
+      },
+      "fortification_id": 10,
+      "points_earned": 10,
+      "position": 4,
+      "position_captured": false,
+      "time": "T10:22:24"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 93,
+        "name": "Wallario",
+        "power": 74082
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 108,
+        "name": "Sheevara",
+        "power": 71782
+      },
+      "fortification_id": 10,
+      "points_earned": 10,
+      "position": 4,
+      "position_captured": true,
+      "time": "T10:23:06"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Jeep Jerry",
+        "power": 207667
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 104,
+        "name": "Forblitz",
+        "power": 181423
+      },
+      "fortification_id": 8,
+      "points_earned": 20,
+      "position": 3,
+      "position_captured": true,
+      "time": "T11:14:13"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 120,
+        "name": "Jeep Jerry",
+        "power": 207667
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 111,
+        "name": "Dikree",
+        "power": 159791
+      },
+      "fortification_id": 6,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T11:15:46"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 97,
+        "name": "Indred Cole",
+        "power": 67788
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 105,
+        "name": "Buffy",
+        "power": 78205
+      },
+      "fortification_id": 10,
+      "points_earned": 16,
+      "position": 2,
+      "position_captured": false,
+      "time": "T12:26:54"
+    },
+    {
+      "attacker": {
+        "guild_id": 5,
+        "level": 95,
+        "name": "RadRob",
+        "power": 153156
+      },
+      "defender": {
+        "guild_id": 1,
+        "level": 103,
+        "name": "Naked Ninja",
+        "power": 160955
+      },
+      "fortification_id": 5,
+      "points_earned": 6,
+      "position": 3,
+      "position_captured": true,
+      "time": "T12:36:30"
+    }
+  ],
+  "id": 1,
+  "losing_guild_id": 5,
+  "losing_point_total": 726,
+  "war_date": "2020-04-13",
+  "war_day": "Monday",
+  "war_week": 16,
+  "winning_guild_id": 1,
+  "winning_point_total": 1262
+}
