@@ -1,0 +1,46 @@
+{
+  "battles": [
+    {
+      "attacker": {
+        "guild_id": 1,
+        "name": "Gom",
+        "power": 228443
+      },
+      "defender": {
+        "guild_id": 6,
+        "name": "Song x 2",
+        "power": 206834
+      },
+      "fortification_id": 4,
+      "points_earned": 20,
+      "position": 1,
+      "position_captured": true,
+      "time": "T00:35:40"
+    },
+    {
+      "attacker": {
+        "guild_id": 1,
+        "name": "Gom",
+        "power": 228443
+      },
+      "defender": {
+        "guild_id": 6,
+        "name": "discuas",
+        "power": 181621
+      },
+      "fortification_id": 4,
+      "points_earned": 20,
+      "position": 2,
+      "position_captured": true,
+      "time": "T00:36:06"
+    }
+  ],
+  "id": 8,
+  "losing_guild_id": 4,
+  "losing_point_total": 816,
+  "war_date": "2020-04-27",
+  "war_day": "Monday",
+  "war_week": 18,
+  "winning_guild_id": 1,
+  "winning_point_total": 1209
+}

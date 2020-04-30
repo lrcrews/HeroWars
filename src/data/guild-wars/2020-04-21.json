@@ -3,13 +3,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "doublejam",
         "power": 142585
       },
       "defender": {
         "guild_id": 2,
-        "level": 106,
         "name": "HERO",
         "power": 122235
       },
@@ -22,13 +20,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "gertyman",
         "power": 246321
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "Regal",
         "power": 122235
       },
@@ -41,13 +37,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "gertyman",
         "power": 246321
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "En4",
         "power": 251772
       },
@@ -60,13 +54,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 106,
         "name": "wookie",
         "power": 169075
       },
       "defender": {
         "guild_id": 2,
-        "level": 94,
         "name": "xxAlphaDrunkxx",
         "power": 137171
       },
@@ -79,13 +71,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 106,
         "name": "wookie",
         "power": 169075
       },
       "defender": {
         "guild_id": 2,
-        "level": 90,
         "name": "AlexLee",
         "power": 127988
       },
@@ -98,13 +88,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 106,
         "name": "Dan",
         "power": 165870
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "tntodor",
         "power": 163513
       },
@@ -117,13 +105,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 106,
         "name": "Dan",
         "power": 165870
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "Marcus",
         "power": 119362
       },
@@ -136,13 +122,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 112,
         "name": "Dikree",
         "power": 119569
       },
       "defender": {
         "guild_id": 2,
-        "level": 103,
         "name": "Panzie81",
         "power": 73149
       },
@@ -155,13 +139,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 112,
         "name": "Dikree",
         "power": 174949
       },
       "defender": {
         "guild_id": 2,
-        "level": 98,
         "name": "Mogor",
         "power": 148472
       },
@@ -174,13 +156,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "GurraBurra",
         "power": 259166
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "Regal",
         "power": 244457
       },
@@ -193,13 +173,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "GurraBurra",
         "power": 259166
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "tntodor",
         "power": 243421
       },
@@ -212,13 +190,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 101,
         "name": "BOTI",
         "power": 74209
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "BadAss",
         "power": 63632
       },
@@ -231,13 +207,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 107,
         "name": "Disciple",
         "power": 81882
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "Easton",
         "power": 65136
       },
@@ -250,13 +224,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 101,
         "name": "BOTI",
         "power": 74209
       },
       "defender": {
         "guild_id": 2,
-        "level": 90,
         "name": "galy.yang",
         "power": 64361
       },
@@ -269,13 +241,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 107,
         "name": "Disciple",
         "power": 81882
       },
       "defender": {
         "guild_id": 2,
-        "level": 111,
         "name": "Coop@5280",
         "power": 71702
       },
@@ -288,13 +258,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 109,
         "name": "Sheevara",
         "power": 76436
       },
       "defender": {
         "guild_id": 2,
-        "level": 104,
         "name": "Bernde",
         "power": 69352
       },
@@ -307,13 +275,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 109,
         "name": "Sheevara",
         "power": 76436
       },
       "defender": {
         "guild_id": 2,
-        "level": 87,
         "name": "Booz'r",
         "power": 65164
       },
@@ -326,13 +292,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 113,
         "name": "Dagul",
         "power": 118274
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "Father Zara",
         "power": 111931
       },
@@ -345,13 +309,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 113,
         "name": "Dagul",
         "power": 118274
       },
       "defender": {
         "guild_id": 2,
-        "level": 95,
         "name": "satoshi93",
         "power": 91240
       },
@@ -364,13 +326,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "Gom",
         "power": 277053
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "BadAss",
         "power": 202358
       },
@@ -383,13 +343,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 105,
         "name": "Forblitz",
         "power": 187000
       },
       "defender": {
         "guild_id": 2,
-        "level": 95,
         "name": "satoshi93",
         "power": 154678
       },
@@ -402,13 +360,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 105,
         "name": "Forblitz",
         "power": 124805
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "Father Zara",
         "power": 111931
       },
@@ -421,13 +377,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "LOD 2020",
         "power": 262896
       },
       "defender": {
         "guild_id": 2,
-        "level": 111,
         "name": "NinjaTazzy",
         "power": 192386
       },
@@ -440,13 +394,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "LOD 2020",
         "power": 262896
       },
       "defender": {
         "guild_id": 2,
-        "level": 111,
         "name": "Coop@5280",
         "power": 170371
       },
@@ -459,13 +411,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 110,
         "name": "elo",
         "power": 105447
       },
       "defender": {
         "guild_id": 2,
-        "level": 111,
         "name": "NinjaTazzy",
         "power": 90074
       },
@@ -478,13 +428,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 110,
         "name": "elo",
         "power": 105447
       },
       "defender": {
         "guild_id": 2,
-        "level": 94,
         "name": "xxAlphaDrunkxx",
         "power": 84583
       },
@@ -497,13 +445,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "Post Goats",
         "power": 338478
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "Marcus",
         "power": 290434
       },
@@ -516,13 +462,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 106,
         "name": "Buffy",
         "power": 80136
       },
       "defender": {
         "guild_id": 2,
-        "level": 90,
         "name": "AlexLee",
         "power": 70466
       },
@@ -535,13 +479,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 106,
         "name": "Buffy",
         "power": 80136
       },
       "defender": {
         "guild_id": 2,
-        "level": 98,
         "name": "Mogor",
         "power": 68755
       },
@@ -554,13 +496,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 92,
         "name": "Fuzzy",
         "power": 88128
       },
       "defender": {
         "guild_id": 2,
-        "level": 98,
         "name": "Kai",
         "power": 74763
       },
@@ -573,13 +513,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 92,
         "name": "Fuzzy",
         "power": 88128
       },
       "defender": {
         "guild_id": 2,
-        "level": 105,
         "name": "Murdox06",
         "power": 78274
       },
@@ -592,13 +530,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 104,
         "name": "KP",
         "power": 195103
       },
       "defender": {
         "guild_id": 2,
-        "level": 90,
         "name": "galy.yang",
         "power": 136920
       },
@@ -611,13 +547,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 104,
         "name": "KP",
         "power": 195103
       },
       "defender": {
         "guild_id": 2,
-        "level": 104,
         "name": "Bernde",
         "power": 135628
       },
@@ -630,13 +564,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 106,
         "name": "Don",
         "power": 184407
       },
       "defender": {
         "guild_id": 2,
-        "level": 103,
         "name": "Panzie81",
         "power": 141278
       },
@@ -649,13 +581,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 105,
         "name": "agent_chu",
         "power": 207530
       },
       "defender": {
         "guild_id": 2,
-        "level": 105,
         "name": "Murdox06",
         "power": 163421
       },
@@ -668,13 +598,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 105,
         "name": "agent_chu",
         "power": 210799
       },
       "defender": {
         "guild_id": 2,
-        "level": 98,
         "name": "Kai",
         "power": 148433
       },
@@ -687,13 +615,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "doublejam",
         "power": 231504
       },
       "defender": {
         "guild_id": 2,
-        "level": 106,
         "name": "HERO",
         "power": 164318
       },
@@ -706,13 +632,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "Post Goats",
         "power": 340649
       },
       "defender": {
         "guild_id": 2,
-        "level": 120,
         "name": "En4",
         "power": 256709
       },
@@ -725,13 +649,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 120,
         "name": "Gom",
         "power": 227817
       },
       "defender": {
         "guild_id": 2,
-        "level": 90,
         "name": "galy.yang",
         "power": 64361
       },
@@ -744,13 +666,11 @@
     {
       "attacker": {
         "guild_id": 1,
-        "level": 106,
         "name": "Don",
         "power": 184407
       },
       "defender": {
         "guild_id": 2,
-        "level": 87,
         "name": "Booz'r",
         "power": 127902
       },
@@ -763,13 +683,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "Regal",
         "power": 197901
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "LOD 2020",
         "power": 203413
       },
@@ -782,13 +700,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "Regal",
         "power": 197901
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "Gom",
         "power": 227185
       },
@@ -801,13 +717,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "Marcus",
         "power": 282837
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "Gom",
         "power": 276951
       },
@@ -820,13 +734,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "Marcus",
         "power": 282837
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "doublejam",
         "power": 231681
       },
@@ -839,13 +751,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "En4",
         "power": 251772
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "gertyman",
         "power": 246321
       },
@@ -858,13 +768,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "En4",
         "power": 251772
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "Post Goats",
         "power": 221494
       },
@@ -877,13 +785,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 98,
         "name": "Mogor",
         "power": 68755
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "gertyman",
         "power": 246321
       },
@@ -896,13 +802,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 111,
         "name": "NinjaTazzy",
         "power": 90074
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "gertyman",
         "power": 246321
       },
@@ -915,13 +819,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 90,
         "name": "AlexLee",
         "power": 70466
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "gertyman",
         "power": 246321
       },
@@ -934,13 +836,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "tntodor",
         "power": 163513
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "doublejam",
         "power": 142585
       },
@@ -953,13 +853,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 90,
         "name": "AlexLee",
         "power": 70466
       },
       "defender": {
         "guild_id": 1,
-        "level": 101,
         "name": "BOTI",
         "power": 74209
       },
@@ -972,13 +870,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "tntodor",
         "power": 163513
       },
       "defender": {
         "guild_id": 1,
-        "level": 106,
         "name": "Dan",
         "power": 165870
       },
@@ -991,13 +887,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 111,
         "name": "NinjaTazzy",
         "power": 90074
       },
       "defender": {
         "guild_id": 1,
-        "level": 106,
         "name": "Buffy",
         "power": 80139
       },
@@ -1010,13 +904,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 111,
         "name": "Coop@5280",
         "power": 71702
       },
       "defender": {
         "guild_id": 1,
-        "level": 107,
         "name": "Disciple",
         "power": 81405
       },
@@ -1029,13 +921,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 111,
         "name": "Coop@5280",
         "power": 71702
       },
       "defender": {
         "guild_id": 1,
-        "level": 104,
         "name": "KP",
         "power": 96045
       },
@@ -1048,13 +938,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 98,
         "name": "Mogor",
         "power": 68755
       },
       "defender": {
         "guild_id": 1,
-        "level": 106,
         "name": "Don",
         "power": 65099
       },
@@ -1067,13 +955,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 90,
         "name": "galy.yang",
         "power": 64361
       },
       "defender": {
         "guild_id": 1,
-        "level": 104,
         "name": "KP",
         "power": 96045
       },
@@ -1086,13 +972,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 90,
         "name": "galy.yang",
         "power": 64361
       },
       "defender": {
         "guild_id": 1,
-        "level": 107,
         "name": "Disciple",
         "power": 81405
       },
@@ -1105,13 +989,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 104,
         "name": "Bernde",
         "power": 69352
       },
       "defender": {
         "guild_id": 1,
-        "level": 109,
         "name": "Sheevara",
         "power": 76436
       },
@@ -1124,13 +1006,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 104,
         "name": "Bernde",
         "power": 69352
       },
       "defender": {
         "guild_id": 1,
-        "level": 109,
         "name": "Sheevara",
         "power": 76436
       },
@@ -1143,13 +1023,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "Father Zara",
         "power": 111931
       },
       "defender": {
         "guild_id": 1,
-        "level": 110,
         "name": "elo",
         "power": 105447
       },
@@ -1162,13 +1040,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 95,
         "name": "satoshi93",
         "power": 91240
       },
       "defender": {
         "guild_id": 1,
-        "level": 105,
         "name": "Forblitz",
         "power": 124353
       },
@@ -1181,13 +1057,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 95,
         "name": "satoshi93",
         "power": 91240
       },
       "defender": {
         "guild_id": 1,
-        "level": 112,
         "name": "Dikree",
         "power": 119150
       },
@@ -1200,13 +1074,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 103,
         "name": "Panzie81",
         "power": 73479
       },
       "defender": {
         "guild_id": 1,
-        "level": 112,
         "name": "Dikree",
         "power": 119150
       },
@@ -1219,13 +1091,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 103,
         "name": "Panzie81",
         "power": 73479
       },
       "defender": {
         "guild_id": 1,
-        "level": 105,
         "name": "Forblitz",
         "power": 124353
       },
@@ -1238,13 +1108,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 98,
         "name": "Kai",
         "power": 78559
       },
       "defender": {
         "guild_id": 1,
-        "level": 106,
         "name": "wookie",
         "power": 84422
       },
@@ -1257,13 +1125,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 98,
         "name": "Kai",
         "power": 78559
       },
       "defender": {
         "guild_id": 1,
-        "level": 105,
         "name": "agent_chu",
         "power": 84280
       },
@@ -1276,13 +1142,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 94,
         "name": "xxAlphaDrunkxx",
         "power": 84583
       },
       "defender": {
         "guild_id": 1,
-        "level": 106,
         "name": "wookie",
         "power": 84422
       },
@@ -1295,13 +1159,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 94,
         "name": "xxAlphaDrunkxx",
         "power": 84583
       },
       "defender": {
         "guild_id": 1,
-        "level": 92,
         "name": "Fuzzy",
         "power": 90071
       },
@@ -1314,13 +1176,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 106,
         "name": "HERO",
         "power": 122235
       },
       "defender": {
         "guild_id": 1,
-        "level": 113,
         "name": "Dagul",
         "power": 118274
       },
@@ -1333,13 +1193,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 106,
         "name": "HERO",
         "power": 122235
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "GurraBurra",
         "power": 141755
       },
@@ -1352,13 +1210,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 87,
         "name": "Booz'r",
         "power": 59325
       },
       "defender": {
         "guild_id": 1,
-        "level": 105,
         "name": "agent_chu",
         "power": 84280
       },
@@ -1371,13 +1227,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 87,
         "name": "Booz'r",
         "power": 59325
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "GurraBurra",
         "power": 141755
       },
@@ -1390,13 +1244,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "Father Zara",
         "power": 237139
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "Gom",
         "power": 276951
       },
@@ -1409,13 +1261,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 105,
         "name": "Murdox06",
         "power": 163421
       },
       "defender": {
         "guild_id": 1,
-        "level": 106,
         "name": "Buffy",
         "power": 140079
       },
@@ -1428,13 +1278,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 105,
         "name": "Murdox06",
         "power": 78274
       },
       "defender": {
         "guild_id": 1,
-        "level": 120,
         "name": "GurraBurra",
         "power": 141755
       },
@@ -1447,13 +1295,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "BadAss",
         "power": 204426
       },
       "defender": {
         "guild_id": 1,
-        "level": 110,
         "name": "elo",
         "power": 169627
       },
@@ -1466,13 +1312,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "BadAss",
         "power": 204426
       },
       "defender": {
         "guild_id": 1,
-        "level": 107,
         "name": "Disciple",
         "power": 166000
       },
@@ -1485,13 +1329,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "Easton",
         "power": 205294
       },
       "defender": {
         "guild_id": 1,
-        "level": 109,
         "name": "Sheevara",
         "power": 150877
       },
@@ -1504,13 +1346,11 @@
     {
       "attacker": {
         "guild_id": 2,
-        "level": 120,
         "name": "Easton",
         "power": 205294
       },
       "defender": {
         "guild_id": 1,
-        "level": 101,
         "name": "BOTI",
         "power": 149200
       },
