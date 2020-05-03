@@ -13,7 +13,6 @@
       },
       "fortification_id": 4,
       "points_earned": 17,
-      "position": 1,
       "position_captured": false,
       "time": "T01:24:58"
     },
@@ -30,7 +29,6 @@
       },
       "fortification_id": 4,
       "points_earned": 10,
-      "position": 2,
       "position_captured": false,
       "time": "T01:25:45"
     },
@@ -47,7 +45,6 @@
       },
       "fortification_id": 4,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T05:18:19"
     },
@@ -64,7 +61,6 @@
       },
       "fortification_id": 4,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T05:18:38"
     },
@@ -81,7 +77,6 @@
       },
       "fortification_id": 9,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T06:00:31"
     },
@@ -98,7 +93,6 @@
       },
       "fortification_id": 9,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T06:01:15"
     },
@@ -115,7 +109,6 @@
       },
       "fortification_id": 4,
       "points_earned": 10,
-      "position": 2,
       "position_captured": true,
       "time": "T06:09:42"
     },
@@ -132,7 +125,6 @@
       },
       "fortification_id": 4,
       "points_earned": 3,
-      "position": 1,
       "position_captured": true,
       "time": "T08:20:21"
     },
@@ -149,7 +141,6 @@
       },
       "fortification_id": 9,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T08:21:26"
     },
@@ -166,7 +157,6 @@
       },
       "fortification_id": 2,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T08:40:48"
     },
@@ -183,7 +173,6 @@
       },
       "fortification_id": 2,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T08:41:32"
     },
@@ -200,7 +189,6 @@
       },
       "fortification_id": 7,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T08:54:39"
     },
@@ -217,7 +205,6 @@
       },
       "fortification_id": 3,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T08:55:08"
     },
@@ -234,7 +221,6 @@
       },
       "fortification_id": 3,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T08:59:39"
     },
@@ -251,7 +237,6 @@
       },
       "fortification_id": 7,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T09:00:08"
     },
@@ -268,7 +253,6 @@
       },
       "fortification_id": 2,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T09:12:23"
     },
@@ -285,7 +269,6 @@
       },
       "fortification_id": 2,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T09:12:44"
     },
@@ -302,7 +285,6 @@
       },
       "fortification_id": 5,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T09:20:53"
     },
@@ -319,7 +301,6 @@
       },
       "fortification_id": 3,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T09:21:59"
     },
@@ -336,7 +317,6 @@
       },
       "fortification_id": 3,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T09:22:24"
     },
@@ -353,7 +333,6 @@
       },
       "fortification_id": 5,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T09:28:50"
     },
@@ -370,7 +349,6 @@
       },
       "fortification_id": 5,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T09:29:20"
     },
@@ -387,7 +365,6 @@
       },
       "fortification_id": 10,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T09:35:52"
     },
@@ -404,7 +381,6 @@
       },
       "fortification_id": 10,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T09:36:44"
     },
@@ -421,7 +397,6 @@
       },
       "fortification_id": 5,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T09:56:11"
     },
@@ -438,7 +413,6 @@
       },
       "fortification_id": 5,
       "points_earned": 20,
-      "position": 5,
       "position_captured": true,
       "time": "T09:57:17"
     },
@@ -455,7 +429,6 @@
       },
       "fortification_id": 5,
       "points_earned": 20,
-      "position": 6,
       "position_captured": true,
       "time": "T10:08:08"
     },
@@ -472,7 +445,6 @@
       },
       "fortification_id": 5,
       "points_earned": 20,
-      "position": 7,
       "position_captured": true,
       "time": "T10:08:58"
     },
@@ -489,7 +461,6 @@
       },
       "fortification_id": 7,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T10:18:40"
     },
@@ -506,7 +477,6 @@
       },
       "fortification_id": 7,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T10:19:02"
     },
@@ -523,7 +493,6 @@
       },
       "fortification_id": 6,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T10:26:37"
     },
@@ -540,7 +509,6 @@
       },
       "fortification_id": 6,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T10:36:46"
     },
@@ -557,7 +525,6 @@
       },
       "fortification_id": 10,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T12:05:09"
     },
@@ -574,7 +541,6 @@
       },
       "fortification_id": 10,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T12:05:28"
     },
@@ -591,7 +557,6 @@
       },
       "fortification_id": 8,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T12:21:46"
     },
@@ -608,7 +573,6 @@
       },
       "fortification_id": 6,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T12:22:17"
     },
@@ -625,7 +589,6 @@
       },
       "fortification_id": 6,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T12:39:19"
     },
@@ -642,7 +605,6 @@
       },
       "fortification_id": 8,
       "points_earned": 2,
-      "position": 1,
       "position_captured": false,
       "time": "T12:43:42"
     },
@@ -659,7 +621,6 @@
       },
       "fortification_id": 8,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T12:56:48"
     },
@@ -676,7 +637,6 @@
       },
       "fortification_id": 1,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T12:57:34"
     },
@@ -693,7 +653,6 @@
       },
       "fortification_id": 4,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T00:02:04"
     },
@@ -710,7 +669,6 @@
       },
       "fortification_id": 4,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T00:02:32"
     },
@@ -727,7 +685,6 @@
       },
       "fortification_id": 1,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T00:08:09"
     },
@@ -744,7 +701,6 @@
       },
       "fortification_id": 9,
       "points_earned": 10,
-      "position": 2,
       "position_captured": false,
       "time": "T00:09:14"
     },
@@ -761,7 +717,6 @@
       },
       "fortification_id": 8,
       "points_earned": 12,
-      "position": 2,
       "position_captured": false,
       "time": "T00:53:23"
     },
@@ -778,7 +733,6 @@
       },
       "fortification_id": 8,
       "points_earned": 8,
-      "position": 2,
       "position_captured": true,
       "time": "T00:54:35"
     },
@@ -795,7 +749,6 @@
       },
       "fortification_id": 8,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T02:35:05"
     },
@@ -812,7 +765,6 @@
       },
       "fortification_id": 1,
       "points_earned": 8,
-      "position": 3,
       "position_captured": false,
       "time": "T02:35:58"
     },
@@ -829,7 +781,6 @@
       },
       "fortification_id": 4,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T02:52:38"
     },
@@ -846,7 +797,6 @@
       },
       "fortification_id": 4,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T02:53:16"
     },
@@ -863,7 +813,6 @@
       },
       "fortification_id": 6,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T03:01:45"
     },
@@ -880,7 +829,6 @@
       },
       "fortification_id": 3,
       "points_earned": 12,
-      "position": 1,
       "position_captured": false,
       "time": "T03:05:11"
     },
@@ -897,7 +845,6 @@
       },
       "fortification_id": 3,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T03:05:40"
     },
@@ -914,7 +861,6 @@
       },
       "fortification_id": 6,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T03:07:46"
     },
@@ -931,7 +877,6 @@
       },
       "fortification_id": 7,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T03:12:38"
     },
@@ -948,7 +893,6 @@
       },
       "fortification_id": 7,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T03:13:04"
     },
@@ -965,7 +909,6 @@
       },
       "fortification_id": 2,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T03:18:29"
     },
@@ -982,7 +925,6 @@
       },
       "fortification_id": 2,
       "points_earned": 11,
-      "position": 2,
       "position_captured": false,
       "time": "T03:19:55"
     },
@@ -999,7 +941,6 @@
       },
       "fortification_id": 7,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T03:32:58"
     },
@@ -1016,7 +957,6 @@
       },
       "fortification_id": 2,
       "points_earned": 3,
-      "position": 2,
       "position_captured": false,
       "time": "T04:14:01"
     },
@@ -1033,7 +973,6 @@
       },
       "fortification_id": 2,
       "points_earned": 3,
-      "position": 2,
       "position_captured": false,
       "time": "T04:14:43"
     },
@@ -1050,7 +989,6 @@
       },
       "fortification_id": 2,
       "points_earned": 11,
-      "position": 4,
       "position_captured": false,
       "time": "T05:24:04"
     },
@@ -1067,7 +1005,6 @@
       },
       "fortification_id": 2,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T06:47:18"
     },
@@ -1084,7 +1021,6 @@
       },
       "fortification_id": 2,
       "points_earned": 9,
-      "position": 4,
       "position_captured": true,
       "time": "T06:47:42"
     },
@@ -1101,7 +1037,6 @@
       },
       "fortification_id": 2,
       "points_earned": 3,
-      "position": 2,
       "position_captured": true,
       "time": "T07:03:59"
     },
@@ -1118,7 +1053,6 @@
       },
       "fortification_id": 5,
       "points_earned": 5,
-      "position": 7,
       "position_captured": false,
       "time": "T07:11:36"
     },
@@ -1135,7 +1069,6 @@
       },
       "fortification_id": 5,
       "points_earned": 1,
-      "position": 2,
       "position_captured": false,
       "time": "T07:13:06"
     },
@@ -1152,7 +1085,6 @@
       },
       "fortification_id": 5,
       "points_earned": 20,
-      "position": 4,
       "position_captured": true,
       "time": "T07:24:19"
     },
@@ -1169,7 +1101,6 @@
       },
       "fortification_id": 5,
       "points_earned": 19,
-      "position": 2,
       "position_captured": true,
       "time": "T07:26:04"
     },
@@ -1186,7 +1117,6 @@
       },
       "fortification_id": 5,
       "points_earned": 15,
-      "position": 7,
       "position_captured": true,
       "time": "T07:27:01"
     },
@@ -1203,7 +1133,6 @@
       },
       "fortification_id": 5,
       "points_earned": 14,
-      "position": 3,
       "position_captured": false,
       "time": "T07:57:51"
     },
@@ -1220,7 +1149,6 @@
       },
       "fortification_id": 10,
       "points_earned": 20,
-      "position": 1,
       "position_captured": true,
       "time": "T09:07:55"
     },
@@ -1237,7 +1165,6 @@
       },
       "fortification_id": 10,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T09:09:03"
     },
@@ -1254,7 +1181,6 @@
       },
       "fortification_id": 10,
       "points_earned": 10,
-      "position": 4,
       "position_captured": false,
       "time": "T10:22:24"
     },
@@ -1271,7 +1197,6 @@
       },
       "fortification_id": 10,
       "points_earned": 10,
-      "position": 4,
       "position_captured": true,
       "time": "T10:23:06"
     },
@@ -1288,7 +1213,6 @@
       },
       "fortification_id": 8,
       "points_earned": 20,
-      "position": 3,
       "position_captured": true,
       "time": "T11:14:13"
     },
@@ -1305,7 +1229,6 @@
       },
       "fortification_id": 6,
       "points_earned": 20,
-      "position": 2,
       "position_captured": true,
       "time": "T11:15:46"
     },
@@ -1322,7 +1245,6 @@
       },
       "fortification_id": 10,
       "points_earned": 16,
-      "position": 2,
       "position_captured": false,
       "time": "T12:26:54"
     },
@@ -1339,7 +1261,6 @@
       },
       "fortification_id": 5,
       "points_earned": 6,
-      "position": 3,
       "position_captured": true,
       "time": "T12:36:30"
     }

@@ -39,31 +39,19 @@ export class Fortification {
     return new Fortification(10, 'Spring of Elements', 4, 'Titan');
   }
 
-  static fromId(id: number): Fortification | undefined {
-    switch (id) {
-      case 1:
-        return Fortification.BARRACKS();
-      case 2:
-        return Fortification.BASTION_OF_FIRE();
-      case 3:
-        return Fortification.BASTION_OF_ICE();
-      case 4:
-        return Fortification.BRIDGE();
-      case 5:
-        return Fortification.CITADEL();
-      case 6:
-        return Fortification.FOUNDRY();
-      case 7:
-        return Fortification.GATES_OF_NATURE();
-      case 8:
-        return Fortification.LIGHTHOUSE();
-      case 9:
-        return Fortification.MAGE_ACADEMY();
-      case 10:
-        return Fortification.SPRING_OF_ELEMENTS();
-      default:
-        return undefined;
-    }
+  static ALL(): Array<Fortification> {
+    return [
+      Fortification.BARRACKS(),
+      Fortification.BASTION_OF_FIRE(),
+      Fortification.BASTION_OF_ICE(),
+      Fortification.BRIDGE(),
+      Fortification.CITADEL(),
+      Fortification.FOUNDRY(),
+      Fortification.GATES_OF_NATURE(),
+      Fortification.LIGHTHOUSE(),
+      Fortification.MAGE_ACADEMY(),
+      Fortification.SPRING_OF_ELEMENTS(),
+    ];
   }
 
   constructor(public id: number, public name: string, public positions: number, public type: string) {}

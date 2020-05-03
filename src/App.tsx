@@ -4,8 +4,8 @@ import guildsJson from './data/guilds.json';
 
 import { Route, Switch } from 'react-router-dom';
 
+import { Fortification } from './models/fortification';
 import { Guild } from './models/guild';
-import { GuildWar } from './models/guild-war';
 import { GuildWarsData } from './data/guild-wars/guild-wars-data';
 
 import GuildWars from './guild-wars/GuildWars';
@@ -14,12 +14,14 @@ import PageNotFound from './404/PageNotFound';
 import Players from './players/Players';
 import SiteHeader from './site-header/SiteHeader';
 import Tournaments from './tournaments/Tournaments';
+import WarBattles from './guild-wars/WarBattles';
 
 import './App.scss';
 
 const App: React.FC = () => {
+  const fortifications = Fortification.ALL();
   const guilds = Guild.arrayFromJson(guildsJson);
-  const guildWars = GuildWar.arrayFromJson(GuildWarsData.data());
+  const guildWars = GuildWarsData.data();
 
   return (
     <section id="app-container">
@@ -29,8 +31,11 @@ const App: React.FC = () => {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route exact path="/battles">
+            <WarBattles fortifications={fortifications} guilds={guilds} wars={guildWars} />
+          </Route>
           <Route exact path="/guild-wars">
-            <GuildWars guilds={guilds} wars={guildWars} />
+            <GuildWars fortifications={fortifications} guilds={guilds} wars={guildWars} />
           </Route>
           <Route exact path="/tournaments">
             <Tournaments />

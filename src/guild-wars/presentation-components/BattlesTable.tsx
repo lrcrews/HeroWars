@@ -5,18 +5,21 @@ import * as _ from 'lodash';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
 
+import attackTimeImg from '../../data/misc-images/attack-time.png';
 import battleTypeImg from '../../data/misc-images/icon-battle.png';
 import heroBattleTypeImg from '../../data/misc-images/arenaCoinKing2.png';
 import titanBattleTypeImg from '../../data/misc-images/titan_potion.png';
 import victoryPointIconImg from '../../data/misc-images/icon-victory-point.png';
 
-import { Guild } from '../../models/guild';
 import { Battle } from '../../models/battle';
+import { Fortification } from '../../models/fortification';
+import { Guild } from '../../models/guild';
 
 import './BattlesTable.scss';
 
 export interface BattlesTableProps {
   battles: Array<Battle>;
+  fortifications: Array<Fortification>;
   guilds: Array<Guild>;
 }
 
@@ -34,20 +37,20 @@ const COLUMN_DEF_POWER = 'def-power';
 const COLUMN_POWER_DIFFERENCE = 'power-difference';
 
 const COLUMN_BATTLE_FORTIFICATION = 'battle-fortification';
-const COLUMN_BATTLE_POSITION = 'battle-position';
+const COLUMN_BATTLE_TIME = 'battle-time';
 const COLUMN_BATTLE_TYPE = 'battle-type';
 
 const COLUMN_VICTORY_POINTS = 'victory-points';
 
 const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => {
-  const { battles, guilds } = props;
+  const { battles, fortifications, guilds } = props;
 
   const [sortedBattles, setSortedBattles] = useState<Array<Battle>>([]);
-  const [sortColumn, setSortColumn] = useState('');
-  const [sortDirection, setSortDirection] = useState('');
+  const [sortColumn, setSortColumn] = useState(COLUMN_BATTLE_TIME);
+  const [sortDirection, setSortDirection] = useState(SORT_ASC);
 
   useEffect(() => {
-    setSortedBattles(battles);
+    setSortedBattles(_.sortBy(battles, (battle) => battle.datetimeString));
   }, [battles]);
 
   const sortedBy = (column: string, direction: string): boolean => {
@@ -70,11 +73,15 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
             case COLUMN_ATK_POWER:
               return battle.attacker.power;
             case COLUMN_BATTLE_FORTIFICATION:
-              return battle.fortification.name;
-            case COLUMN_BATTLE_POSITION:
-              return battle.position;
             case COLUMN_BATTLE_TYPE:
-              return battle.fortification.type;
+              const fort = _.find(fortifications, (fortification) => fortification.id === battle.fortificationId);
+              if (column === COLUMN_BATTLE_FORTIFICATION) {
+                return fort ? fort.name : '';
+              } else {
+                return fort ? fort.type : '';
+              }
+            case COLUMN_BATTLE_TIME:
+              return battle.datetimeString;
             case COLUMN_DEFENDER:
               return battle.defender.name;
             case COLUMN_DEF_POWER:
@@ -102,6 +109,15 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
       <table>
         <thead className="table-header">
           <tr className="header-row">
+            <th
+              className="small-column centered"
+              onClick={(): void => updateSort(COLUMN_BATTLE_TIME)}
+              title="Battle time"
+            >
+              <img src={attackTimeImg} alt="Battle time" className="small" />
+              {sortedBy(COLUMN_BATTLE_TIME, SORT_ASC) && <FontAwesomeIcon icon={faCaretDown} className="affordance" />}
+              {sortedBy(COLUMN_BATTLE_TIME, SORT_DESC) && <FontAwesomeIcon icon={faCaretUp} className="affordance" />}
+            </th>
             <th className="small-column attacker-grouping" onClick={(): void => updateSort(COLUMN_ATK_GUILD)}>
               <div></div>
               {sortedBy(COLUMN_ATK_GUILD, SORT_ASC) && <FontAwesomeIcon icon={faCaretDown} className="affordance" />}
@@ -141,7 +157,11 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
                 <FontAwesomeIcon icon={faCaretUp} className="affordance" />
               )}
             </th>
-            <th className="small-column centered" onClick={(): void => updateSort(COLUMN_VICTORY_POINTS)}>
+            <th
+              className="small-column centered"
+              onClick={(): void => updateSort(COLUMN_VICTORY_POINTS)}
+              title="Points earned"
+            >
               <img src={victoryPointIconImg} alt="Victory Points earned" />
               {sortedBy(COLUMN_VICTORY_POINTS, SORT_ASC) && (
                 <FontAwesomeIcon icon={faCaretDown} className="affordance" />
@@ -150,7 +170,11 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
                 <FontAwesomeIcon icon={faCaretUp} className="affordance" />
               )}
             </th>
-            <th className="small-column centered" onClick={(): void => updateSort(COLUMN_BATTLE_TYPE)}>
+            <th
+              className="small-column centered"
+              onClick={(): void => updateSort(COLUMN_BATTLE_TYPE)}
+              title="Battle type"
+            >
               <img src={battleTypeImg} alt="Victory Points earned" />
               {sortedBy(COLUMN_BATTLE_TYPE, SORT_ASC) && <FontAwesomeIcon icon={faCaretDown} className="affordance" />}
               {sortedBy(COLUMN_BATTLE_TYPE, SORT_DESC) && <FontAwesomeIcon icon={faCaretUp} className="affordance" />}
@@ -168,8 +192,12 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
         </thead>
         <tbody className="table-body">
           {sortedBattles.map((battle, index) => {
+            const fort =
+              _.find(fortifications, (fortification) => fortification.id === battle.fortificationId) ||
+              new Fortification(-1, '', 0, 'unknown');
             return (
               <tr key={index} className="data-row">
+                <td className="small-column centered"> </td>
                 <td className="small-column">
                   <img
                     src={bannerImageForGuildId(battle.attacker.guildId)}
@@ -204,11 +232,11 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
                   {battle.positionCaptured && <FontAwesomeIcon icon={faCheck} className="affordance" />}
                 </td>
                 <td className="small-column centered">
-                  {battle.fortification.isTitan() && <img src={titanBattleTypeImg} alt="Titan battle" />}
-                  {battle.fortification.isHero() && <img src={heroBattleTypeImg} alt="Hero battle" />}
+                  {fort.isTitan() && <img src={titanBattleTypeImg} alt="Titan battle" title="Titan battle" />}
+                  {fort.isHero() && <img src={heroBattleTypeImg} alt="Hero battle" title="Hero battle" />}
                 </td>
                 <td className="large-column">
-                  <div className="display-text">{battle.fortification.name}</div>
+                  <div className="display-text">{fort.name}</div>
                 </td>
               </tr>
             );

@@ -1,4 +1,3 @@
-import { Fortification } from './fortification';
 import { Player } from './player';
 
 export class Battle {
@@ -27,24 +26,14 @@ export class Battle {
         console.log('"defender" not provided.');
         return undefined;
       }
-      const time = new Date(`${warDateString}${json['time']}`);
-      if (time === undefined) {
-        console.log(`"time" creation failed, warDateString: ${warDateString}, json['time']: ${json['time']}`);
-        return undefined;
-      }
-      const fortification = Fortification.fromId(json['fortification_id']);
-      if (fortification === undefined) {
-        console.log(`"foritifcation" not found for id: ${json['fortification_id']}.`);
-        return undefined;
-      }
+      const datetimeString = `${warDateString}${json['time']}`;
       return new Battle(
         attacker,
         defender,
-        fortification,
+        json['fortification_id'],
         json['points_earned'],
-        json['position'],
         json['position_captured'],
-        time
+        datetimeString
       );
     } else {
       return undefined;
@@ -54,10 +43,9 @@ export class Battle {
   constructor(
     public attacker: Player,
     public defender: Player,
-    public fortification: Fortification,
+    public fortificationId: number,
     public pointsEarned: number,
-    public position: number,
     public positionCaptured: boolean,
-    public time: Date
+    public datetimeString: string
   ) {}
 }

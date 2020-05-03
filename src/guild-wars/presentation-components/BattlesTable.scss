@@ -64,6 +64,20 @@
 
     .centered {
       text-align: center;
+
+      .display-text {
+        padding-right: 0;
+      }
+    }
+
+    .display-text {
+      font-size: 0.875rem;
+      height: 1rem;
+      line-height: 0.875rem;
+      overflow: hidden;
+      padding-right: 1rem;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     > thead,
@@ -98,6 +112,10 @@
 
           > img {
             width: 2rem;
+
+            &.small {
+              width: 1.25rem;
+            }
           }
         }
       }
@@ -115,22 +133,6 @@
           &:hover {
             color: $red-6;
           }
-        }
-      }
-    }
-  }
-
-  > tbody {
-    > tr {
-      > td {
-        .display-text {
-          font-size: 0.875rem;
-          height: 1rem;
-          line-height: 1rem;
-          overflow: hidden;
-          padding-right: 1rem;
-          text-overflow: ellipsis;
-          white-space: nowrap;
         }
       }
     }

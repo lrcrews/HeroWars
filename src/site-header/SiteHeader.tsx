@@ -15,10 +15,10 @@ const SiteHeader: React.FC = () => {
       </Link>
       <ul className="links">
         <li>
-          <Link to="/guild-wars">Guild Wars</Link>
+          <Link to="/guild-wars">Wars</Link>
         </li>
         <li>
-          <Link to="/tournaments">Tournaments</Link>
+          <Link to="/battles">Battles</Link>
         </li>
       </ul>
     </header>
