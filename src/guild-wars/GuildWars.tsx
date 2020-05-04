@@ -48,7 +48,7 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
 
   const buildWarOptions = (wars: Array<GuildWar>): Array<Option> => {
     const options = _.map(wars, (war: GuildWar) => {
-      return { display: `War Week ${war.warWeek} | ${war.warDay}  (${war.warDateString})`, id: war.id };
+      return { display: `War Week ${war.warWeek} | ${war.warDay}  (${war.warDateString})`, id: war.warDateString };
     });
     return _.reverse(options);
   };
@@ -64,7 +64,7 @@ const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
   };
 
   const updateDisplayedWar = (option: Option): void => {
-    const war = _.find(wars, (war) => war.id === option.id);
+    const war = _.find(wars, (war: GuildWar) => war.warDateString === option.id);
     if (war) {
       setDisplayedWar(war);
       setDisplayedCompetitor(competitorFromWar(war, guilds));

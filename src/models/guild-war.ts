@@ -1,6 +1,9 @@
 import { Battle } from './battle';
 
 export class GuildWar {
+  static WAR_WEEK_17_2020 = 17;
+  static WAR_WEEK_18_2020 = 18;
+
   static arrayFromJson(guildWarsJson: Array<{}>): Array<GuildWar> {
     const guildWars: Array<GuildWar> = [];
     if (guildWarsJson) {
@@ -19,7 +22,6 @@ export class GuildWar {
       const warDateString = json['war_date'];
       return new GuildWar(
         Battle.arrayFromJson(json['battles'], warDateString),
-        json['id'],
         json['losing_guild_id'],
         json['losing_point_total'],
         warDateString,
@@ -35,7 +37,6 @@ export class GuildWar {
 
   constructor(
     public battles: Array<Battle>,
-    public id: number,
     public losingGuildId: number,
     public losingPointTotal: number,
     public warDateString: string,

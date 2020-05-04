@@ -1,7 +1,5 @@
 import React from 'react';
 
-import guildsJson from './data/guilds.json';
-
 import { Route, Switch } from 'react-router-dom';
 
 import { Fortification } from './models/fortification';
@@ -20,7 +18,7 @@ import './App.scss';
 
 const App: React.FC = () => {
   const fortifications = Fortification.ALL();
-  const guilds = Guild.arrayFromJson(guildsJson);
+  const guilds = Guild.ALL();
   const guildWars = GuildWarsData.data();
 
   return (

@@ -119,20 +119,34 @@
   }
 
   .stats {
-    margin-top: 1rem;
+    margin: 0 auto 2rem;
+    width: fit-content;
 
     > .stat {
-      background-color: $grey-1;
-      border: 1px solid $grey-4;
-      border-radius: 3px;
-      display: inline-block;
-      margin: 0 2rem 2rem 0;
-      padding: 0.5rem;
+      margin-bottom: 0.25rem;
       text-align: center;
-      width: 5rem;
 
-      &:last-child {
-        margin-right: 0;
+      > * {
+        display: inline-block;
+        vertical-align: baseline;
+      }
+
+      .name {
+        width: 12.5rem;
+      }
+
+      .value-them,
+      .value-us {
+        font-weight: 600;
+        width: 5rem;
+      }
+
+      .value-them {
+        text-align: left;
+      }
+
+      .value-us {
+        text-align: right;
       }
     }
   }

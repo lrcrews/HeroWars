@@ -6,6 +6,7 @@ import badgeImg from '../../data/misc-images/icon-battle.png';
 import victoryPointIconImg from '../../data/misc-images/icon-victory-point.png';
 import vsIconImg from '../../data/misc-images/icon-vs.png';
 
+import { Fortification } from '../../models/fortification';
 import { Guild } from '../../models/guild';
 import { GuildWar } from '../../models/guild-war';
 
@@ -26,35 +27,51 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
 
   const [selectedOption, setSelectedOption] = useState(_.first(warOptions));
 
-  const [attacksUsed, setAttacksUsed] = useState(0);
-  const [defensesWon, setDefensesWon] = useState(0);
-  const [positionsCaptured, setPositionsCaptured] = useState(0);
-  const [positionsLost, setPositionsLost] = useState(0);
+  const [attacksUsedThem, setAttacksUsedThem] = useState(0);
+  const [attacksUsedUs, setAttacksUsedUs] = useState(0);
+
+  const [bridgeAttacksUsedThem, setBridgeAttacksUsedThem] = useState(0);
+  const [bridgeAttacksUsedUs, setBridgeAttacksUsedUs] = useState(0);
+
+  const [defensesWonThem, setDefensesWonThem] = useState(0);
+  const [defensesWonUs, setDefensesWonUs] = useState(0);
+
+  const [positionsCapturedThem, setPositionsCapturedThem] = useState(0);
+  const [positionsCapturedUs, setPositionsCapturedUs] = useState(0);
 
   useEffect(() => {
-    let attacksUsed = 0;
-    let defensesWon = 0;
-    let positionsCaptured = 0;
-    let positionsLost = 0;
+    let attacksUsedThem = 0;
+    let attacksUsedUs = 0;
+    let bridgeAttacksUsedThem = 0;
+    let bridgeAttacksUsedUs = 0;
+    let defensesWonThem = 0;
+    let defensesWonUs = 0;
+    let positionsCapturedThem = 0;
+    let positionsCapturedUs = 0;
     _.each(war.battles, (battle) => {
-      if (battle.attacker.guildId === 1) {
-        attacksUsed += 1;
-        if (battle.positionCaptured) {
-          positionsCaptured += 1;
+      if (battle.attacker.guildId === Guild.ASSASSINS_ID) {
+        attacksUsedUs += 1;
+        battle.positionCaptured ? (positionsCapturedUs += 1) : (defensesWonThem += 1);
+        if (battle.fortificationId === Fortification.BRIDGE_ID) {
+          bridgeAttacksUsedUs += 1;
         }
       } else {
         // we're the defender
-        if (battle.positionCaptured) {
-          positionsLost += 1;
-        } else {
-          defensesWon += 1;
+        attacksUsedThem += 1;
+        battle.positionCaptured ? (positionsCapturedThem += 1) : (defensesWonUs += 1);
+        if (battle.fortificationId === 4) {
+          bridgeAttacksUsedThem += 1;
         }
       }
     });
-    setAttacksUsed(attacksUsed);
-    setDefensesWon(defensesWon);
-    setPositionsCaptured(positionsCaptured);
-    setPositionsLost(positionsLost);
+    setAttacksUsedThem(attacksUsedThem);
+    setAttacksUsedUs(attacksUsedUs);
+    setBridgeAttacksUsedThem(bridgeAttacksUsedThem);
+    setBridgeAttacksUsedUs(bridgeAttacksUsedUs);
+    setDefensesWonThem(defensesWonThem);
+    setDefensesWonUs(defensesWonUs);
+    setPositionsCapturedThem(positionsCapturedThem);
+    setPositionsCapturedUs(positionsCapturedUs);
   }, [war]);
 
   const assassinsPointTotal = (): number => {
@@ -148,25 +165,26 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
           className="guild-banner right-banner"
         />
       </div>
-      <ul className="stats">
+      <ul className="stats font-normal">
         <li className="stat">
-          <span className="font-large">{attacksUsed}</span>
-          <span className="font-small">/40</span>
-          <div className="font-normal">attacks used</div>
+          <div className="value-us">{attacksUsedUs}</div>
+          <div className="name">attacks used</div>
+          <div className="value-them">{attacksUsedThem}</div>
         </li>
         <li className="stat">
-          <span className="font-large">{positionsCaptured}</span>
-          <span className="font-small">/40</span>
-          <div className="font-normal">positions captured</div>
+          <div className="value-us">{positionsCapturedUs}</div>
+          <div className="name">positions captured</div>
+          <div className="value-them">{positionsCapturedThem}</div>
         </li>
         <li className="stat">
-          <span className="font-large">{defensesWon}</span>
-          <div className="font-normal">successful defenses</div>
+          <div className="value-us">{defensesWonUs}</div>
+          <div className="name">successful defenses</div>
+          <div className="value-them">{defensesWonThem}</div>
         </li>
         <li className="stat">
-          <span className="font-large">{positionsLost}</span>
-          <span className="font-small">/40</span>
-          <div className="font-normal">positions lost</div>
+          <div className="value-us">{bridgeAttacksUsedUs}</div>
+          <div className="name">bridge attacks</div>
+          <div className="value-them">{bridgeAttacksUsedThem}</div>
         </li>
       </ul>
       {!_.isEmpty(children) && children}
