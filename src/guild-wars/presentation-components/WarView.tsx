@@ -39,6 +39,12 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
   const [positionsCapturedThem, setPositionsCapturedThem] = useState(0);
   const [positionsCapturedUs, setPositionsCapturedUs] = useState(0);
 
+  const [totalHeroAtkPwrThem, setTotalHeroAtkPwrThem] = useState(0);
+  const [totalHeroAtkPwrUs, setTotalHeroAtkPwrUs] = useState(0);
+
+  const [totalTitanAtkPwrThem, setTotalTitanAtkPwrThem] = useState(0);
+  const [totalTitanAtkPwrUs, setTotalTitanAtkPwrUs] = useState(0);
+
   useEffect(() => {
     let attacksUsedThem = 0;
     let attacksUsedUs = 0;
@@ -48,6 +54,10 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
     let defensesWonUs = 0;
     let positionsCapturedThem = 0;
     let positionsCapturedUs = 0;
+    let totalHeroAtkPwrThem = 0;
+    let totalHeroAtkPwrUs = 0;
+    let totalTitanAtkPwrThem = 0;
+    let totalTitanAtkPwrUs = 0;
     _.each(war.battles, (battle) => {
       if (battle.attacker.guildId === Guild.ASSASSINS_ID) {
         attacksUsedUs += 1;
@@ -55,6 +65,9 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
         if (battle.fortificationId === Fortification.BRIDGE_ID) {
           bridgeAttacksUsedUs += 1;
         }
+        Fortification.IS_HERO_FORT_ID(battle.fortificationId)
+          ? (totalHeroAtkPwrUs += battle.attacker.power)
+          : (totalTitanAtkPwrUs += battle.attacker.power);
       } else {
         // we're the defender
         attacksUsedThem += 1;
@@ -62,6 +75,9 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
         if (battle.fortificationId === 4) {
           bridgeAttacksUsedThem += 1;
         }
+        Fortification.IS_HERO_FORT_ID(battle.fortificationId)
+          ? (totalHeroAtkPwrThem += battle.attacker.power)
+          : (totalTitanAtkPwrThem += battle.attacker.power);
       }
     });
     setAttacksUsedThem(attacksUsedThem);
@@ -72,6 +88,10 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
     setDefensesWonUs(defensesWonUs);
     setPositionsCapturedThem(positionsCapturedThem);
     setPositionsCapturedUs(positionsCapturedUs);
+    setTotalHeroAtkPwrThem(totalHeroAtkPwrThem);
+    setTotalHeroAtkPwrUs(totalHeroAtkPwrUs);
+    setTotalTitanAtkPwrThem(totalTitanAtkPwrThem);
+    setTotalTitanAtkPwrUs(totalTitanAtkPwrUs);
   }, [war]);
 
   const assassinsPointTotal = (): number => {
@@ -185,6 +205,16 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
           <div className="value-us">{bridgeAttacksUsedUs}</div>
           <div className="name">bridge attacks</div>
           <div className="value-them">{bridgeAttacksUsedThem}</div>
+        </li>
+        <li className="stat">
+          <div className="value-us">{totalHeroAtkPwrUs}</div>
+          <div className="name">total hero atk. power</div>
+          <div className="value-them">{totalHeroAtkPwrThem}</div>
+        </li>
+        <li className="stat">
+          <div className="value-us">{totalTitanAtkPwrUs}</div>
+          <div className="name">total titan atk. power</div>
+          <div className="value-them">{totalTitanAtkPwrThem}</div>
         </li>
       </ul>
       {!_.isEmpty(children) && children}

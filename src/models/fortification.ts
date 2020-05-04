@@ -65,6 +65,26 @@ export class Fortification {
     ];
   }
 
+  static IS_HERO_FORT_ID(id: number): boolean {
+    return [
+      Fortification.BARRACKS_ID,
+      Fortification.CITADEL_ID,
+      Fortification.FOUNDRY_ID,
+      Fortification.LIGHTHOUSE_ID,
+      Fortification.MAGE_ACADEMY_ID,
+    ].includes(id);
+  }
+
+  static IS_TITAN_FORT_ID(id: number): boolean {
+    return [
+      Fortification.BASTION_OF_FIRE_ID,
+      Fortification.BASTION_OF_ICE_ID,
+      Fortification.BRIDGE_ID,
+      Fortification.GATES_OF_NATURE_ID,
+      Fortification.SPRING_OF_ELEMENTS,
+    ].includes(id);
+  }
+
   constructor(public id: number, public name: string, public positions: number, public type: string) {}
 
   isHero(): boolean {
