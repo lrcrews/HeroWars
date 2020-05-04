@@ -265,6 +265,14 @@ export const war = new GuildWar(
       `${warDateString}T09:06:19`
     ),
     new Battle(
+      new Player(Guild.ASSASSINS_ID, 'Don', 179272),
+      new Player(Guild.ROMANIA_ID, 'Tonydarat', 176203),
+      Fortification.CITADEL_ID,
+      20,
+      true,
+      `${warDateString}T09:38:56`
+    ),
+    new Battle(
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 216008),
       new Player(Guild.ROMANIA_ID, 'Adrian', 194099),
       Fortification.MAGE_ACADEMY_ID,
