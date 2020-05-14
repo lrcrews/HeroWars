@@ -4,6 +4,7 @@ export class GuildWar {
   static WAR_WEEK_17_2020 = 17;
   static WAR_WEEK_18_2020 = 18;
   static WAR_WEEK_19_2020 = 19;
+  static WAR_WEEK_20_2020 = 20;
 
   static arrayFromJson(guildWarsJson: Array<{}>): Array<GuildWar> {
     const guildWars: Array<GuildWar> = [];
