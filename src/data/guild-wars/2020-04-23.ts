@@ -10,7 +10,7 @@ export const war = new GuildWar(
   [
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'gertyman', 248819),
-      new Player(Guild.MERICA_ID, 'Song x 2', 204510),
+      new Player(Guild.MERICA_ID, 'Song', 204510),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -154,7 +154,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 339575),
-      new Player(Guild.MERICA_ID, 'Song x 2', 205105),
+      new Player(Guild.MERICA_ID, 'Song', 205105),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -345,7 +345,7 @@ export const war = new GuildWar(
       `${warDateString}T00:17:11`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Song x 2', 204510),
+      new Player(Guild.MERICA_ID, 'Song', 204510),
       new Player(Guild.ASSASSINS_ID, 'gertyman', 248819),
       Fortification.BRIDGE_ID,
       12,
@@ -353,7 +353,7 @@ export const war = new GuildWar(
       `${warDateString}T02:09:20`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Song x 2', 204510),
+      new Player(Guild.MERICA_ID, 'Song', 204510),
       new Player(Guild.ASSASSINS_ID, 'Gom', 227817),
       Fortification.BRIDGE_ID,
       17,
@@ -636,7 +636,7 @@ export const war = new GuildWar(
   Guild.MERICA_ID,
   667,
   warDateString,
-  'Thursday',
+  GuildWar.WAR_DAY_THURSDAY,
   GuildWar.WAR_WEEK_17_2020,
   Guild.ASSASSINS_ID,
   1400

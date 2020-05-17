@@ -1,6 +1,12 @@
 import { Battle } from './battle';
 
 export class GuildWar {
+  static WAR_DAY_MONDAY = 'Monday';
+  static WAR_DAY_TUESDAY = 'Tuesday';
+  static WAR_DAY_WEDNESDAY = 'Wednesday';
+  static WAR_DAY_THURSDAY = 'Thursday';
+  static WAR_DAY_FRIDAY = 'Friday';
+
   static WAR_WEEK_17_2020 = 17;
   static WAR_WEEK_18_2020 = 18;
   static WAR_WEEK_19_2020 = 19;

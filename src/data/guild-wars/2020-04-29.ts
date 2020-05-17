@@ -652,7 +652,7 @@ export const war = new GuildWar(
   Guild.ANARCHY_ID,
   1128,
   warDateString,
-  'Wednesday',
+  GuildWar.WAR_DAY_WEDNESDAY,
   GuildWar.WAR_WEEK_18_2020,
   Guild.ASSASSINS_ID,
   1200

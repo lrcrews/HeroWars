@@ -524,7 +524,7 @@ export const war = new GuildWar(
   Guild.LES_FRANCS_ID,
   140,
   warDateString,
-  'Monday',
+  GuildWar.WAR_DAY_MONDAY,
   GuildWar.WAR_WEEK_20_2020,
   Guild.ASSASSINS_ID,
   1400
