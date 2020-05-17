@@ -14,6 +14,40 @@ import CustomSelect, { Option } from './CustomSelect';
 
 import './WarView.scss';
 
+interface WarStats {
+  bridgeAttacksUsed: number;
+  heroAttacksUsed: number;
+  heroDefensesWon: number;
+  heroPositionsCaptured: number;
+  heroTotalAttackPower: number;
+  titanAttacksUsed: number;
+  titanDefensesWon: number;
+  titanPositionsCaptured: number;
+  titanTotalAttackPower: number;
+}
+
+const warStatsInitialState: WarStats = {
+  bridgeAttacksUsed: 0,
+  heroAttacksUsed: 0,
+  heroDefensesWon: 0,
+  heroPositionsCaptured: 0,
+  heroTotalAttackPower: 0,
+  titanAttacksUsed: 0,
+  titanDefensesWon: 0,
+  titanPositionsCaptured: 0,
+  titanTotalAttackPower: 0,
+};
+
+interface TotalStats {
+  them: WarStats;
+  us: WarStats;
+}
+
+const totalStatsInitialState = {
+  them: _.cloneDeep(warStatsInitialState),
+  us: _.cloneDeep(warStatsInitialState),
+};
+
 export interface WarViewProps extends PropsWithChildren<{}> {
   assassinsGuild: Guild;
   competitorGuild: Guild;
@@ -27,71 +61,32 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
 
   const [selectedOption, setSelectedOption] = useState(_.first(warOptions));
 
-  const [attacksUsedThem, setAttacksUsedThem] = useState(0);
-  const [attacksUsedUs, setAttacksUsedUs] = useState(0);
-
-  const [bridgeAttacksUsedThem, setBridgeAttacksUsedThem] = useState(0);
-  const [bridgeAttacksUsedUs, setBridgeAttacksUsedUs] = useState(0);
-
-  const [defensesWonThem, setDefensesWonThem] = useState(0);
-  const [defensesWonUs, setDefensesWonUs] = useState(0);
-
-  const [positionsCapturedThem, setPositionsCapturedThem] = useState(0);
-  const [positionsCapturedUs, setPositionsCapturedUs] = useState(0);
-
-  const [totalHeroAtkPwrThem, setTotalHeroAtkPwrThem] = useState(0);
-  const [totalHeroAtkPwrUs, setTotalHeroAtkPwrUs] = useState(0);
-
-  const [totalTitanAtkPwrThem, setTotalTitanAtkPwrThem] = useState(0);
-  const [totalTitanAtkPwrUs, setTotalTitanAtkPwrUs] = useState(0);
+  const [stats, setStats] = useState<TotalStats>(_.cloneDeep(totalStatsInitialState));
 
   useEffect(() => {
-    let attacksUsedThem = 0;
-    let attacksUsedUs = 0;
-    let bridgeAttacksUsedThem = 0;
-    let bridgeAttacksUsedUs = 0;
-    let defensesWonThem = 0;
-    let defensesWonUs = 0;
-    let positionsCapturedThem = 0;
-    let positionsCapturedUs = 0;
-    let totalHeroAtkPwrThem = 0;
-    let totalHeroAtkPwrUs = 0;
-    let totalTitanAtkPwrThem = 0;
-    let totalTitanAtkPwrUs = 0;
+    const updatedStats: TotalStats = _.cloneDeep(totalStatsInitialState);
     _.each(war.battles, (battle) => {
-      if (battle.attacker.guildId === Guild.ASSASSINS_ID) {
-        attacksUsedUs += 1;
-        battle.positionCaptured ? (positionsCapturedUs += 1) : (defensesWonThem += 1);
-        if (battle.fortificationId === Fortification.BRIDGE_ID) {
-          bridgeAttacksUsedUs += 1;
-        }
-        Fortification.IS_HERO_FORT_ID(battle.fortificationId)
-          ? (totalHeroAtkPwrUs += battle.attacker.power)
-          : (totalTitanAtkPwrUs += battle.attacker.power);
+      const key = battle.attacker.guildId === Guild.ASSASSINS_ID ? 'us' : 'them';
+      const otherKey = battle.attacker.guildId === Guild.ASSASSINS_ID ? 'them' : 'us';
+      if (Fortification.IS_HERO_FORT_ID(battle.fortificationId)) {
+        updatedStats[key].heroAttacksUsed += 1;
+        updatedStats[key].heroTotalAttackPower += battle.attacker.power;
+        battle.positionCaptured
+          ? (updatedStats[key].heroPositionsCaptured += 1)
+          : (updatedStats[otherKey].heroDefensesWon += 1);
       } else {
-        // we're the defender
-        attacksUsedThem += 1;
-        battle.positionCaptured ? (positionsCapturedThem += 1) : (defensesWonUs += 1);
-        if (battle.fortificationId === 4) {
-          bridgeAttacksUsedThem += 1;
+        // it's a titan fort
+        updatedStats[key].titanAttacksUsed += 1;
+        updatedStats[key].titanTotalAttackPower += battle.attacker.power;
+        battle.positionCaptured
+          ? (updatedStats[key].titanPositionsCaptured += 1)
+          : (updatedStats[otherKey].titanDefensesWon += 1);
+        if (battle.fortificationId === Fortification.BRIDGE_ID) {
+          updatedStats[key].bridgeAttacksUsed += 1;
         }
-        Fortification.IS_HERO_FORT_ID(battle.fortificationId)
-          ? (totalHeroAtkPwrThem += battle.attacker.power)
-          : (totalTitanAtkPwrThem += battle.attacker.power);
       }
     });
-    setAttacksUsedThem(attacksUsedThem);
-    setAttacksUsedUs(attacksUsedUs);
-    setBridgeAttacksUsedThem(bridgeAttacksUsedThem);
-    setBridgeAttacksUsedUs(bridgeAttacksUsedUs);
-    setDefensesWonThem(defensesWonThem);
-    setDefensesWonUs(defensesWonUs);
-    setPositionsCapturedThem(positionsCapturedThem);
-    setPositionsCapturedUs(positionsCapturedUs);
-    setTotalHeroAtkPwrThem(totalHeroAtkPwrThem);
-    setTotalHeroAtkPwrUs(totalHeroAtkPwrUs);
-    setTotalTitanAtkPwrThem(totalTitanAtkPwrThem);
-    setTotalTitanAtkPwrUs(totalTitanAtkPwrUs);
+    setStats(updatedStats);
   }, [war]);
 
   const assassinsPointTotal = (): number => {
@@ -187,34 +182,64 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
       </div>
       <ul className="stats font-normal">
         <li className="stat">
-          <div className="value-us">{attacksUsedUs}</div>
+          <div className="value-us">
+            <span className="additional-data">
+              (Hero: {stats.us.heroAttacksUsed} | Titan: {stats.us.titanAttacksUsed})
+            </span>
+            <span className="two-digit">{stats.us.heroAttacksUsed + stats.us.titanAttacksUsed}</span>
+          </div>
           <div className="name">attacks used</div>
-          <div className="value-them">{attacksUsedThem}</div>
+          <div className="value-them">
+            <span className="two-digit">{stats.them.heroAttacksUsed + stats.them.titanAttacksUsed}</span>
+            <span className="additional-data">
+              (Hero: {stats.them.heroAttacksUsed} | Titan: {stats.them.titanAttacksUsed})
+            </span>
+          </div>
         </li>
         <li className="stat">
-          <div className="value-us">{positionsCapturedUs}</div>
+          <div className="value-us">
+            <span className="additional-data">
+              (Hero: {stats.us.heroPositionsCaptured} | Titan: {stats.us.titanPositionsCaptured})
+            </span>
+            <span className="two-digit">{stats.us.heroPositionsCaptured + stats.us.titanPositionsCaptured}</span>
+          </div>
           <div className="name">positions captured</div>
-          <div className="value-them">{positionsCapturedThem}</div>
+          <div className="value-them">
+            <span className="two-digit">{stats.them.heroPositionsCaptured + stats.them.titanPositionsCaptured}</span>
+            <span className="additional-data">
+              (Hero: {stats.them.heroPositionsCaptured} | Titan: {stats.them.titanPositionsCaptured})
+            </span>
+          </div>
         </li>
         <li className="stat">
-          <div className="value-us">{defensesWonUs}</div>
+          <div className="value-us">
+            <span className="additional-data">
+              (Hero: {stats.us.heroDefensesWon} | Titan: {stats.us.titanDefensesWon})
+            </span>
+            <span className="two-digit">{stats.us.heroDefensesWon + stats.us.titanDefensesWon}</span>
+          </div>
           <div className="name">successful defenses</div>
-          <div className="value-them">{defensesWonThem}</div>
+          <div className="value-them">
+            <span className="two-digit">{stats.them.heroDefensesWon + stats.them.titanDefensesWon}</span>
+            <span className="additional-data">
+              (Hero: {stats.them.heroDefensesWon} | Titan: {stats.them.titanDefensesWon})
+            </span>
+          </div>
         </li>
         <li className="stat">
-          <div className="value-us">{bridgeAttacksUsedUs}</div>
+          <div className="value-us">{stats.us.bridgeAttacksUsed}</div>
           <div className="name">bridge attacks</div>
-          <div className="value-them">{bridgeAttacksUsedThem}</div>
+          <div className="value-them">{stats.them.bridgeAttacksUsed}</div>
         </li>
         <li className="stat">
-          <div className="value-us">{totalHeroAtkPwrUs}</div>
+          <div className="value-us">{stats.us.heroTotalAttackPower}</div>
           <div className="name">total hero atk. power</div>
-          <div className="value-them">{totalHeroAtkPwrThem}</div>
+          <div className="value-them">{stats.them.heroTotalAttackPower}</div>
         </li>
         <li className="stat">
-          <div className="value-us">{totalTitanAtkPwrUs}</div>
+          <div className="value-us">{stats.us.titanTotalAttackPower}</div>
           <div className="name">total titan atk. power</div>
-          <div className="value-them">{totalTitanAtkPwrThem}</div>
+          <div className="value-them">{stats.them.titanTotalAttackPower}</div>
         </li>
       </ul>
       {!_.isEmpty(children) && children}

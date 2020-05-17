@@ -138,7 +138,21 @@
       .value-them,
       .value-us {
         font-weight: 600;
-        width: 5rem;
+        width: 10rem;
+
+        > * {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        .additional-data {
+          color: $grey-7;
+          font-size: $small;
+        }
+
+        .two-digit {
+          width: 1.75rem;
+        }
       }
 
       .value-them {
