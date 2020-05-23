@@ -58,7 +58,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Murdox06', 135172),
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 123916),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 123916),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -138,7 +138,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 290047),
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 181798),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 181798),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -457,7 +457,7 @@ export const war = new GuildWar(
       `${warDateString}T06:27:59`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 123916),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 123916),
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 128607),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
@@ -465,7 +465,7 @@ export const war = new GuildWar(
       `${warDateString}T06:29:43`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 123916),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 123916),
       new Player(Guild.ASSASSINS_ID, 'Dagul', 126532),
       Fortification.BASTION_OF_ICE_ID,
       20,

@@ -122,7 +122,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Fuzzy', 89501),
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 79122),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 79122),
       Fortification.BASTION_OF_FIRE_ID,
       20,
       true,
@@ -242,7 +242,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 208517),
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 163859),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 163859),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -473,7 +473,7 @@ export const war = new GuildWar(
       `${warDateString}T04:10:56`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 79122),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 79122),
       new Player(Guild.ASSASSINS_ID, 'Buffy', 84994),
       Fortification.SPRING_OF_ELEMENTS_ID,
       17,
@@ -489,7 +489,7 @@ export const war = new GuildWar(
       `${warDateString}T04:26:20`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 79122),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 79122),
       new Player(Guild.ASSASSINS_ID, 'wookie', 85027),
       Fortification.SPRING_OF_ELEMENTS_ID,
       17,

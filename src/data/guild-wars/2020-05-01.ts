@@ -122,7 +122,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Fuzzy', 90893),
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 84396),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 84396),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -537,7 +537,7 @@ export const war = new GuildWar(
       `${warDateString}T06:49:36`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 84396),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 84396),
       new Player(Guild.ASSASSINS_ID, 'Disciple', 84973),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
@@ -545,7 +545,7 @@ export const war = new GuildWar(
       `${warDateString}T07:40:36`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, '--Strange Tamer--', 84396),
+      new Player(Guild.ROMANIA_ID, 'Strange Tamer', 84396),
       new Player(Guild.ASSASSINS_ID, 'Buffy', 87869),
       Fortification.BASTION_OF_ICE_ID,
       12,

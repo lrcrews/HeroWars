@@ -1,6 +1,8 @@
 import { GuildBannerUtil } from '../utils/guild-banner-util';
 
 export class Guild {
+  static NO_GUILD_ID = 0;
+
   static ASSASSINS_ID = 1;
   static ANARCHY_ID = 2;
   static LES_FRANCS_ID = 3;
@@ -33,13 +35,26 @@ export class Guild {
     return new Guild(img, Guild.MRCO_ID, 'Mяco', 184);
   }
 
+  static NO_GUILD(): Guild {
+    const img = GuildBannerUtil.bannerResourceFromImageName('noGuildBannerImg');
+    return new Guild(img, Guild.NO_GUILD_ID, '<No Guild>', 184);
+  }
+
   static ROMANIA(): Guild {
     const img = GuildBannerUtil.bannerResourceFromImageName('romaniaBannerImg');
     return new Guild(img, Guild.ROMANIA_ID, 'Romania', 184);
   }
 
   static ALL(): Array<Guild> {
-    return [Guild.ASSASSINS(), Guild.ANARCHY(), Guild.LES_FRANCS(), Guild.MERICA(), Guild.MRCO(), Guild.ROMANIA()];
+    return [
+      Guild.ASSASSINS(),
+      Guild.ANARCHY(),
+      Guild.LES_FRANCS(),
+      Guild.MERICA(),
+      Guild.MRCO(),
+      Guild.NO_GUILD(),
+      Guild.ROMANIA(),
+    ];
   }
 
   static arrayFromJson(guildsJson: Array<{}>): Array<Guild> {
