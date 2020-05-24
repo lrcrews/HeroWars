@@ -26,7 +26,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 202672),
-      new Player(Guild.MERICA_ID, '--Babababababab', 155432),
+      new Player(Guild.MERICA_ID, 'Babababababab', 155432),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -50,7 +50,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'GurraBurra', 227817),
-      new Player(Guild.MERICA_ID, '--Babababababab', 228299),
+      new Player(Guild.MERICA_ID, 'Babababababab', 228299),
       Fortification.LIGHTHOUSE_ID,
       20,
       true,
@@ -377,7 +377,7 @@ export const war = new GuildWar(
       `${warDateString}T03:18:17`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, '--Babababababab', 155432),
+      new Player(Guild.MERICA_ID, 'Babababababab', 155432),
       new Player(Guild.ASSASSINS_ID, 'gertyman', 248819),
       Fortification.BRIDGE_ID,
       2,
@@ -385,7 +385,7 @@ export const war = new GuildWar(
       `${warDateString}T04:55:13`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, '--Babababababab', 155432),
+      new Player(Guild.MERICA_ID, 'Babababababab', 155432),
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 203927),
       Fortification.BRIDGE_ID,
       9,

@@ -42,7 +42,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'gertyman', 253241),
-      new Player(Guild.MERICA_ID, '--Babababababab', 161531),
+      new Player(Guild.MERICA_ID, 'Babababababab', 161531),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -306,7 +306,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 213966),
-      new Player(Guild.MERICA_ID, '--Babababababab', 233918),
+      new Player(Guild.MERICA_ID, 'Babababababab', 233918),
       Fortification.MAGE_ACADEMY_ID,
       0,
       false,
@@ -369,7 +369,7 @@ export const war = new GuildWar(
       `${warDateString}T00:53:18`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, '--Babababababab', 161531),
+      new Player(Guild.MERICA_ID, 'Babababababab', 161531),
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 223380),
       Fortification.BRIDGE_ID,
       7,
@@ -377,7 +377,7 @@ export const war = new GuildWar(
       `${warDateString}T07:17:28`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, '--Babababababab', 161531),
+      new Player(Guild.MERICA_ID, 'Babababababab', 161531),
       new Player(Guild.ASSASSINS_ID, 'gertyman', 253241),
       Fortification.BRIDGE_ID,
       6,

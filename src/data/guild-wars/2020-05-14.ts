@@ -34,7 +34,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Regal', 242559),
-      new Player(Guild.MERICA_ID, '--Babababababab', 234008),
+      new Player(Guild.MERICA_ID, 'Babababababab', 234008),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -322,7 +322,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 365545),
-      new Player(Guild.MERICA_ID, '--Babababababab', 261570),
+      new Player(Guild.MERICA_ID, 'Babababababab', 261570),
       Fortification.MAGE_ACADEMY_ID,
       20,
       true,
@@ -377,7 +377,7 @@ export const war = new GuildWar(
       `${warDateString}T01:00:51`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, '--Babababababab', 234008),
+      new Player(Guild.MERICA_ID, 'Babababababab', 234008),
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 239317),
       Fortification.BASTION_OF_FIRE_ID,
       17,
@@ -385,7 +385,7 @@ export const war = new GuildWar(
       `${warDateString}T01:23:17`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, '--Babababababab', 234008),
+      new Player(Guild.MERICA_ID, 'Babababababab', 234008),
       new Player(Guild.ASSASSINS_ID, 'Regal', 242559),
       Fortification.GATES_OF_NATURE_ID,
       16,
