@@ -194,7 +194,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'elo', 127429),
-      new Player(Guild.MRCO_ID, 'Tfy :)', 62705),
+      new Player(Guild.MRCO_ID, 'Tfy', 62705),
       Fortification.BASTION_OF_ICE_ID,
       20,
       true,
@@ -306,7 +306,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Kairen', 208376),
-      new Player(Guild.MRCO_ID, 'Tfy :)', 165560),
+      new Player(Guild.MRCO_ID, 'Tfy', 165560),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -417,7 +417,7 @@ export const war = new GuildWar(
       `${warDateString}T04:07:29`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Tfy :)', 165841),
+      new Player(Guild.MRCO_ID, 'Tfy', 165841),
       new Player(Guild.ASSASSINS_ID, 'elo', 186123),
       Fortification.BARRACKS_ID,
       5,
@@ -425,7 +425,7 @@ export const war = new GuildWar(
       `${warDateString}T04:16:08`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Tfy :)', 165841),
+      new Player(Guild.MRCO_ID, 'Tfy', 165841),
       new Player(Guild.ASSASSINS_ID, 'elo', 186123),
       Fortification.BARRACKS_ID,
       15,

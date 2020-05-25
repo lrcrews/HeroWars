@@ -114,7 +114,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Knight_rider', 115397),
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 105065),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 105065),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -194,7 +194,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 365983),
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 179330),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 179330),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -433,7 +433,7 @@ export const war = new GuildWar(
       `${warDateString}T04:33:56`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 105065),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 105065),
       new Player(Guild.ASSASSINS_ID, 'tntodor', 268882),
       Fortification.BRIDGE_ID,
       2,
@@ -441,7 +441,7 @@ export const war = new GuildWar(
       `${warDateString}T04:45:44`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 105065),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 105065),
       new Player(Guild.ASSASSINS_ID, 'tntodor', 268882),
       Fortification.BRIDGE_ID,
       1,

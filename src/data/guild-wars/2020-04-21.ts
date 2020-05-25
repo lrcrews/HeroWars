@@ -122,7 +122,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Disciple', 81882),
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 71702),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 71702),
       Fortification.BASTION_OF_ICE_ID,
       20,
       true,
@@ -194,7 +194,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 262896),
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 170371),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 170371),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -433,7 +433,7 @@ export const war = new GuildWar(
       `${warDateString}T04:18:38`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 71702),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 71702),
       new Player(Guild.ASSASSINS_ID, 'Disciple', 81405),
       Fortification.BASTION_OF_FIRE_ID,
       14,
@@ -441,7 +441,7 @@ export const war = new GuildWar(
       `${warDateString}T04:50:14`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 71702),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 71702),
       new Player(Guild.ASSASSINS_ID, 'KP', 96045),
       Fortification.BASTION_OF_FIRE_ID,
       15,

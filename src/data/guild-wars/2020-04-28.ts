@@ -18,7 +18,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'wookie', 176242),
-      new Player(Guild.MRCO_ID, 'Tfy :)', 153395),
+      new Player(Guild.MRCO_ID, 'Tfy', 153395),
       Fortification.BARRACKS_ID,
       20,
       true,
@@ -122,7 +122,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Sheevara', 78729),
-      new Player(Guild.MRCO_ID, 'Tfy :)', 62518),
+      new Player(Guild.MRCO_ID, 'Tfy', 62518),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -497,7 +497,7 @@ export const war = new GuildWar(
       `${warDateString}T07:56:08`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Tfy :)', 62518),
+      new Player(Guild.MRCO_ID, 'Tfy', 62518),
       new Player(Guild.ASSASSINS_ID, 'Buffy', 87459),
       Fortification.BASTION_OF_ICE_ID,
       4,
@@ -505,7 +505,7 @@ export const war = new GuildWar(
       `${warDateString}T08:08:42`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Tfy :)', 62518),
+      new Player(Guild.MRCO_ID, 'Tfy', 62518),
       new Player(Guild.ASSASSINS_ID, 'Disciple', 83348),
       Fortification.SPRING_OF_ELEMENTS_ID,
       4,

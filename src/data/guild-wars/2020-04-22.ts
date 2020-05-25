@@ -82,7 +82,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dikree', 175204),
-      new Player(Guild.MRCO_ID, 'Tfy :)', 147779),
+      new Player(Guild.MRCO_ID, 'Tfy', 147779),
       Fortification.BARRACKS_ID,
       20,
       true,
@@ -218,7 +218,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Disciple', 82688),
-      new Player(Guild.MRCO_ID, 'Tfy :)', 58083),
+      new Player(Guild.MRCO_ID, 'Tfy', 58083),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -553,7 +553,7 @@ export const war = new GuildWar(
       `${warDateString}T11:05:17`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Tfy :)', 150007),
+      new Player(Guild.MRCO_ID, 'Tfy', 150007),
       new Player(Guild.ASSASSINS_ID, 'BOTI', 149200),
       Fortification.CITADEL_ID,
       20,
@@ -585,7 +585,7 @@ export const war = new GuildWar(
       `${warDateString}T11:14:31`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Tfy :)', 150007),
+      new Player(Guild.MRCO_ID, 'Tfy', 150007),
       new Player(Guild.ASSASSINS_ID, 'Fuzzy', 153654),
       Fortification.CITADEL_ID,
       1,

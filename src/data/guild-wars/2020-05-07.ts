@@ -114,7 +114,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'BOTI', 81208),
-      new Player(Guild.MRCO_ID, 'Tfy :)', 61551),
+      new Player(Guild.MRCO_ID, 'Tfy', 61551),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -202,7 +202,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'KP', 202878),
-      new Player(Guild.MRCO_ID, 'Tfy :)', 159075),
+      new Player(Guild.MRCO_ID, 'Tfy', 159075),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -601,7 +601,7 @@ export const war = new GuildWar(
       `${warDateString}T09:49:10`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Tfy :)', 61551),
+      new Player(Guild.MRCO_ID, 'Tfy', 61551),
       new Player(Guild.ASSASSINS_ID, 'wookie', 89673),
       Fortification.GATES_OF_NATURE_ID,
       7,
@@ -609,7 +609,7 @@ export const war = new GuildWar(
       `${warDateString}T09:59:31`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Tfy :)', 61551),
+      new Player(Guild.MRCO_ID, 'Tfy', 61551),
       new Player(Guild.ASSASSINS_ID, 'Sheevara', 82775),
       Fortification.SPRING_OF_ELEMENTS_ID,
       12,

@@ -58,7 +58,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Disciple', 83828),
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 72888),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 72888),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -114,7 +114,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dikree', 180914),
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 170525),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 170525),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -457,7 +457,7 @@ export const war = new GuildWar(
       `${warDateString}T04:38:10`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 72888),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 72888),
       new Player(Guild.ASSASSINS_ID, 'BOTI', 80295),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
@@ -465,7 +465,7 @@ export const war = new GuildWar(
       `${warDateString}T04:48:55`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, 'Coop@5280', 72888),
+      new Player(Guild.ANARCHY_ID, 'Coop5280', 72888),
       new Player(Guild.ASSASSINS_ID, 'Sheevara', 78729),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
