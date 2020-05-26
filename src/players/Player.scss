@@ -1,0 +1,79 @@
+@import '../sass-mixins/mixins.scss';
+
+#player-page {
+  .player-info.tile {
+    margin-bottom: 2.5rem;
+
+    .general-info,
+    .guild-info {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+
+      @supports (-ms-ime-align: auto) {
+        margin-right: -4px; // Edge adds margin-right on inline-block, and we happen to care in this case
+      }
+    }
+
+    .general-info {
+      .war-count {
+        color: $grey-6;
+        margin-top: 0.25rem;
+      }
+
+      .team-power {
+        margin-top: 0.25rem;
+      }
+    }
+
+    .guild-info {
+      text-align: right;
+
+      .guild-banner {
+        width: 5rem;
+      }
+    }
+  }
+
+  .player-stats {
+    .empty-stats {
+      padding-bottom: 1.5rem;
+    }
+
+    .stats-container {
+      padding: 0.5rem 0 1.5rem;
+
+      .stat {
+        border: 1px solid $grey-2;
+        border-radius: 3px;
+        box-shadow: 0 1px 4px #00000029;
+        display: inline-block;
+        margin-right: 1.5rem;
+        text-align: center;
+        vertical-align: top;
+        width: 7.5rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        .title,
+        .value {
+          margin-bottom: 0.5rem;
+          width: 100%;
+        }
+
+        .title {
+          background-color: $grey-2;
+          border-radius: 3px 3px 0 0;
+          font-weight: 600;
+          padding: 0.25rem 0;
+        }
+
+        .helper {
+          color: $grey-8;
+        }
+      }
+    }
+  }
+}

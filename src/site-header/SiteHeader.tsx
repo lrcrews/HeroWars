@@ -17,9 +17,6 @@ const SiteHeader: React.FC = () => {
         <li>
           <Link to="/guild-wars">Wars</Link>
         </li>
-        <li>
-          <Link to="/battles">Battles</Link>
-        </li>
       </ul>
     </header>
   );

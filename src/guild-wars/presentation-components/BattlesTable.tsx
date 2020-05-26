@@ -5,6 +5,8 @@ import * as _ from 'lodash';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
 
+import { Link } from 'react-router-dom';
+
 import attackTimeImg from '../../data/misc-images/attack-time.png';
 import battleTypeImg from '../../data/misc-images/icon-battle.png';
 import heroBattleTypeImg from '../../data/misc-images/arenaCoinKing2.png';
@@ -206,7 +208,9 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
                   />
                 </td>
                 <td className="large-column">
-                  <div className="display-text">{battle.attacker.name}</div>
+                  <Link to={`/players/${battle.attacker.name}`}>
+                    <div className="display-text">{battle.attacker.name}</div>
+                  </Link>
                 </td>
                 <td className="medium-column">
                   <div className="display-text">{battle.attacker.power}</div>
@@ -219,7 +223,9 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
                   />
                 </td>
                 <td className="large-column">
-                  <div className="display-text">{battle.defender.name}</div>
+                  <Link to={`/players/${battle.defender.name}`}>
+                    <div className="display-text">{battle.defender.name}</div>
+                  </Link>
                 </td>
                 <td className="medium-column">
                   <div className="display-text">{battle.defender.power}</div>

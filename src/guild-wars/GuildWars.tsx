@@ -21,7 +21,7 @@ export interface GuildWarsProps {
   wars: Array<GuildWar>;
 }
 
-const GuildWars: React.FC<GuildWarsProps> = (props: GuildWarsProps) => {
+const GuildWars: React.FC<GuildWarsProps> = (props) => {
   const { fortifications = [], guilds = [], wars = [] } = props;
 
   const [assassinsGuild, setAssassinsGuild] = useState<Guild>();

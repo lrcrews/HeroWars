@@ -1,8 +1,7 @@
 import GuildWars from './guild-wars/GuildWars';
 import Home from './home/Home';
-import Players from './players/Players';
+import Player from './players/Player';
 import Tournaments from './tournaments/Tournaments';
-import WarBattles from './guild-wars/WarBattles';
 
 const routes = [
   {
@@ -14,16 +13,12 @@ const routes = [
     component: Home,
   },
   {
-    path: '/players',
-    component: Players,
+    path: '/players/:name',
+    component: Player,
   },
   {
     path: '/tournaments',
     component: Tournaments,
-  },
-  {
-    path: '/battles',
-    component: WarBattles,
   },
 ];
 export default routes;
