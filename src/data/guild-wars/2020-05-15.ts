@@ -202,7 +202,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Gom', 287524),
-      new Player(Guild.ANARCHY_ID, "Booz'r", 135558),
+      new Player(Guild.ANARCHY_ID, 'Boozr', 135558),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -242,7 +242,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dagul', 127448),
-      new Player(Guild.ANARCHY_ID, "Booz'r", 81362),
+      new Player(Guild.ANARCHY_ID, 'Boozr', 81362),
       Fortification.BASTION_OF_ICE_ID,
       20,
       true,
@@ -569,7 +569,7 @@ export const war = new GuildWar(
       `${warDateString}T10:41:28`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, "Booz'r", 81362),
+      new Player(Guild.ANARCHY_ID, 'Boozr', 81362),
       new Player(Guild.ASSASSINS_ID, 'Gom', 255755),
       Fortification.BRIDGE_ID,
       2,
@@ -609,7 +609,7 @@ export const war = new GuildWar(
       `${warDateString}T12:00:23`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, "Booz'r", 81362),
+      new Player(Guild.ANARCHY_ID, 'Boozr', 81362),
       new Player(Guild.ASSASSINS_ID, 'Gom', 255755),
       Fortification.BRIDGE_ID,
       1,

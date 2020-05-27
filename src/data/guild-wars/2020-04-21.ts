@@ -138,7 +138,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Sheevara', 76436),
-      new Player(Guild.ANARCHY_ID, "Booz'r", 65164),
+      new Player(Guild.ANARCHY_ID, 'Boozr', 65164),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -322,7 +322,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Don', 184407),
-      new Player(Guild.ANARCHY_ID, "Booz'r", 127902),
+      new Player(Guild.ANARCHY_ID, 'Boozr', 127902),
       Fortification.LIGHTHOUSE_ID,
       20,
       true,
@@ -577,7 +577,7 @@ export const war = new GuildWar(
       `${warDateString}T08:51:14`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, "Booz'r", 59325),
+      new Player(Guild.ANARCHY_ID, 'Boozr', 59325),
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 84280),
       Fortification.GATES_OF_NATURE_ID,
       6,
@@ -585,7 +585,7 @@ export const war = new GuildWar(
       `${warDateString}T09:47:16`
     ),
     new Battle(
-      new Player(Guild.ANARCHY_ID, "Booz'r", 59325),
+      new Player(Guild.ANARCHY_ID, 'Boozr', 59325),
       new Player(Guild.ASSASSINS_ID, 'GurraBurra', 141755),
       Fortification.BASTION_OF_FIRE_ID,
       0,

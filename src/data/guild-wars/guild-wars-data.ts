@@ -26,6 +26,7 @@ import { war as war20200520 } from './2020-05-20';
 import { war as war20200521 } from './2020-05-21';
 import { war as war20200522 } from './2020-05-22';
 import { war as war20200525 } from './2020-05-25';
+import { war as war20200526 } from './2020-05-26';
 
 export class GuildWarsData {
   static data(): Array<GuildWar> {
@@ -56,6 +57,7 @@ export class GuildWarsData {
       war20200521,
       war20200522,
       war20200525,
+      war20200526,
     ];
   }
 }
