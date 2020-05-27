@@ -1,0 +1,33 @@
+@import '../../sass-mixins/mixins.scss';
+
+.info-box {
+  display: inline-block;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    .info-content {
+      visibility: visible;
+    }
+  }
+
+  .child-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-content {
+    background-color: $grey-8;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px #00000029;
+    color: $white-1;
+    max-width: 20rem; // <- good thing to overwrite in component using this
+    padding: 0.75rem;
+    position: absolute;
+    top: calc(100% + 0.25rem);
+    visibility: hidden;
+    width: max-content;
+    z-index: 1;
+  }
+}

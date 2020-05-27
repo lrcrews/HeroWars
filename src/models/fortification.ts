@@ -10,6 +10,22 @@ export class Fortification {
   static MAGE_ACADEMY_ID = 9;
   static SPRING_OF_ELEMENTS_ID = 10;
 
+  static HERO_FORT_IDS = [
+    Fortification.BARRACKS_ID,
+    Fortification.CITADEL_ID,
+    Fortification.FOUNDRY_ID,
+    Fortification.LIGHTHOUSE_ID,
+    Fortification.MAGE_ACADEMY_ID,
+  ];
+
+  static TITAN_FORT_IDS = [
+    Fortification.BASTION_OF_FIRE_ID,
+    Fortification.BASTION_OF_ICE_ID,
+    Fortification.BRIDGE_ID,
+    Fortification.GATES_OF_NATURE_ID,
+    Fortification.SPRING_OF_ELEMENTS_ID,
+  ];
+
   static BARRACKS(): Fortification {
     return new Fortification(Fortification.BARRACKS_ID, 'Barracks', 3, 'Hero');
   }
@@ -66,23 +82,11 @@ export class Fortification {
   }
 
   static IS_HERO_FORT_ID(id: number): boolean {
-    return [
-      Fortification.BARRACKS_ID,
-      Fortification.CITADEL_ID,
-      Fortification.FOUNDRY_ID,
-      Fortification.LIGHTHOUSE_ID,
-      Fortification.MAGE_ACADEMY_ID,
-    ].includes(id);
+    return Fortification.HERO_FORT_IDS.includes(id);
   }
 
   static IS_TITAN_FORT_ID(id: number): boolean {
-    return [
-      Fortification.BASTION_OF_FIRE_ID,
-      Fortification.BASTION_OF_ICE_ID,
-      Fortification.BRIDGE_ID,
-      Fortification.GATES_OF_NATURE_ID,
-      Fortification.SPRING_OF_ELEMENTS,
-    ].includes(id);
+    return Fortification.TITAN_FORT_IDS.includes(id);
   }
 
   constructor(public id: number, public name: string, public positions: number, public type: string) {}

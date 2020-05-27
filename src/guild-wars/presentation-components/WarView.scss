@@ -135,6 +135,40 @@
         width: 12.5rem;
       }
 
+      .more-info {
+        border-bottom: 1px dashed $grey-8;
+        cursor: pointer;
+
+        &.value-them {
+          .info-content {
+            left: 0;
+          }
+        }
+
+        &.value-us {
+          .info-content {
+            right: 0;
+          }
+        }
+
+        .info-content {
+          width: 10rem;
+        }
+
+        .fortification-list {
+          text-align: left;
+
+          .section-title {
+            font-size: $small;
+            font-weight: 600;
+          }
+
+          .spacer {
+            height: 1rem;
+          }
+        }
+      }
+
       .value-them,
       .value-us {
         font-weight: 600;
