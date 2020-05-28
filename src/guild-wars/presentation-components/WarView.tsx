@@ -56,15 +56,14 @@ const totalStatsInitialState = {
 export interface WarViewProps extends PropsWithChildren<{}> {
   assassinsGuild: Guild;
   competitorGuild: Guild;
+  selectedOption: Option;
   war: GuildWar;
   warOptions: Array<Option>;
   onWarUpdate: (option: Option) => void;
 }
 
 const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
-  const { assassinsGuild, children, competitorGuild, war, warOptions, onWarUpdate } = props;
-
-  const [selectedOption, setSelectedOption] = useState(_.first(warOptions));
+  const { assassinsGuild, children, competitorGuild, selectedOption, war, warOptions, onWarUpdate } = props;
 
   const [stats, setStats] = useState<TotalStats>(_.cloneDeep(totalStatsInitialState));
 
@@ -166,7 +165,6 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
   };
 
   const onOptionUpdate = (option: Option): void => {
-    setSelectedOption(option);
     onWarUpdate(option);
   };
 

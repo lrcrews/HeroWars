@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 import * as _ from 'lodash';
 
+import { useHistory } from 'react-router-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -18,33 +20,42 @@ import './GuildWars.scss';
 export interface GuildWarsProps {
   fortifications: Array<Fortification>;
   guilds: Array<Guild>;
+  selectedWarOption?: string | null;
   wars: Array<GuildWar>;
 }
 
 const GuildWars: React.FC<GuildWarsProps> = (props) => {
-  const { fortifications = [], guilds = [], wars = [] } = props;
+  const { fortifications = [], guilds = [], selectedWarOption, wars = [] } = props;
 
   const [assassinsGuild, setAssassinsGuild] = useState<Guild>();
+
+  const [selectedOption, setSelectedOption] = useState<Option>();
 
   const [displayedCompetitor, setDisplayedCompetitor] = useState<Guild>();
   const [displayedWar, setDisplayedWar] = useState<GuildWar>();
   const [displayedWarBattlesExpanded, setDisplayedWarBattlesExpanded] = useState(true);
   const [warOptions, setWarOptions] = useState<Array<Option>>([]);
 
+  const history = useHistory();
+
   useEffect(() => {
     // we're number 1!
     setAssassinsGuild(_.find(guilds, (guild: Guild) => guild.id === 1));
     // we assume the given data is sorted by war date already, so...
-    const mostRecentWar = _.last(wars);
-    if (mostRecentWar) {
-      setWarOptions(buildWarOptions(wars));
-      setDisplayedWar(mostRecentWar);
-      const competitor = competitorFromWar(mostRecentWar, guilds);
+    const displayedWar = _.isNil(selectedWarOption)
+      ? _.last(wars)
+      : _.find(wars, (war) => war.warDateString === selectedWarOption);
+    if (displayedWar) {
+      const options = buildWarOptions(wars);
+      setWarOptions(options);
+      setSelectedOption(_.find(options, (option) => option.id === displayedWar.warDateString));
+      setDisplayedWar(displayedWar);
+      const competitor = competitorFromWar(displayedWar, guilds);
       if (competitor) {
         setDisplayedCompetitor(competitor);
       }
     }
-  }, [guilds, wars]);
+  }, [guilds, selectedWarOption, wars]);
 
   const buildWarOptions = (wars: Array<GuildWar>): Array<Option> => {
     const options = _.map(wars, (war: GuildWar) => {
@@ -66,6 +77,8 @@ const GuildWars: React.FC<GuildWarsProps> = (props) => {
   const updateDisplayedWar = (option: Option): void => {
     const war = _.find(wars, (war: GuildWar) => war.warDateString === option.id);
     if (war) {
+      history.push(`/guild-wars?selectedWarOption=${option.id}`);
+      setSelectedOption(option);
       setDisplayedWar(war);
       setDisplayedCompetitor(competitorFromWar(war, guilds));
     }
@@ -74,10 +87,11 @@ const GuildWars: React.FC<GuildWarsProps> = (props) => {
   return (
     <section id="guild-wars-page">
       <div className="latest-war tile">
-        {assassinsGuild && displayedCompetitor && displayedWar && (
+        {assassinsGuild && displayedCompetitor && displayedWar && selectedOption && (
           <WarView
             assassinsGuild={assassinsGuild}
             competitorGuild={displayedCompetitor}
+            selectedOption={selectedOption}
             war={displayedWar}
             warOptions={warOptions}
             onWarUpdate={updateDisplayedWar}
