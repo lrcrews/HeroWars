@@ -78,7 +78,7 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
         _.sortBy(newSort, (battle) => {
           switch (column) {
             case COLUMN_ATTACKER:
-              return battle.attacker.name;
+              return battle.attacker.name.toLowerCase();
             case COLUMN_ATK_POWER:
               return battle.attacker.power;
             case COLUMN_BATTLE_FORTIFICATION:
