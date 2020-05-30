@@ -92,7 +92,7 @@ const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => 
             case COLUMN_BATTLE_TIME:
               return battle.datetimeString;
             case COLUMN_DEFENDER:
-              return battle.defender.name;
+              return battle.defender.name.toLowerCase();
             case COLUMN_DEF_POWER:
               return battle.defender.power;
             case COLUMN_POWER_DIFFERENCE:
