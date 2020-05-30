@@ -23,6 +23,7 @@ export interface BattlesTableProps {
   battles: Array<Battle>;
   fortifications: Array<Fortification>;
   guilds: Array<Guild>;
+  reverseInitialSort?: boolean;
 }
 
 const SORT_ASC = 'asc';
@@ -45,15 +46,21 @@ const COLUMN_BATTLE_TYPE = 'battle-type';
 const COLUMN_VICTORY_POINTS = 'victory-points';
 
 const BattlesTable: React.FC<BattlesTableProps> = (props: BattlesTableProps) => {
-  const { battles, fortifications, guilds } = props;
+  const { battles, fortifications, guilds, reverseInitialSort = false } = props;
 
   const [sortedBattles, setSortedBattles] = useState<Array<Battle>>([]);
   const [sortColumn, setSortColumn] = useState(COLUMN_BATTLE_TIME);
   const [sortDirection, setSortDirection] = useState(SORT_ASC);
 
   useEffect(() => {
-    setSortedBattles(_.sortBy(battles, (battle) => battle.datetimeString));
-  }, [battles]);
+    const sortedBattles = _.sortBy(battles, (battle) => battle.datetimeString);
+    if (reverseInitialSort) {
+      setSortDirection(SORT_DESC);
+      setSortedBattles(_.reverse(sortedBattles));
+    } else {
+      setSortedBattles(sortedBattles);
+    }
+  }, [battles, reverseInitialSort]);
 
   const sortedBy = (column: string, direction: string): boolean => {
     return column === sortColumn && direction === sortDirection;

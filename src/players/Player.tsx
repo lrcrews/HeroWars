@@ -371,7 +371,7 @@ const Player: React.FC<PlayerProps> = (props) => {
         </div>
       )}
       <div className="tile">
-        <BattlesTable battles={battles} fortifications={fortifications} guilds={guilds} />
+        <BattlesTable battles={battles} fortifications={fortifications} guilds={guilds} reverseInitialSort={true} />
       </div>
     </section>
   );
