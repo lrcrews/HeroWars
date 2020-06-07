@@ -8,7 +8,6 @@
     .guild-info {
       display: inline-block;
       vertical-align: top;
-      width: 50%;
 
       @supports (-ms-ime-align: auto) {
         margin-right: -4px; // Edge adds margin-right on inline-block, and we happen to care in this case
@@ -16,6 +15,8 @@
     }
 
     .general-info {
+      width: calc(100% - 5rem);
+
       .war-count {
         color: $grey-6;
         margin-top: 0.25rem;
@@ -23,14 +24,29 @@
 
       .team-power {
         margin-top: 0.25rem;
+
+        .hero,
+        .titan {
+          font-weight: 600;
+          padding-right: 0.25rem;
+        }
+
+        .hero {
+          color: $hero-color;
+        }
+
+        .titan {
+          color: $titan-color;
+        }
       }
     }
 
     .guild-info {
       text-align: right;
+      width: 5rem;
 
       .guild-banner {
-        width: 5rem;
+        width: 100%;
       }
     }
   }

@@ -186,7 +186,9 @@ const Player: React.FC<PlayerProps> = (props) => {
             <div className="font-title name">{name}</div>
             <div className="font-small war-count">(data based on {warDates.length} wars)</div>
             <div className="font-small team-power">
-              Hero: {mostRecentHeroPower} | Titan: {mostRecentTitanPower}
+              <span className="hero">Hero:</span>
+              {mostRecentHeroPower} | <span className="titan">Titan:</span>
+              {mostRecentTitanPower}
             </div>
           </section>
           <section className="guild-info">
