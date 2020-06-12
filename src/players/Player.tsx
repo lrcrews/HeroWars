@@ -7,10 +7,12 @@ import { Fortification } from '../models/fortification';
 import { Guild } from '../models/guild';
 import { GuildWar } from '../models/guild-war';
 import { Player as PlayerModel } from '../models/player';
+import { TimeSeriesEntry } from '../charts/TimeSeriesEntry';
 
 import BattlesTable from '../guild-wars/presentation-components/BattlesTable';
 
 import './Player.scss';
+import TimeSeries from '../charts/TimeSeries';
 
 interface BattleStats {
   heroAttacksLost: number;
@@ -46,27 +48,42 @@ const Player: React.FC<PlayerProps> = (props) => {
   const [battles, setBattles] = useState<Array<Battle>>([]);
   const [mostRecentHeroPower, setMostRecentHeroPower] = useState<number>();
   const [mostRecentTitanPower, setMostRecentTitanPower] = useState<number>();
-  const [stats, setStats] = useState<BattleStats>();
   const [warDates, setWarDates] = useState<Array<Date>>([]);
 
   const [playerGuild, setPlayerGuild] = useState<Guild>();
 
+  const [stats, setStats] = useState<BattleStats>();
+
+  const [heroPowerEntries, setHeroPowerEntries] = useState<Array<TimeSeriesEntry>>([]);
+  const [titanPowerEntries, setTitanPowerEntries] = useState<Array<TimeSeriesEntry>>([]);
+
   useEffect(() => {
     const battles: Array<Array<Battle>> = [];
     const warDates: Array<Date> = [];
+    const heroPowerEntries: Array<TimeSeriesEntry> = [];
+    const titanPowerEntries: Array<TimeSeriesEntry> = [];
     _.each(wars, (war) => {
       if (war.losingGuildId !== Guild.NO_GUILD_ID) {
-        const warBattles = _.filter(
-          war.battles,
-          (battle) => battle.attacker.name === name || battle.defender.name === name
-        );
+        const warBattles = _.chain(war.battles)
+          .filter((battle) => battle.attacker.name === name || battle.defender.name === name)
+          .sortBy((battle) => battle.datetimeString)
+          .value();
         if (!_.isEmpty(warBattles)) {
+          _.each(warBattles, (battle) => {
+            const power = battle.attacker.name === name ? battle.attacker.power : battle.defender.power;
+            const entry = new TimeSeriesEntry(new Date(battle.datetimeString), power);
+            Fortification.IS_HERO_FORT_ID(battle.fortificationId)
+              ? heroPowerEntries.push(entry)
+              : titanPowerEntries.push(entry);
+          });
           battles.push(warBattles);
           warDates.push(new Date(war.warDateString));
         }
       }
     });
     setBattles(_.flatten(battles));
+    setHeroPowerEntries(heroPowerEntries);
+    setTitanPowerEntries(titanPowerEntries);
     setWarDates(warDates);
   }, [name, wars]);
 
@@ -198,6 +215,22 @@ const Player: React.FC<PlayerProps> = (props) => {
               title={playerGuild.name}
               className="guild-banner"
             />
+          </section>
+          <section className="graphs">
+            <ul>
+              <li>
+                <div className="graph-wrapper">
+                  <TimeSeries orderedEntries={heroPowerEntries} />
+                </div>
+                <div className="graph-title">Hero Power</div>
+              </li>
+              <li>
+                <div className="graph-wrapper">
+                  <TimeSeries orderedEntries={titanPowerEntries} />
+                </div>
+                <div className="graph-title">Titan Power</div>
+              </li>
+            </ul>
           </section>
           {stats && (
             <section className="player-stats">

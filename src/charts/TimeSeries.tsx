@@ -10,14 +10,13 @@ import './TimeSeries.scss';
 export interface TimeSeriesProps {
   orderedEntries: Array<TimeSeriesEntry>;
   xAxisLabel?: string;
-  xAxisMaximumValue?: number;
   yAxisLabel?: string;
 }
 
 // WIP
 
 const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
-  const { orderedEntries = [], xAxisLabel = '', xAxisMaximumValue, yAxisLabel = '' } = props;
+  const { orderedEntries = [], xAxisLabel = '', yAxisLabel = '' } = props;
 
   const chartContainerRef = useRef<HTMLDivElement>(null);
 
@@ -26,7 +25,7 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
   const timeFormatMonth = d3.timeFormat('%b');
   const timeFormatYear = d3.timeFormat('%Y');
 
-  const margin = 8;
+  const margin = { top: 8, right: 0, bottom: 24, left: 50 };
   const tickPadding = 16;
 
   let height: number;
@@ -53,7 +52,7 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
       d3.select(chartContainerRef.current).selectAll('*').remove();
       buildChart();
     }
-  }, [orderedEntries, xAxisMaximumValue]);
+  }, [orderedEntries]);
 
   const buildChart = (): void => {
     initScales();
@@ -65,11 +64,10 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
 
   const initScales = (): void => {
     xScale = d3.scaleTime().domain([orderedEntries[0].date, new Date()]).nice();
-    const max = xAxisMaximumValue ? xAxisMaximumValue : d3.max(orderedEntries, (entry) => entry.value);
-    yScale = d3
-      .scaleLinear()
-      .domain([0, max || 500000]) // if max is not defined we'll use 500,000
-      .nice();
+    const max = d3.max(orderedEntries, (entry) => entry.value) || 500000;
+    let min = d3.min(orderedEntries, (entry) => entry.value) || 0;
+    min = min - min * 0.1;
+    yScale = d3.scaleLinear().domain([min, max]).nice();
   };
 
   const initAxes = (): void => {
@@ -115,21 +113,20 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
   const renderChart = (): void => {
     updateDimensions();
     if (width > 0 && height > 0) {
+      console.log(`time series chart width: ${width}, height: ${height}`);
       updateAxes();
       updateSvg();
       updateLine();
-      updateDots();
     }
   };
 
   const updateDimensions = (): void => {
     const element = chartContainerRef.current;
     if (element) {
-      const additionalSize = margin * 2 - tickPadding;
       widthWithMargins = element.offsetWidth;
-      width = element.offsetWidth - additionalSize;
+      width = element.offsetWidth - margin.left - margin.right - tickPadding;
       heightWithMargins = element.offsetHeight;
-      height = element.offsetHeight - additionalSize;
+      height = element.offsetHeight - margin.top - margin.bottom - tickPadding;
     } else {
       console.log('container ref not available to update dimensions.');
     }
@@ -140,50 +137,21 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
     yScale.range([height, 0]);
     xAxis.scale(xScale);
     yAxis.scale(yScale);
-    svg
-      .select('.xAxis.time-series-axis')
-      .attr('transform', `translate(0, ${height})`)
-      .call(() => xAxis);
-    svg.select('.yAxis.time-series-axis').call(() => yAxis);
-    svg.select('.grid').call(() => yAxis.tickSize(-width));
+    // @ts-ignore
+    svg.select('.xAxis.time-series-axis').attr('transform', `translate(0, ${height})`).call(xAxis);
+    // @ts-ignore
+    svg.select('.yAxis.time-series-axis').call(yAxis);
+    // @ts-ignore
+    svg.select('.grid').call(yAxis.tickSize(-width));
   };
 
   const updateSvg = (): void => {
     svg.attr('width', widthWithMargins).attr('height', heightWithMargins);
-    chart.attr('transform', `translate(${margin}, ${margin})`);
+    chart.attr('transform', `translate(${margin.left}, ${margin.top})`);
   };
 
   const updateLine = (): void => {
     line.attr('d', lineGenerator);
-  };
-
-  const updateDots = (): void => {
-    let dots: d3.Selection<Element, TimeSeriesEntry, any, any> = d3.selectAll('.time-series-dot');
-    if (!dots.empty()) {
-      dots.remove();
-    }
-    dots = createDots();
-    dots
-      .attr('cx', (entry: TimeSeriesEntry) => {
-        return xScale(entry.date);
-      })
-      .attr('cy', (entry: TimeSeriesEntry) => {
-        return yScale(entry.value);
-      });
-  };
-
-  const createDots = (): d3.Selection<Element, TimeSeriesEntry, SVGGElement, unknown> => {
-    return chart
-      .selectAll('dot')
-      .data(orderedEntries)
-      .enter()
-      .append((entry: TimeSeriesEntry) => {
-        return document.createElementNS(d3.namespaces.svg, 'circle');
-      })
-      .attr('class', 'time-series-dot')
-      .attr('r', 3)
-      .attr('fill', '#ec0000')
-      .attr('stroke', '#ec0000');
   };
 
   return (
