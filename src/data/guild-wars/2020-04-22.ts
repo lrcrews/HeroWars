@@ -601,7 +601,7 @@ export const war = new GuildWar(
       `${warDateString}T11:30:46`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Fuzzy', 144731),
+      new Player(Guild.MRCO_ID, 'Fuzzy (meat)', 144731),
       new Player(Guild.ASSASSINS_ID, 'Fuzzy', 153654),
       Fortification.CITADEL_ID,
       4,
@@ -609,7 +609,7 @@ export const war = new GuildWar(
       `${warDateString}T11:34:38`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Fuzzy', 144731),
+      new Player(Guild.MRCO_ID, 'Fuzzy (meat)', 144731),
       new Player(Guild.ASSASSINS_ID, 'Fuzzy', 153654),
       Fortification.CITADEL_ID,
       9,
