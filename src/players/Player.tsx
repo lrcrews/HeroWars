@@ -7,7 +7,7 @@ import { Fortification } from '../models/fortification';
 import { Guild } from '../models/guild';
 import { GuildWar } from '../models/guild-war';
 import { Player as PlayerModel } from '../models/player';
-import { TimeSeriesEntry } from '../charts/TimeSeriesEntry';
+import { TimeSeriesEntry } from '../charts/time-series-entry';
 
 import BattlesTable from '../guild-wars/presentation-components/BattlesTable';
 
@@ -56,6 +56,9 @@ const Player: React.FC<PlayerProps> = (props) => {
 
   const [heroPowerEntries, setHeroPowerEntries] = useState<Array<TimeSeriesEntry>>([]);
   const [titanPowerEntries, setTitanPowerEntries] = useState<Array<TimeSeriesEntry>>([]);
+
+  const [heroHoverEntryValue, setHeroHoverEntryValue] = useState<number>();
+  const [titanHoverEntryValue, setTitanHoverEntryValue] = useState<number>();
 
   useEffect(() => {
     const battles: Array<Array<Battle>> = [];
@@ -220,15 +223,29 @@ const Player: React.FC<PlayerProps> = (props) => {
             <ul>
               <li>
                 <div className="graph-wrapper">
-                  <TimeSeries orderedEntries={heroPowerEntries} />
+                  <TimeSeries
+                    color="#ec0000"
+                    graphName="hero-power"
+                    orderedEntries={heroPowerEntries}
+                    onHoverValueUpdated={setHeroHoverEntryValue}
+                  />
                 </div>
-                <div className="graph-title">Hero Power</div>
+                <div className="graph-title">
+                  Hero Power{heroHoverEntryValue && <span className="hero">{heroHoverEntryValue}</span>}
+                </div>
               </li>
               <li>
                 <div className="graph-wrapper">
-                  <TimeSeries orderedEntries={titanPowerEntries} />
+                  <TimeSeries
+                    color="#3283c7"
+                    graphName="titan-power"
+                    orderedEntries={titanPowerEntries}
+                    onHoverValueUpdated={setTitanHoverEntryValue}
+                  />
                 </div>
-                <div className="graph-title">Titan Power</div>
+                <div className="graph-title">
+                  Titan Power{titanHoverEntryValue && <span className="titan">{titanHoverEntryValue}</span>}
+                </div>
               </li>
             </ul>
           </section>

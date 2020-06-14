@@ -6,7 +6,6 @@
 
   .time-series-line {
     fill: none;
-    stroke: $grey-8;
     stroke-width: 2px;
   }
 
@@ -57,5 +56,11 @@
     text {
       display: none;
     }
+  }
+
+  .mouse-line {
+    fill: none;
+    stroke: $grey-5;
+    stroke-width: 1px;
   }
 }

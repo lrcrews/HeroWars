@@ -3,20 +3,21 @@ import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import * as _ from 'lodash';
 
-import { TimeSeriesEntry } from './TimeSeriesEntry';
+import { TimeSeriesEntry } from './time-series-entry';
 
 import './TimeSeries.scss';
 
 export interface TimeSeriesProps {
+  color?: string;
+  graphName: string;
   orderedEntries: Array<TimeSeriesEntry>;
-  xAxisLabel?: string;
-  yAxisLabel?: string;
+  onHoverValueUpdated: (value: number | undefined) => void;
 }
 
 // WIP
 
 const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
-  const { orderedEntries = [], xAxisLabel = '', yAxisLabel = '' } = props;
+  const { color = '#21252a', graphName, orderedEntries = [], onHoverValueUpdated } = props;
 
   const chartContainerRef = useRef<HTMLDivElement>(null);
 
@@ -36,6 +37,7 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
 
   let svg: d3.Selection<SVGSVGElement, unknown, null, undefined>;
   let chart: d3.Selection<SVGGElement, unknown, null, undefined>;
+  let focus: d3.Selection<SVGGElement, unknown, null, undefined>;
 
   let line: d3.Selection<SVGPathElement, TimeSeriesEntry[], null, undefined>;
   let lineGenerator: d3.Line<TimeSeriesEntry>;
@@ -59,11 +61,12 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
     initAxes();
     initLineGenerator();
     initSvg();
+    initFocus();
     renderChart();
   };
 
   const initScales = (): void => {
-    xScale = d3.scaleTime().domain([orderedEntries[0].date, new Date()]).nice();
+    xScale = d3.scaleTime().domain([orderedEntries[0].date, _.last(orderedEntries)?.date || new Date()]);
     const max = d3.max(orderedEntries, (entry) => entry.value) || 500000;
     let min = d3.min(orderedEntries, (entry) => entry.value) || 0;
     min = min - min * 0.1;
@@ -102,12 +105,17 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
       svg = d3.select(element).append('svg').attr('width', element.offsetWidth).attr('height', element.offsetHeight);
       chart = svg.append('g');
       chart.append('g').attr('class', 'grid');
-      line = chart.append('path').datum(orderedEntries).attr('class', 'time-series-line');
+      line = chart.append('path').datum(orderedEntries).attr('class', 'time-series-line').attr('stroke', color);
       chart.append('g').attr('class', 'xAxis time-series-axis');
       chart.append('g').attr('class', 'yAxis time-series-axis');
     } else {
       console.log('container ref not available to init svg.');
     }
+  };
+
+  const initFocus = (): void => {
+    focus = svg.append('g').attr('class', 'mouse-over-effects');
+    focus.append('path').attr('class', `mouse-line ${graphName}`).style('opacity', '0');
   };
 
   const renderChart = (): void => {
@@ -117,6 +125,7 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
       updateAxes();
       updateSvg();
       updateLine();
+      updateFocus();
     }
   };
 
@@ -152,6 +161,91 @@ const TimeSeries: React.FC<TimeSeriesProps> = (props) => {
 
   const updateLine = (): void => {
     line.attr('d', lineGenerator);
+  };
+
+  const updateFocus = (): void => {
+    const mousePerLine = focus
+      .selectAll()
+      .data(orderedEntries)
+      .enter()
+      .append('g')
+      .attr('class', `mouse-per-line ${graphName}`)
+      .attr('fill', color)
+      .attr('stroke', color);
+    mousePerLine.append('circle').attr('r', 2).style('opacity', '0');
+
+    focus
+      .append('svg:rect')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('x', margin.left)
+      .attr('y', margin.top)
+      .attr('fill', 'none')
+      .attr('pointer-events', 'all')
+      .on('mouseout', () => {
+        d3.select(`.mouse-line.${graphName}`).style('opacity', '0');
+        d3.selectAll(`.mouse-per-line.${graphName} circle`).style('opacity', '0');
+        onHoverValueUpdated(undefined);
+      })
+      .on('mouseover', () => {
+        d3.select(`.mouse-line.${graphName}`).style('opacity', '1');
+        d3.selectAll(`.mouse-per-line.${graphName} circle`).style('opacity', '1');
+      })
+      .on('mousemove', () => {
+        const container = svg.node();
+        if (container) {
+          const mouse = d3.mouse(container);
+          const desiredX = calculateDesiredX(mouse);
+          fireOnValueUpdate(desiredX);
+
+          d3.select(`.mouse-line.${graphName}`).attr('d', () => {
+            const totalX = desiredX + margin.left;
+            return `M${totalX},${height + margin.top} ${totalX},${margin.top}`;
+          });
+
+          d3.selectAll(`.mouse-per-line.${graphName}`).attr('transform', (d, i) => {
+            let beginning = 0;
+            const lineNode = line.node();
+            if (lineNode) {
+              let end = lineNode.getTotalLength();
+              let position;
+              while (true) {
+                const target = Math.floor((beginning + end) / 2);
+                position = lineNode.getPointAtLength(target);
+                if ((target === beginning || target === end) && position.x !== desiredX) {
+                  break;
+                }
+                if (position.x > desiredX) {
+                  end = target;
+                } else if (position.x < desiredX) {
+                  beginning = target;
+                } else {
+                  break; // position found
+                }
+              }
+              return `translate(${desiredX + margin.left},${position.y + margin.top})`;
+            }
+            return '';
+          });
+        }
+      });
+  };
+
+  const calculateDesiredX = (mouse: [number, number]): number => {
+    const xPositions = _.map(orderedEntries, (entry) => xScale(entry.date));
+    const mouseX = mouse[0] - margin.left;
+    const bisector = d3.bisector((value) => value).right;
+    const mouseIndex = bisector(xPositions, mouseX);
+    return mouseIndex > xPositions.length - 1 ? xPositions[xPositions.length - 1] : xPositions[mouseIndex];
+  };
+
+  const fireOnValueUpdate = (xPosition: number): void => {
+    const desiredEntry = _.find(orderedEntries, (entry) => xScale(entry.date) === xPosition);
+    if (desiredEntry) {
+      onHoverValueUpdated(desiredEntry.value);
+    } else {
+      onHoverValueUpdated(undefined);
+    }
   };
 
   return (

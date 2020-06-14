@@ -1,6 +1,14 @@
 @import '../sass-mixins/mixins.scss';
 
 #player-page {
+  .hero {
+    color: $hero-color;
+  }
+
+  .titan {
+    color: $titan-color;
+  }
+
   .player-info.tile {
     margin-bottom: 2.5rem;
 
@@ -29,14 +37,6 @@
         .titan {
           font-weight: 600;
           padding-right: 0.25rem;
-        }
-
-        .hero {
-          color: $hero-color;
-        }
-
-        .titan {
-          color: $titan-color;
         }
       }
     }
@@ -74,6 +74,12 @@
         .graph-title {
           text-align: center;
           width: 100%;
+
+          .hero,
+          .titan {
+            font-weight: 600;
+            padding-left: 0.5rem;
+          }
         }
       }
     }
