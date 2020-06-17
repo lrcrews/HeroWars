@@ -154,7 +154,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 320545),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 245564),
+      new Player(Guild.MERICA_ID, 'Mac', 245564),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -306,7 +306,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'HERO', 183700),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 147745),
+      new Player(Guild.MERICA_ID, 'Mac', 147745),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
       true,
@@ -417,7 +417,7 @@ export const war = new GuildWar(
       `${warDateString}T06:12:40`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 147745),
+      new Player(Guild.MERICA_ID, 'Mac', 147745),
       new Player(Guild.ASSASSINS_ID, 'Murdox06', 155364),
       Fortification.GATES_OF_NATURE_ID,
       19,
@@ -433,7 +433,7 @@ export const war = new GuildWar(
       `${warDateString}T06:14:22`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 147745),
+      new Player(Guild.MERICA_ID, 'Mac', 147745),
       new Player(Guild.ASSASSINS_ID, 'Kairen', 157547),
       Fortification.BASTION_OF_ICE_ID,
       13,

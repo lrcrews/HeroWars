@@ -138,7 +138,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'elo', 115679),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 109841),
+      new Player(Guild.MERICA_ID, 'Mac', 109841),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
       true,
@@ -266,7 +266,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'GurraBurra', 270137),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 223082),
+      new Player(Guild.MERICA_ID, 'Mac', 223082),
       Fortification.MAGE_ACADEMY_ID,
       20,
       true,
@@ -537,7 +537,7 @@ export const war = new GuildWar(
       `${warDateString}T09:06:22`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 116106),
+      new Player(Guild.MERICA_ID, 'Mac', 116106),
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 97708),
       Fortification.BASTION_OF_ICE_ID,
       20,
@@ -577,7 +577,7 @@ export const war = new GuildWar(
       `${warDateString}T11:15:23`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 223836),
+      new Player(Guild.MERICA_ID, 'Mac', 223836),
       new Player(Guild.ASSASSINS_ID, 'KP', 201887),
       Fortification.LIGHTHOUSE_ID,
       20,

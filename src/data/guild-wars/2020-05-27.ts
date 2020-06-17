@@ -122,7 +122,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'hotaru086', 162662),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 139698),
+      new Player(Guild.MERICA_ID, 'Mac', 139698),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
       true,
@@ -258,7 +258,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'GurraBurra', 297697),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 240644),
+      new Player(Guild.MERICA_ID, 'Mac', 240644),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -441,7 +441,7 @@ export const war = new GuildWar(
       `${warDateString}T07:52:55`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 143509),
+      new Player(Guild.MERICA_ID, 'Mac', 143509),
       new Player(Guild.ASSASSINS_ID, 'Kairen', 152349),
       Fortification.BASTION_OF_ICE_ID,
       20,
@@ -449,7 +449,7 @@ export const war = new GuildWar(
       `${warDateString}T09:03:45`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 143509),
+      new Player(Guild.MERICA_ID, 'Mac', 143509),
       new Player(Guild.ASSASSINS_ID, 'Murdox06', 151096),
       Fortification.GATES_OF_NATURE_ID,
       20,

@@ -74,7 +74,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dagul', 120379),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 108959),
+      new Player(Guild.MERICA_ID, 'Mac', 108959),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
       true,
@@ -242,7 +242,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 210700),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 228689),
+      new Player(Guild.MERICA_ID, 'Mac', 228689),
       Fortification.LIGHTHOUSE_ID,
       9,
       false,
@@ -353,7 +353,7 @@ export const war = new GuildWar(
       `${warDateString}T00:29:45`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 108959),
+      new Player(Guild.MERICA_ID, 'Mac', 108959),
       new Player(Guild.ASSASSINS_ID, 'Gom', 228443),
       Fortification.BRIDGE_ID,
       3,
@@ -361,7 +361,7 @@ export const war = new GuildWar(
       `${warDateString}T00:51:54`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 108959),
+      new Player(Guild.MERICA_ID, 'Mac', 108959),
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 205683),
       Fortification.BRIDGE_ID,
       2,

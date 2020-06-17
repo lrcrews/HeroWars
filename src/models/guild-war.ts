@@ -16,6 +16,11 @@ export class GuildWar {
   static WAR_WEEK_23_2020 = 23;
   static WAR_WEEK_24_2020 = 24;
   static WAR_WEEK_25_2020 = 25;
+  static WAR_WEEK_26_2020 = 26;
+  static WAR_WEEK_27_2020 = 27;
+  static WAR_WEEK_28_2020 = 28;
+  static WAR_WEEK_29_2020 = 29;
+  static WAR_WEEK_30_2020 = 30;
 
   static arrayFromJson(guildWarsJson: Array<{}>): Array<GuildWar> {
     const guildWars: Array<GuildWar> = [];

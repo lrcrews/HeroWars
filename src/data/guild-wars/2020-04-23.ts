@@ -34,7 +34,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 263151),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 224829),
+      new Player(Guild.MERICA_ID, 'Mac', 224829),
       Fortification.MAGE_ACADEMY_ID,
       20,
       true,
@@ -242,7 +242,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dagul', 118803),
-      new Player(Guild.MERICA_ID, 'Mac 270072', 108522),
+      new Player(Guild.MERICA_ID, 'Mac', 108522),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -409,7 +409,7 @@ export const war = new GuildWar(
       `${warDateString}T07:47:31`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 108522),
+      new Player(Guild.MERICA_ID, 'Mac', 108522),
       new Player(Guild.ASSASSINS_ID, 'Gom', 227817),
       Fortification.BRIDGE_ID,
       3,
@@ -417,7 +417,7 @@ export const war = new GuildWar(
       `${warDateString}T09:21:06`
     ),
     new Battle(
-      new Player(Guild.MERICA_ID, 'Mac 270072', 108522),
+      new Player(Guild.MERICA_ID, 'Mac', 108522),
       new Player(Guild.ASSASSINS_ID, 'gertyman', 248819),
       Fortification.BRIDGE_ID,
       3,
