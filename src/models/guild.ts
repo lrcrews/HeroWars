@@ -10,6 +10,7 @@ export class Guild {
   static MRCO_ID = 5;
   static ROMANIA_ID = 6;
   static THE_ACADEMY_ID = 7;
+  static USA_ID = 8;
 
   static ASSASSINS(): Guild {
     const img = GuildBannerUtil.bannerResourceFromImageName('assassinsBannerImg');
@@ -51,6 +52,11 @@ export class Guild {
     return new Guild(img, Guild.THE_ACADEMY_ID, 'The Academy', 184);
   }
 
+  static USA(): Guild {
+    const img = GuildBannerUtil.bannerResourceFromImageName('usaBannerImg');
+    return new Guild(img, Guild.USA_ID, 'USA', 184);
+  }
+
   static ALL(): Array<Guild> {
     return [
       Guild.ASSASSINS(),
@@ -61,6 +67,7 @@ export class Guild {
       Guild.NO_GUILD(),
       Guild.ROMANIA(),
       Guild.THE_ACADEMY(),
+      Guild.USA(),
     ];
   }
 

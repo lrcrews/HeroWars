@@ -8,6 +8,7 @@ import mericaBannerImg from '../data/guild-banners/merica-banner.png';
 import mrcoBannerImg from '../data/guild-banners/mrco-banner.png';
 import romaniaBannerImg from '../data/guild-banners/romania-banner.png';
 import theAcademyBannerImg from '../data/guild-banners/the-academy-banner.png';
+import usaBannerImg from '../data/guild-banners/usa-banner.png';
 
 export class GuildBannerUtil {
   static bannerResourceFromImageName(name: string): string {
@@ -28,6 +29,8 @@ export class GuildBannerUtil {
         return romaniaBannerImg;
       case 'theAcademyBannerImg':
         return theAcademyBannerImg;
+      case 'usaBannerImg':
+        return usaBannerImg;
       default:
         return '';
     }
