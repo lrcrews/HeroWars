@@ -1,0 +1,2359 @@
+{
+  "date": 1593478336.597152,
+  "results": [
+    {
+      "ident": "group_0_body",
+      "result": {
+        "response": {
+          "slots": {
+            "1": 87351152,
+            "2": 87371501,
+            "3": 87392360,
+            "4": 87365576,
+            "5": 87400284,
+            "6": 87418879,
+            "7": 87446982,
+            "8": 87392949,
+            "9": 87400284,
+            "10": 87361980,
+            "11": 87418879,
+            "12": 87315783,
+            "13": 87399205,
+            "14": 87361980,
+            "15": 87455026,
+            "16": 87388666,
+            "17": 87312770,
+            "18": 87365576,
+            "19": 87399205,
+            "20": 87455026,
+            "21": 87396850,
+            "22": 87309961,
+            "23": 87392360,
+            "24": 87379990,
+            "25": 87388666,
+            "26": 87373536,
+            "27": 87392949,
+            "28": 87312770,
+            "29": 87381616,
+            "30": 87309961,
+            "31": 87379990,
+            "32": 87446982,
+            "33": 87315783,
+            "34": 87351152,
+            "35": 87371501,
+            "36": 87396850,
+            "37": 87445780,
+            "38": 87381616,
+            "39": 87373536,
+            "40": 87445780
+          },
+          "teams": {
+            "87309961": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53802
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53740
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 110,
+                    "star": 6,
+                    "power": 47218
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 117,
+                    "star": 6,
+                    "power": 51781
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 74565
+                  },
+                  "30": {
+                    "id": 30,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 59073
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 68305
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 67700
+                  },
+                  "2": {
+                    "id": 2,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 80276
+                  }
+                }
+              },
+              "userId": 87309961
+            },
+            "87312770": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 116,
+                    "star": 6,
+                    "power": 51121
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 116,
+                    "star": 6,
+                    "power": 51142
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 116,
+                    "star": 6,
+                    "power": 51083
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 110,
+                    "star": 6,
+                    "power": 47218
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 110,
+                    "star": 6,
+                    "power": 47218
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "31": {
+                    "id": 31,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 72180
+                  },
+                  "500": {
+                    "id": 500,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 57612
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 86986
+                  },
+                  "47": {
+                    "id": 47,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 65421
+                  },
+                  "2": {
+                    "id": 2,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 69854
+                  }
+                }
+              },
+              "userId": 87312770
+            },
+            "87315783": {
+              "clanDefence_titans": {
+                "units": {
+                  "4012": {
+                    "id": 4012,
+                    "level": 89,
+                    "star": 6,
+                    "power": 34404
+                  },
+                  "4003": {
+                    "id": 4003,
+                    "level": 89,
+                    "star": 5,
+                    "power": 28723
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 89,
+                    "star": 5,
+                    "power": 28686
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 89,
+                    "star": 5,
+                    "power": 28700
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 89,
+                    "star": 6,
+                    "power": 34424
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 11,
+                    "star": 6,
+                    "power": 32645
+                  },
+                  "33": {
+                    "id": 33,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 74456
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 40681
+                  },
+                  "34": {
+                    "id": 34,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 52204
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 64406
+                  }
+                }
+              },
+              "userId": 87315783
+            },
+            "87342526": {
+              "clanDefence_titans": {
+                "units": {
+                  "4012": {
+                    "id": 4012,
+                    "level": 82,
+                    "star": 6,
+                    "power": 30443
+                  },
+                  "4003": {
+                    "id": 4003,
+                    "level": 88,
+                    "star": 5,
+                    "power": 28243
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 88,
+                    "star": 5,
+                    "power": 28206
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 88,
+                    "star": 4,
+                    "power": 22586
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 85,
+                    "star": 6,
+                    "power": 32139
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 115,
+                    "color": 11,
+                    "star": 5,
+                    "power": 30686
+                  },
+                  "33": {
+                    "id": 33,
+                    "level": 115,
+                    "color": 12,
+                    "star": 6,
+                    "power": 58936
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 115,
+                    "color": 11,
+                    "star": 6,
+                    "power": 37474
+                  },
+                  "34": {
+                    "id": 34,
+                    "level": 115,
+                    "color": 12,
+                    "star": 6,
+                    "power": 51250
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 115,
+                    "color": 13,
+                    "star": 6,
+                    "power": 60278
+                  }
+                }
+              },
+              "userId": 87342526
+            },
+            "87343595": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 70,
+                    "star": 4,
+                    "power": 16077
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 70,
+                    "star": 5,
+                    "power": 20054
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 70,
+                    "star": 4,
+                    "power": 16066
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 60,
+                    "star": 6,
+                    "power": 19109
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 70,
+                    "star": 5,
+                    "power": 20061
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 106,
+                    "color": 11,
+                    "star": 5,
+                    "power": 33362
+                  },
+                  "5": {
+                    "id": 5,
+                    "level": 106,
+                    "color": 12,
+                    "star": 6,
+                    "power": 40944
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 106,
+                    "color": 10,
+                    "star": 4,
+                    "power": 26552
+                  },
+                  "41": {
+                    "id": 41,
+                    "level": 106,
+                    "color": 13,
+                    "star": 5,
+                    "power": 47777
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 106,
+                    "color": 12,
+                    "star": 6,
+                    "power": 52949
+                  }
+                }
+              },
+              "userId": 87343595
+            },
+            "87350748": {
+              "clanDefence_titans": {
+                "units": {
+                  "4021": {
+                    "id": 4021,
+                    "level": 65,
+                    "star": 6,
+                    "power": 21514
+                  },
+                  "4003": {
+                    "id": 4003,
+                    "level": 75,
+                    "star": 5,
+                    "power": 22253
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 80,
+                    "star": 5,
+                    "power": 24468
+                  },
+                  "4010": {
+                    "id": 4010,
+                    "level": 80,
+                    "star": 6,
+                    "power": 29361
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 71,
+                    "star": 6,
+                    "power": 24556
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "31": {
+                    "id": 31,
+                    "level": 120,
+                    "color": 14,
+                    "star": 5,
+                    "power": 47992
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 44020
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 69740
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 45522
+                  },
+                  "39": {
+                    "id": 39,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 49948
+                  }
+                }
+              },
+              "userId": 87350748
+            },
+            "87351004": {
+              "clanDefence_titans": {
+                "units": {
+                  "4012": {
+                    "id": 4012,
+                    "level": 80,
+                    "star": 5,
+                    "power": 24477
+                  },
+                  "4003": {
+                    "id": 4003,
+                    "level": 83,
+                    "star": 4,
+                    "power": 20715
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 80,
+                    "star": 5,
+                    "power": 24468
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 85,
+                    "star": 5,
+                    "power": 26797
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 80,
+                    "star": 6,
+                    "power": 29341
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "7": {
+                    "id": 7,
+                    "level": 112,
+                    "color": 10,
+                    "star": 5,
+                    "power": 31949
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 113,
+                    "color": 12,
+                    "star": 6,
+                    "power": 42879
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 113,
+                    "color": 10,
+                    "star": 3,
+                    "power": 29653
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 112,
+                    "color": 11,
+                    "star": 5,
+                    "power": 37528
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 113,
+                    "color": 10,
+                    "star": 6,
+                    "power": 40191
+                  }
+                }
+              },
+              "userId": 87351004
+            },
+            "87351152": {
+              "clanDefence_titans": {
+                "units": {
+                  "4012": {
+                    "id": 4012,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  },
+                  "4003": {
+                    "id": 4003,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53802
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53740
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53811
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 61306
+                  },
+                  "22": {
+                    "id": 22,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 67615
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 55288
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 56337
+                  },
+                  "24": {
+                    "id": 24,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 68044
+                  }
+                }
+              },
+              "userId": 87351152
+            },
+            "87361980": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 90,
+                    "star": 3,
+                    "power": 17594
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 94,
+                    "star": 5,
+                    "power": 31124
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 94,
+                    "star": 5,
+                    "power": 31140
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 88,
+                    "star": 6,
+                    "power": 33828
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 90,
+                    "star": 6,
+                    "power": 35003
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 38647
+                  },
+                  "10": {
+                    "id": 10,
+                    "level": 120,
+                    "color": 13,
+                    "star": 5,
+                    "power": 42857
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 36563
+                  },
+                  "41": {
+                    "id": 41,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 72278
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 60440
+                  }
+                }
+              },
+              "userId": 87361980
+            },
+            "87365576": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 99,
+                    "star": 6,
+                    "power": 40337
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 100,
+                    "star": 6,
+                    "power": 40964
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 99,
+                    "star": 6,
+                    "power": 40306
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 99,
+                    "star": 6,
+                    "power": 40337
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 100,
+                    "star": 6,
+                    "power": 40971
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 41601
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 13,
+                    "star": 5,
+                    "power": 43076
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 73874
+                  },
+                  "28": {
+                    "id": 28,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 43423
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 64738
+                  }
+                }
+              },
+              "userId": 87365576
+            },
+            "87371501": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 88,
+                    "star": 3,
+                    "power": 17016
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 89,
+                    "star": 6,
+                    "power": 34418
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 93,
+                    "star": 5,
+                    "power": 30646
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 84,
+                    "star": 6,
+                    "power": 31558
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 89,
+                    "star": 6,
+                    "power": 34424
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 45120
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 41880
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 46986
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 59958
+                  },
+                  "24": {
+                    "id": 24,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 61835
+                  }
+                }
+              },
+              "userId": 87371501
+            },
+            "87373536": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 86,
+                    "star": 6,
+                    "power": 32686
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 85,
+                    "star": 6,
+                    "power": 32134
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 88,
+                    "star": 5,
+                    "power": 28220
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 85,
+                    "star": 6,
+                    "power": 32120
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 88,
+                    "star": 6,
+                    "power": 33848
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 114,
+                    "color": 11,
+                    "star": 6,
+                    "power": 37787
+                  },
+                  "33": {
+                    "id": 33,
+                    "level": 114,
+                    "color": 13,
+                    "star": 6,
+                    "power": 60256
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 114,
+                    "color": 9,
+                    "star": 6,
+                    "power": 29143
+                  },
+                  "34": {
+                    "id": 34,
+                    "level": 114,
+                    "color": 12,
+                    "star": 6,
+                    "power": 46530
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 114,
+                    "color": 14,
+                    "star": 6,
+                    "power": 61067
+                  }
+                }
+              },
+              "userId": 87373536
+            },
+            "87379990": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 107,
+                    "star": 6,
+                    "power": 45305
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 106,
+                    "star": 5,
+                    "power": 37241
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 107,
+                    "star": 5,
+                    "power": 37786
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 106,
+                    "star": 6,
+                    "power": 44674
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 106,
+                    "star": 6,
+                    "power": 44700
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "31": {
+                    "id": 31,
+                    "level": 120,
+                    "color": 14,
+                    "star": 5,
+                    "power": 54330
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 36211
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 62411
+                  },
+                  "47": {
+                    "id": 47,
+                    "level": 120,
+                    "color": 13,
+                    "star": 5,
+                    "power": 39572
+                  },
+                  "24": {
+                    "id": 24,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 73042
+                  }
+                }
+              },
+              "userId": 87379990
+            },
+            "87381616": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 96,
+                    "star": 6,
+                    "power": 38524
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 94,
+                    "star": 5,
+                    "power": 31124
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 95,
+                    "star": 5,
+                    "power": 31635
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 95,
+                    "star": 6,
+                    "power": 37926
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 97,
+                    "star": 6,
+                    "power": 39148
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 11,
+                    "star": 5,
+                    "power": 32470
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 11,
+                    "star": 6,
+                    "power": 42634
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 62216
+                  },
+                  "2": {
+                    "id": 2,
+                    "level": 120,
+                    "color": 11,
+                    "star": 6,
+                    "power": 45553
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 55528
+                  }
+                }
+              },
+              "userId": 87381616
+            },
+            "87388666": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 117,
+                    "star": 6,
+                    "power": 51781
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 117,
+                    "star": 6,
+                    "power": 51803
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 117,
+                    "star": 6,
+                    "power": 51743
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 111,
+                    "star": 6,
+                    "power": 47861
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 117,
+                    "star": 6,
+                    "power": 51812
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 57049
+                  },
+                  "33": {
+                    "id": 33,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 95972
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 65311
+                  },
+                  "34": {
+                    "id": 34,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 93640
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 86284
+                  }
+                }
+              },
+              "userId": 87388666
+            },
+            "87392360": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 108,
+                    "star": 5,
+                    "power": 38346
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 108,
+                    "star": 6,
+                    "power": 45959
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 108,
+                    "star": 5,
+                    "power": 38315
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 105,
+                    "star": 6,
+                    "power": 44045
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 106,
+                    "star": 6,
+                    "power": 44700
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 56512
+                  },
+                  "33": {
+                    "id": 33,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 85440
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 53980
+                  },
+                  "34": {
+                    "id": 34,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 79909
+                  },
+                  "24": {
+                    "id": 24,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 94312
+                  }
+                }
+              },
+              "userId": 87392360
+            },
+            "87392949": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53802
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53740
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 52310
+                  },
+                  "22": {
+                    "id": 22,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 46911
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 45322
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 68739
+                  },
+                  "24": {
+                    "id": 24,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 63111
+                  }
+                }
+              },
+              "userId": 87392949
+            },
+            "87394086": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 75,
+                    "star": 4,
+                    "power": 17814
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 75,
+                    "star": 5,
+                    "power": 22224
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 72,
+                    "star": 4,
+                    "power": 16753
+                  },
+                  "4011": {
+                    "id": 4011,
+                    "level": 70,
+                    "star": 6,
+                    "power": 24034
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 70,
+                    "star": 6,
+                    "power": 24056
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 111,
+                    "color": 11,
+                    "star": 5,
+                    "power": 34314
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 110,
+                    "color": 11,
+                    "star": 6,
+                    "power": 36634
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 110,
+                    "color": 11,
+                    "star": 4,
+                    "power": 27132
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 111,
+                    "color": 12,
+                    "star": 6,
+                    "power": 52135
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 111,
+                    "color": 12,
+                    "star": 6,
+                    "power": 49843
+                  }
+                }
+              },
+              "userId": 87394086
+            },
+            "87396850": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 103,
+                    "star": 4,
+                    "power": 28580
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 104,
+                    "star": 6,
+                    "power": 43437
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 104,
+                    "star": 6,
+                    "power": 43387
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 101,
+                    "star": 6,
+                    "power": 41561
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 104,
+                    "star": 6,
+                    "power": 43445
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 54529
+                  },
+                  "10": {
+                    "id": 10,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 47897
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 46020
+                  },
+                  "41": {
+                    "id": 41,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 90414
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 79629
+                  }
+                }
+              },
+              "userId": 87396850
+            },
+            "87399205": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 119,
+                    "star": 6,
+                    "power": 53111
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 119,
+                    "star": 6,
+                    "power": 53133
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53740
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 113,
+                    "star": 6,
+                    "power": 49156
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 113,
+                    "star": 6,
+                    "power": 49185
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 56874
+                  },
+                  "33": {
+                    "id": 33,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 77610
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 47949
+                  },
+                  "34": {
+                    "id": 34,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 71396
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 74946
+                  }
+                }
+              },
+              "userId": 87399205
+            },
+            "87400284": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53802
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53740
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 116,
+                    "star": 6,
+                    "power": 51121
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "31": {
+                    "id": 31,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 61699
+                  },
+                  "500": {
+                    "id": 500,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 56781
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 84416
+                  },
+                  "47": {
+                    "id": 47,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 62579
+                  },
+                  "39": {
+                    "id": 39,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 74446
+                  }
+                }
+              },
+              "userId": 87400284
+            },
+            "87409832": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 78,
+                    "star": 5,
+                    "power": 23592
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 77,
+                    "star": 5,
+                    "power": 23113
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 78,
+                    "star": 4,
+                    "power": 18872
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 77,
+                    "star": 5,
+                    "power": 23120
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 77,
+                    "star": 6,
+                    "power": 27731
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 118,
+                    "color": 11,
+                    "star": 5,
+                    "power": 31755
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 118,
+                    "color": 11,
+                    "star": 6,
+                    "power": 35254
+                  },
+                  "45": {
+                    "id": 45,
+                    "level": 118,
+                    "color": 11,
+                    "star": 6,
+                    "power": 44977
+                  },
+                  "2": {
+                    "id": 2,
+                    "level": 100,
+                    "color": 11,
+                    "star": 6,
+                    "power": 31601
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 118,
+                    "color": 11,
+                    "star": 6,
+                    "power": 38573
+                  }
+                }
+              },
+              "userId": 87409832
+            },
+            "87418879": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 88,
+                    "star": 5,
+                    "power": 28243
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 88,
+                    "star": 5,
+                    "power": 28206
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 88,
+                    "star": 5,
+                    "power": 28220
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 88,
+                    "star": 6,
+                    "power": 33828
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 88,
+                    "star": 6,
+                    "power": 33848
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 11,
+                    "star": 5,
+                    "power": 38134
+                  },
+                  "33": {
+                    "id": 33,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 76845
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 120,
+                    "color": 11,
+                    "star": 5,
+                    "power": 39267
+                  },
+                  "34": {
+                    "id": 34,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 57817
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 67872
+                  }
+                }
+              },
+              "userId": 87418879
+            },
+            "87428146": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 52,
+                    "star": 3,
+                    "power": 7809
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 58,
+                    "star": 4,
+                    "power": 12147
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 56,
+                    "star": 3,
+                    "power": 8704
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 58,
+                    "star": 5,
+                    "power": 15165
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 59,
+                    "star": 5,
+                    "power": 15559
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 11,
+                    "star": 5,
+                    "power": 30367
+                  },
+                  "8": {
+                    "id": 8,
+                    "level": 120,
+                    "color": 10,
+                    "star": 6,
+                    "power": 33390
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 12,
+                    "star": 5,
+                    "power": 33237
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 60018
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 54404
+                  }
+                }
+              },
+              "userId": 87428146
+            },
+            "87439331": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 78,
+                    "star": 4,
+                    "power": 18885
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 78,
+                    "star": 4,
+                    "power": 18862
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 77,
+                    "star": 4,
+                    "power": 18513
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 72,
+                    "star": 6,
+                    "power": 25073
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 72,
+                    "star": 5,
+                    "power": 20924
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 119,
+                    "color": 11,
+                    "star": 5,
+                    "power": 43960
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 119,
+                    "color": 11,
+                    "star": 6,
+                    "power": 33400
+                  },
+                  "43": {
+                    "id": 43,
+                    "level": 119,
+                    "color": 12,
+                    "star": 5,
+                    "power": 35796
+                  },
+                  "25": {
+                    "id": 25,
+                    "level": 119,
+                    "color": 13,
+                    "star": 6,
+                    "power": 64549
+                  },
+                  "39": {
+                    "id": 39,
+                    "level": 119,
+                    "color": 12,
+                    "star": 5,
+                    "power": 57044
+                  }
+                }
+              },
+              "userId": 87439331
+            },
+            "87445780": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 86,
+                    "star": 5,
+                    "power": 27290
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 87,
+                    "star": 6,
+                    "power": 33269
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 93,
+                    "star": 4,
+                    "power": 24525
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 87,
+                    "star": 6,
+                    "power": 33256
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 87,
+                    "star": 6,
+                    "power": 33275
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "35": {
+                    "id": 35,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 41667
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 11,
+                    "star": 6,
+                    "power": 40703
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 57217
+                  },
+                  "28": {
+                    "id": 28,
+                    "level": 120,
+                    "color": 11,
+                    "star": 6,
+                    "power": 45964
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 55882
+                  }
+                }
+              },
+              "userId": 87445780
+            },
+            "87446982": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53802
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53740
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 119,
+                    "star": 6,
+                    "power": 53111
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 120,
+                    "star": 6,
+                    "power": 53780
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 50741
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 54183
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 15,
+                    "star": 6,
+                    "power": 82409
+                  },
+                  "47": {
+                    "id": 47,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 43887
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 61812
+                  }
+                }
+              },
+              "userId": 87446982
+            },
+            "87453350": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 90,
+                    "star": 6,
+                    "power": 34983
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 90,
+                    "star": 6,
+                    "power": 34997
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 89,
+                    "star": 6,
+                    "power": 34378
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 88,
+                    "star": 6,
+                    "power": 33828
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 88,
+                    "star": 6,
+                    "power": 33848
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 105,
+                    "color": 10,
+                    "star": 6,
+                    "power": 32339
+                  },
+                  "35": {
+                    "id": 35,
+                    "level": 105,
+                    "color": 10,
+                    "star": 6,
+                    "power": 33046
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 105,
+                    "color": 11,
+                    "star": 6,
+                    "power": 39921
+                  },
+                  "2": {
+                    "id": 2,
+                    "level": 105,
+                    "color": 10,
+                    "star": 6,
+                    "power": 35981
+                  },
+                  "24": {
+                    "id": 24,
+                    "level": 105,
+                    "color": 10,
+                    "star": 6,
+                    "power": 42304
+                  }
+                }
+              },
+              "userId": 87453350
+            },
+            "87455026": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 104,
+                    "star": 5,
+                    "power": 36243
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 110,
+                    "star": 6,
+                    "power": 47237
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 98,
+                    "star": 5,
+                    "power": 33139
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 95,
+                    "star": 6,
+                    "power": 37926
+                  },
+                  "4000": {
+                    "id": 4000,
+                    "level": 97,
+                    "star": 6,
+                    "power": 39125
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "29": {
+                    "id": 29,
+                    "level": 120,
+                    "color": 11,
+                    "star": 5,
+                    "power": 30493
+                  },
+                  "3": {
+                    "id": 3,
+                    "level": 120,
+                    "color": 14,
+                    "star": 6,
+                    "power": 73713
+                  },
+                  "47": {
+                    "id": 47,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 48406
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 120,
+                    "color": 13,
+                    "star": 6,
+                    "power": 48784
+                  },
+                  "39": {
+                    "id": 39,
+                    "level": 120,
+                    "color": 12,
+                    "star": 6,
+                    "power": 53122
+                  }
+                }
+              },
+              "userId": 87455026
+            },
+            "87913298": {
+              "clanDefence_titans": {
+                "units": {
+                  "4003": {
+                    "id": 4003,
+                    "level": 81,
+                    "star": 4,
+                    "power": 19976
+                  },
+                  "4023": {
+                    "id": 4023,
+                    "level": 75,
+                    "star": 6,
+                    "power": 26658
+                  },
+                  "4013": {
+                    "id": 4013,
+                    "level": 81,
+                    "star": 4,
+                    "power": 19962
+                  },
+                  "4001": {
+                    "id": 4001,
+                    "level": 81,
+                    "star": 6,
+                    "power": 29890
+                  },
+                  "4020": {
+                    "id": 4020,
+                    "level": 85,
+                    "star": 6,
+                    "power": 32139
+                  }
+                }
+              },
+              "clanDefence_heroes": {
+                "units": {
+                  "46": {
+                    "id": 46,
+                    "level": 113,
+                    "color": 11,
+                    "star": 6,
+                    "power": 38404
+                  },
+                  "33": {
+                    "id": 33,
+                    "level": 113,
+                    "color": 11,
+                    "star": 6,
+                    "power": 41238
+                  },
+                  "40": {
+                    "id": 40,
+                    "level": 113,
+                    "color": 11,
+                    "star": 6,
+                    "power": 41908
+                  },
+                  "34": {
+                    "id": 34,
+                    "level": 113,
+                    "color": 11,
+                    "star": 6,
+                    "power": 42633
+                  },
+                  "4": {
+                    "id": 4,
+                    "level": 113,
+                    "color": 11,
+                    "star": 6,
+                    "power": 42500
+                  }
+                }
+              },
+              "userId": 87913298
+            }
+          },
+          "warriors": {
+            "87396850": 1,
+            "87388666": 1,
+            "87351152": 1,
+            "87418879": 1,
+            "87399205": 1,
+            "87309961": 1,
+            "87315783": 1,
+            "87361980": 1,
+            "87445780": 1,
+            "87373536": 1,
+            "87379990": 1,
+            "87365576": 1,
+            "87312770": 1,
+            "87392360": 1,
+            "87400284": 1,
+            "87392949": 1,
+            "87446982": 1,
+            "87381616": 1,
+            "87455026": 1,
+            "87371501": 1
+          },
+          "league": "1"
+        }
+      }
+    }
+  ]
+}
