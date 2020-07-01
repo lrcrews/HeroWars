@@ -284,7 +284,7 @@ const Player: React.FC<PlayerProps> = (props) => {
                       </span>
                     </div>
                   </li>
-                  <li className="stat">
+                  {/* <li className="stat">
                     <div className="title">Cleanup Wins</div>
                     <div className="font-large value">
                       {stats.heroAttacksWonCleanup}
@@ -292,7 +292,7 @@ const Player: React.FC<PlayerProps> = (props) => {
                         /{prettyPercent(stats.heroAttacksWonCleanup / stats.heroAttacksTotal)}
                       </span>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="stat">
                     <div className="title">Losses</div>
                     <div className="font-large value">
@@ -321,7 +321,7 @@ const Player: React.FC<PlayerProps> = (props) => {
                       </span>
                     </div>
                   </li>
-                  <li className="stat">
+                  {/* <li className="stat">
                     <div className="title">Cleanup Wins</div>
                     <div className="font-large value">
                       {stats.titanAttacksWonCleanup}
@@ -329,7 +329,7 @@ const Player: React.FC<PlayerProps> = (props) => {
                         /{prettyPercent(stats.titanAttacksWonCleanup / stats.titanAttacksTotal)}
                       </span>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="stat">
                     <div className="title">Losses</div>
                     <div className="font-large value">
@@ -367,7 +367,7 @@ const Player: React.FC<PlayerProps> = (props) => {
                       </span>
                     </div>
                   </li>
-                  <li className="stat">
+                  {/* <li className="stat">
                     <div className="title">Other Losses</div>
                     <div className="font-large value">
                       {stats.heroDefensesLostCleanup}
@@ -375,7 +375,7 @@ const Player: React.FC<PlayerProps> = (props) => {
                         /{prettyPercent(stats.heroDefensesLostCleanup / stats.heroDefensesTotal)}
                       </span>
                     </div>
-                  </li>
+                  </li> */}
                 </ul>
               )}
               {stats.heroDefensesTotal === 0 && <div className="font-normal empty-stats">No hero defenses found.</div>}
@@ -404,7 +404,7 @@ const Player: React.FC<PlayerProps> = (props) => {
                       </span>
                     </div>
                   </li>
-                  <li className="stat">
+                  {/* <li className="stat">
                     <div className="title">Other Losses</div>
                     <div className="font-large value">
                       {stats.titanDefensesLostCleanup}
@@ -412,7 +412,7 @@ const Player: React.FC<PlayerProps> = (props) => {
                         /{prettyPercent(stats.titanDefensesLostCleanup / stats.titanDefensesTotal)}
                       </span>
                     </div>
-                  </li>
+                  </li> */}
                 </ul>
               )}
               {stats.titanDefensesTotal === 0 && (
