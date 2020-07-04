@@ -62,6 +62,12 @@
         padding: 1rem;
         vertical-align: top;
 
+        // TODO: create variable for this breakpoint?
+        @media (max-width: 516px) {
+          display: block;
+          margin-right: 0;
+        }
+
         &:last-child {
           margin-right: 0;
         }
@@ -69,6 +75,10 @@
         .graph-wrapper {
           height: 225px;
           width: 400px;
+
+          @media (max-width: 516px) {
+            width: 100%;
+          }
         }
 
         .graph-title {
