@@ -87,3 +87,8 @@ $small-line-height: 1rem;
 .font-large {
   @include font-large;
 }
+
+.emphasize {
+  color: $grey-8;
+  font-weight: 600;
+}

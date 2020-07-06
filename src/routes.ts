@@ -1,6 +1,7 @@
 import GuildWars from './guild-wars/GuildWars';
 import Home from './home/Home';
 import Player from './players/Player';
+import Titans from './tools/titans/Titans';
 import Tournaments from './tournaments/Tournaments';
 
 const routes = [
@@ -15,6 +16,10 @@ const routes = [
   {
     path: '/players/:name',
     component: Player,
+  },
+  {
+    path: '/titans',
+    component: Titans,
   },
   {
     path: '/tournaments',

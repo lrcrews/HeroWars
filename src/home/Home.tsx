@@ -10,12 +10,17 @@ const Home: React.FC = () => {
       <div className="welcome tile">
         <div className="font-title">Welcome Assassins!</div>
         <div className="font-normal">
-          Here you can find stats for our Guild Wars, with pages for Guilds and Players coming soon!
+          Here you can find stats for our Guild Wars, with pages for each Player, and Guild pages coming soon!
         </div>
         <ul className="links">
           <li>
             <Link to="/guild-wars">
               <button>Guild Wars</button>
+            </Link>
+          </li>
+          <li>
+            <Link to="/titans">
+              <button>Tools</button>
             </Link>
           </li>
         </ul>

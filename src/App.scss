@@ -20,12 +20,114 @@ section#app-container {
     background-color: $white-1;
     border-radius: 3px;
     box-shadow: 0 1px 4px #00000029;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     padding: 1.25rem 1rem;
     position: relative;
 
     > * {
       margin-bottom: 1rem;
+    }
+  }
+
+  .tool-calculator {
+    padding-bottom: 2rem;
+
+    input {
+      font-size: $large;
+      width: 5rem;
+    }
+
+    .variable {
+      border-bottom: 2px solid $red-6;
+      display: inline-block;
+      font-weight: 600;
+      min-width: 5rem;
+      padding: 0 0.5rem;
+      text-align: center;
+    }
+  }
+
+  .tool-data-source {
+    color: $grey-6;
+    padding-top: 2rem;
+    text-align: right;
+    width: 100%;
+  }
+
+  .tool-table {
+    border-collapse: collapse;
+    width: 100%;
+
+    tr {
+      &:nth-child(even) {
+        background-color: $grey-2;
+      }
+
+      &.emphasize-row {
+        background-color: $red-4;
+        color: $white-1;
+
+        .additional-data {
+          color: $grey-4;
+        }
+      }
+
+      &.totals-row {
+        background-color: $blue-5;
+        color: $white-1;
+
+        .additional-data {
+          color: $grey-4;
+        }
+      }
+    }
+
+    td,
+    th {
+      text-align: center;
+    }
+
+    td {
+      border: 1px solid $grey-4;
+      padding: 0.5em;
+
+      .additional-data {
+        color: $grey-7;
+      }
+    }
+
+    th {
+      background: $blue-3;
+      border: 1px solid $blue-4;
+      color: $white-1;
+      padding: 0.5em;
+
+      .additional-data {
+        color: $grey-4;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 620px) {
+    .tool-table {
+      th,
+      td {
+        border: 0;
+        display: block;
+        width: 100%;
+      }
+
+      th {
+        border-bottom: solid 1px $blue-4;
+        border-left: solid 1px $blue-4;
+        border-right: solid 1px $blue-4;
+      }
+
+      td {
+        border-bottom: solid 1px $grey-4;
+        border-left: solid 1px $grey-4;
+        border-right: solid 1px $grey-4;
+      }
     }
   }
 }

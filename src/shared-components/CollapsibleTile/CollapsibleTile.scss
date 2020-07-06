@@ -1,0 +1,47 @@
+@import '../../sass-mixins/mixins.scss';
+
+.collapsible-tile {
+  background-color: $white-1;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px #00000029;
+  margin-bottom: 2rem;
+
+  .toggle {
+    border-bottom: 1px solid $grey-4;
+    border-radius: 3px;
+    border-top: 1px solid $grey-4;
+    cursor: pointer;
+    padding: 1rem;
+    width: calc(100% - 2rem);
+
+    &:not(.expanded) {
+      &:hover {
+        border-color: $red-6;
+      }
+    }
+
+    &.expanded {
+      border-bottom: none;
+      border-radius: 3px 3px 0 0;
+
+      &:hover {
+        background-color: $grey-1;
+      }
+    }
+
+    .affordance {
+      float: right;
+      height: 2.5rem;
+    }
+  }
+
+  .content-container {
+    display: none;
+    padding: 1rem 1rem 1.25rem;
+    width: calc(100% - 2rem);
+
+    &.visible {
+      display: block;
+    }
+  }
+}

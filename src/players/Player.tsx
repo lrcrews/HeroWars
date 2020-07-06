@@ -10,9 +10,9 @@ import { Player as PlayerModel } from '../models/player';
 import { TimeSeriesEntry } from '../charts/time-series-entry';
 
 import BattlesTable from '../guild-wars/presentation-components/BattlesTable';
+import TimeSeries from '../charts/TimeSeries';
 
 import './Player.scss';
-import TimeSeries from '../charts/TimeSeries';
 
 interface BattleStats {
   heroAttacksLost: number;

@@ -11,6 +11,7 @@ import Home from './home/Home';
 import PageNotFound from './404/PageNotFound';
 import Player from './players/Player';
 import SiteHeader from './site-header/SiteHeader';
+import Titans from './tools/titans/Titans';
 import Tournaments from './tournaments/Tournaments';
 
 import './App.scss';
@@ -43,6 +44,9 @@ const App: React.FC = () => {
               selectedWarOption={query.get('selectedWarOption')}
               wars={guildWars}
             />
+          </Route>
+          <Route exact path="/titans">
+            <Titans />
           </Route>
           <Route exact path="/tournaments">
             <Tournaments />
