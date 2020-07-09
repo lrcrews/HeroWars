@@ -82,7 +82,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dagul', 120379),
-      new Player(Guild.MRCO_ID, 'BIG D', 102090),
+      new Player(Guild.MRCO_ID, 'Big-D', 102090),
       Fortification.BASTION_OF_FIRE_ID,
       20,
       true,
@@ -282,7 +282,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Forblitz', 190706),
-      new Player(Guild.MRCO_ID, 'BIG D', 145149),
+      new Player(Guild.MRCO_ID, 'Big-D', 145149),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -529,7 +529,7 @@ export const war = new GuildWar(
       `${warDateString}T08:44:47`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'BIG D', 102091),
+      new Player(Guild.MRCO_ID, 'Big-D', 102091),
       new Player(Guild.ASSASSINS_ID, 'wookie', 86374),
       Fortification.GATES_OF_NATURE_ID,
       20,
@@ -537,7 +537,7 @@ export const war = new GuildWar(
       `${warDateString}T09:16:02`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'BIG D', 102091),
+      new Player(Guild.MRCO_ID, 'Big-D', 102091),
       new Player(Guild.ASSASSINS_ID, 'Fuzzy', 90480),
       Fortification.BASTION_OF_ICE_ID,
       20,

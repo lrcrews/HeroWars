@@ -130,7 +130,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Murdox06', 147435),
-      new Player(Guild.MRCO_ID, 'BIG D', 119408),
+      new Player(Guild.MRCO_ID, 'Big-D', 119408),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,
       true,
@@ -250,7 +250,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 240151),
-      new Player(Guild.MRCO_ID, 'BIG D', 180895),
+      new Player(Guild.MRCO_ID, 'Big-D', 180895),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -617,7 +617,7 @@ export const war = new GuildWar(
       `${warDateString}T11:53:57`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'BIG D', 180895),
+      new Player(Guild.MRCO_ID, 'Big-D', 180895),
       new Player(Guild.ASSASSINS_ID, 'Dikree', 200517),
       Fortification.CITADEL_ID,
       0,
@@ -625,7 +625,7 @@ export const war = new GuildWar(
       `${warDateString}T12:02:41`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'BIG D', 180895),
+      new Player(Guild.MRCO_ID, 'Big-D', 180895),
       new Player(Guild.ASSASSINS_ID, 'elo', 206689),
       Fortification.FOUNDRY_ID,
       3,

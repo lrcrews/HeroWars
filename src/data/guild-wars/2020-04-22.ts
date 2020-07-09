@@ -90,7 +90,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dikree', 175204),
-      new Player(Guild.MRCO_ID, 'BIG D', 138543),
+      new Player(Guild.MRCO_ID, 'Big-D', 138543),
       Fortification.MAGE_ACADEMY_ID,
       20,
       true,
@@ -162,7 +162,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'elo', 105969),
-      new Player(Guild.MRCO_ID, 'BIG D', 102076),
+      new Player(Guild.MRCO_ID, 'Big-D', 102076),
       Fortification.BASTION_OF_FIRE_ID,
       20,
       true,
@@ -489,7 +489,7 @@ export const war = new GuildWar(
       `${warDateString}T10:32:58`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'BIG D', 102076),
+      new Player(Guild.MRCO_ID, 'Big-D', 102076),
       new Player(Guild.ASSASSINS_ID, 'Fuzzy', 90071),
       Fortification.BASTION_OF_ICE_ID,
       20,
@@ -505,7 +505,7 @@ export const war = new GuildWar(
       `${warDateString}T10:43:26`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'BIG D', 102076),
+      new Player(Guild.MRCO_ID, 'Big-D', 102076),
       new Player(Guild.ASSASSINS_ID, 'Disciple', 82358),
       Fortification.BASTION_OF_FIRE_ID,
       20,
