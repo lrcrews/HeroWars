@@ -1,0 +1,46 @@
+@import '../sass-mixins/mixins.scss';
+
+.heat-chart {
+  height: 5rem;
+  width: 100%;
+
+  .hour-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 7.69%;
+
+    > * {
+      background-color: $white-1;
+      height: 1.25rem;
+      width: 100%;
+
+      &.no-activity {
+        background-color: $grey-5;
+      }
+
+      &.activity-0-10 {
+        background-color: $red-1;
+      }
+
+      &.activity-10-25 {
+        background-color: $red-2;
+      }
+
+      &.activity-25-50 {
+        background-color: $red-3;
+      }
+
+      &.activity-51-75 {
+        background-color: $red-4;
+      }
+
+      &.activity-75-90 {
+        background-color: $red-5;
+      }
+
+      &.activity-90-100 {
+        background-color: $red-6;
+      }
+    }
+  }
+}

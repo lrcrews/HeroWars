@@ -13,6 +13,7 @@ import BattlesTable from '../guild-wars/presentation-components/BattlesTable';
 import TimeSeries from '../charts/TimeSeries';
 
 import './Player.scss';
+import HeatChart from './HeatChart';
 
 interface BattleStats {
   heroAttacksLost: number;
@@ -220,6 +221,7 @@ const Player: React.FC<PlayerProps> = (props) => {
             />
           </section>
           <section className="graphs">
+            <HeatChart attacks={_.filter(battles, (battle) => battle.attacker.name === name)} />
             <ul>
               <li>
                 <div className="graph-wrapper">
