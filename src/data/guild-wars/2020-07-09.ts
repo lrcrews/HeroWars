@@ -513,7 +513,7 @@ export const war = new GuildWar(
       `${warDateString}T06:45:14`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Gaby', 128321),
+      new Player(Guild.ROMANIA_ID, 'Galy', 128321),
       new Player(Guild.ASSASSINS_ID, 'Kairen', 213379),
       Fortification.GATES_OF_NATURE_ID,
       4,
@@ -521,7 +521,7 @@ export const war = new GuildWar(
       `${warDateString}T06:45:43`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Gaby', 128321),
+      new Player(Guild.ROMANIA_ID, 'Galy', 128321),
       new Player(Guild.ASSASSINS_ID, 'hotaru086', 212660),
       Fortification.GATES_OF_NATURE_ID,
       5,
