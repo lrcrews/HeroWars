@@ -167,33 +167,63 @@ const HeatChart: React.FC<HeatChartProps> = (props) => {
   }, [attacks]);
 
   const classFromCount = (count: number): string => {
-    if (count === 0) return 'no-activity';
+    if (count === 0) return 'cell no-activity';
     const percent = count / totalAttacks;
-    console.log(`percent: ${percent}`);
     if (percent < 0.1) {
-      return 'activity-0-10';
+      return 'cell activity-0-10';
     } else if (percent < 0.25) {
-      return 'activity-10-25';
+      return 'cell activity-10-25';
     } else if (percent < 0.5) {
-      return 'activity-25-50';
+      return 'cell activity-25-50';
     } else if (percent < 0.75) {
-      return 'activity-51-75';
+      return 'cell activity-50-75';
     } else if (percent < 0.9) {
-      return 'activity-75-90';
+      return 'cell activity-75-90';
     } else {
-      return 'activity-90-100';
+      return 'cell activity-90-100';
     }
   };
 
   return (
     <div className="heat-chart">
-      {Object.keys(attackTimeHash).map((key) => {
+      <ul className="legend font-small">
+        <li>
+          <div className="key no-activity"></div>
+          <div className="title">0%</div>
+        </li>
+        <li>
+          <div className="key activity-0-10"></div>
+          <div className="title">{'<'}10%</div>
+        </li>
+        <li>
+          <div className="key activity-10-25"></div>
+          <div className="title">10-25%</div>
+        </li>
+        <li>
+          <div className="key activity-25-50"></div>
+          <div className="title">25-50%</div>
+        </li>
+        <li>
+          <div className="key activity-50-75"></div>
+          <div className="title">50-75%</div>
+        </li>
+        <li>
+          <div className="key activity-75-90"></div>
+          <div className="title">75-90%</div>
+        </li>
+        <li>
+          <div className="key activity-90-100"></div>
+          <div className="title">90%+</div>
+        </li>
+      </ul>
+      {Object.keys(attackTimeHash).map((key, index) => {
         return (
           <div key={key} className="hour-container">
             <div className={classFromCount(attackTimeHash[key].quarter1)}></div>
             <div className={classFromCount(attackTimeHash[key].quarter2)}></div>
             <div className={classFromCount(attackTimeHash[key].quarter3)}></div>
             <div className={classFromCount(attackTimeHash[key].quarter4)}></div>
+            <div className="column-label">{index + 1}</div>
           </div>
         );
       })}

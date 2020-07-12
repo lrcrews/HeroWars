@@ -9,6 +9,10 @@
     color: $titan-color;
   }
 
+  .helper {
+    color: $grey-8;
+  }
+
   .player-info.tile {
     margin-bottom: 2.5rem;
 
@@ -52,29 +56,107 @@
   }
 
   .graphs {
+    text-align: center;
+
     > ul {
       > li {
         border: 1px solid $grey-2;
         border-radius: 3px;
         box-shadow: 0 1px 4px #00000029;
         display: inline-block;
-        margin: 0 40px 40px 0;
+        margin: 0 20px 40px;
         padding: 1rem;
         vertical-align: top;
 
         // TODO: create variable for this breakpoint?
         @media (max-width: 516px) {
           display: block;
-          margin-right: 0;
+          margin: 0 0 40px;
         }
 
-        &:last-child {
-          margin-right: 0;
+        .most-recent-war {
+          padding-top: 0.875rem;
+        }
+
+        .attacking-stats,
+        .graph-wrapper,
+        .heat-chart-wrapper {
+          width: 25rem;
+        }
+
+        .heat-chart-wrapper {
+          .chart-title {
+            padding-bottom: 1rem;
+            text-align: left;
+          }
+        }
+
+        .attacking-stats {
+          .missed-attacks {
+            padding-bottom: 1rem;
+
+            > * {
+              display: inline-block;
+              vertical-align: baseline;
+            }
+
+            .value {
+              font-size: $huge;
+              padding-right: 1rem;
+            }
+          }
+
+          .stats-container {
+            display: inline-block;
+            vertical-align: top;
+            width: 35%;
+
+            @supports (-ms-ime-align: auto) {
+              margin-right: -4px; // Edge adds margin-right on inline-block, and we happen to care in this case
+            }
+
+            &:first-child {
+              text-align: right;
+            }
+
+            &:last-child {
+              text-align: left;
+            }
+
+            &.titles {
+              text-align: center;
+              width: 30%;
+
+              .spacer {
+                height: 1.5rem;
+              }
+
+              .title {
+                padding-top: 0.325rem;
+              }
+            }
+
+            > ul {
+              > li {
+                height: 1.75rem;
+              }
+            }
+          }
+
+          .stat {
+            > * {
+              display: inline-block;
+              vertical-align: baseline;
+            }
+
+            .value {
+              width: 5.25rem;
+            }
+          }
         }
 
         .graph-wrapper {
           height: 225px;
-          width: 400px;
 
           @media (max-width: 516px) {
             width: 100%;

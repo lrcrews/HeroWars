@@ -56,6 +56,14 @@ $small-line-height: 1rem;
   line-height: $large-line-height;
 }
 
+@mixin font-small-title {
+  @extend %accent-font;
+  color: $red-6;
+  font-size: $normal;
+  font-weight: 600;
+  line-height: $normal-line-height;
+}
+
 @mixin font-link {
   @extend %main-font;
   color: $blue-3;
@@ -74,6 +82,10 @@ $small-line-height: 1rem;
 
 .font-subtitle {
   @include font-subtitle;
+}
+
+.font-small-title {
+  @include font-small-title;
 }
 
 .font-normal {

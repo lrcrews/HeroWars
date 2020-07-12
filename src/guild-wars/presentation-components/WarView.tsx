@@ -11,9 +11,9 @@ import { Guild } from '../../models/guild';
 import { GuildWar } from '../../models/guild-war';
 
 import CustomSelect, { Option } from './CustomSelect';
+import InfoBox from './InfoBox';
 
 import './WarView.scss';
-import InfoBox from './InfoBox';
 
 interface WarStats {
   bridgeAttacksUsed: number;

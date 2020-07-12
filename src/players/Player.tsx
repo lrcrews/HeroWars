@@ -10,10 +10,10 @@ import { Player as PlayerModel } from '../models/player';
 import { TimeSeriesEntry } from '../charts/time-series-entry';
 
 import BattlesTable from '../guild-wars/presentation-components/BattlesTable';
+import HeatChart from './HeatChart';
 import TimeSeries from '../charts/TimeSeries';
 
 import './Player.scss';
-import HeatChart from './HeatChart';
 
 interface BattleStats {
   heroAttacksLost: number;
@@ -199,6 +199,14 @@ const Player: React.FC<PlayerProps> = (props) => {
     return guild ? guild.bannerImagePath : '';
   };
 
+  const mostRecentWar = (): string => {
+    const date = _.chain(warDates)
+      .sortBy((date) => date)
+      .last()
+      .value();
+    return date ? date.toUTCString().substring(0, 11) : '-';
+  };
+
   return (
     <section id="player-page">
       {playerGuild && warDates && (
@@ -221,7 +229,107 @@ const Player: React.FC<PlayerProps> = (props) => {
             />
           </section>
           <section className="graphs">
-            <HeatChart attacks={_.filter(battles, (battle) => battle.attacker.name === name)} />
+            <ul>
+              <li>
+                <div className="heat-chart-wrapper">
+                  <div className="font-normal chart-title">War attack times:</div>
+                  <HeatChart attacks={_.filter(battles, (battle) => battle.attacker.name === name)} />
+                  <div className="font-normal axis-title">War Hour</div>
+                </div>
+              </li>
+              <li>
+                {stats && (
+                  <div className="attacking-stats">
+                    <div className="font-large missed-attacks">
+                      <div className="emphasize value">
+                        {stats.possibleAttacks - stats.usedAttacks}
+                        <span className="font-normal helper">/{miaPercentage()}</span>
+                      </div>
+                      <div className="title">Missed Attacks</div>
+                    </div>
+                    <ul>
+                      <li className="stats-container">
+                        <div className="font-small-title">Hero</div>
+                        {stats.heroAttacksTotal > 0 && (
+                          <ul>
+                            <li className="stat">
+                              <div className="font-large emphasize value">{stats.heroAttacksTotal}</div>
+                            </li>
+                            <li className="stat">
+                              <div className="font-large emphasize value">
+                                <span className="font-small helper">
+                                  {prettyPercent(stats.heroAttacksWonOutright / stats.heroAttacksTotal)}{' '}
+                                </span>
+                                {stats.heroAttacksWonOutright}
+                              </div>
+                            </li>
+                            <li className="stat">
+                              <div className="font-large emphasize value">
+                                <span className="font-small helper">
+                                  {prettyPercent(stats.heroAttacksLost / stats.heroAttacksTotal)}{' '}
+                                </span>
+                                {stats.heroAttacksLost}
+                              </div>
+                            </li>
+                          </ul>
+                        )}
+                        {stats.heroAttacksTotal === 0 && (
+                          <div className="font-normal empty-stats">No attacks found</div>
+                        )}
+                      </li>
+                      <li className="stats-container titles">
+                        <div className="spacer" />
+                        <ul>
+                          <li>
+                            <div className="title">Attacks</div>
+                          </li>
+                          <li>
+                            <div className="title">20pt Wins</div>
+                          </li>
+                          <li>
+                            <div className="title">Losses</div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="stats-container">
+                        <div className="font-small-title">Titan</div>
+                        {stats.titanAttacksTotal > 0 && (
+                          <ul>
+                            <li className="stat">
+                              <div className="font-large emphasize value">{stats.titanAttacksTotal}</div>
+                            </li>
+                            <li className="stat">
+                              <div className="font-large emphasize value">
+                                {stats.titanAttacksWonOutright}
+                                <span className="font-small helper">
+                                  {' '}
+                                  {prettyPercent(stats.titanAttacksWonOutright / stats.titanAttacksTotal)}
+                                </span>
+                              </div>
+                            </li>
+                            <li className="stat">
+                              <div className="font-large emphasize value">
+                                {stats.titanAttacksLost}
+                                <span className="font-small helper">
+                                  {' '}
+                                  {prettyPercent(stats.titanAttacksLost / stats.titanAttacksTotal)}
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
+                        )}
+                        {stats.titanAttacksTotal === 0 && (
+                          <div className="font-normal empty-stats">No attacks found</div>
+                        )}
+                      </li>
+                    </ul>
+                  </div>
+                )}
+                <div className="most-recent-war">
+                  <span className="font-small">Most recent war:</span> {mostRecentWar()}
+                </div>
+              </li>
+            </ul>
             <ul>
               <li>
                 <div className="graph-wrapper">
@@ -253,97 +361,6 @@ const Player: React.FC<PlayerProps> = (props) => {
           </section>
           {stats && (
             <section className="player-stats">
-              <div className="font-subtitle">Attacking - General</div>
-              <ul className="stats-container">
-                <li className="stat">
-                  <div className="title">Total Attacks</div>
-                  <div className="font-large value">
-                    {stats.usedAttacks}
-                    <span className="font-small helper">/{stats.possibleAttacks}</span>
-                  </div>
-                </li>
-                <li className="stat">
-                  <div className="title">MIA</div>
-                  <div className="font-large value">
-                    {stats.possibleAttacks - stats.usedAttacks}
-                    <span className="font-small helper">/{miaPercentage()}</span>
-                  </div>
-                </li>
-              </ul>
-              <div className="font-subtitle">Attacking - Hero</div>
-              {stats.heroAttacksTotal > 0 && (
-                <ul className="stats-container">
-                  <li className="stat">
-                    <div className="title">Total Attacks</div>
-                    <div className="font-large value">{stats.heroAttacksTotal}</div>
-                  </li>
-                  <li className="stat">
-                    <div className="title">20pt Wins</div>
-                    <div className="font-large value">
-                      {stats.heroAttacksWonOutright}
-                      <span className="font-small helper">
-                        /{prettyPercent(stats.heroAttacksWonOutright / stats.heroAttacksTotal)}
-                      </span>
-                    </div>
-                  </li>
-                  {/* <li className="stat">
-                    <div className="title">Cleanup Wins</div>
-                    <div className="font-large value">
-                      {stats.heroAttacksWonCleanup}
-                      <span className="font-small helper">
-                        /{prettyPercent(stats.heroAttacksWonCleanup / stats.heroAttacksTotal)}
-                      </span>
-                    </div>
-                  </li> */}
-                  <li className="stat">
-                    <div className="title">Losses</div>
-                    <div className="font-large value">
-                      {stats.heroAttacksLost}
-                      <span className="font-small helper">
-                        /{prettyPercent(stats.heroAttacksLost / stats.heroAttacksTotal)}
-                      </span>
-                    </div>
-                  </li>
-                </ul>
-              )}
-              {stats.heroAttacksTotal === 0 && <div className="font-normal empty-stats">No hero attacks found.</div>}
-              <div className="font-subtitle">Attacking - Titan</div>
-              {stats.titanAttacksTotal > 0 && (
-                <ul className="stats-container">
-                  <li className="stat">
-                    <div className="title">Total Attacks</div>
-                    <div className="font-large value">{stats.titanAttacksTotal}</div>
-                  </li>
-                  <li className="stat">
-                    <div className="title">20pt Wins</div>
-                    <div className="font-large value">
-                      {stats.titanAttacksWonOutright}
-                      <span className="font-small helper">
-                        /{prettyPercent(stats.titanAttacksWonOutright / stats.titanAttacksTotal)}
-                      </span>
-                    </div>
-                  </li>
-                  {/* <li className="stat">
-                    <div className="title">Cleanup Wins</div>
-                    <div className="font-large value">
-                      {stats.titanAttacksWonCleanup}
-                      <span className="font-small helper">
-                        /{prettyPercent(stats.titanAttacksWonCleanup / stats.titanAttacksTotal)}
-                      </span>
-                    </div>
-                  </li> */}
-                  <li className="stat">
-                    <div className="title">Losses</div>
-                    <div className="font-large value">
-                      {stats.titanAttacksLost}
-                      <span className="font-small helper">
-                        /{prettyPercent(stats.titanAttacksLost / stats.titanAttacksTotal)}
-                      </span>
-                    </div>
-                  </li>
-                </ul>
-              )}
-              {stats.titanAttacksTotal === 0 && <div className="font-normal empty-stats">No titan attacks found.</div>}
               <div className="font-subtitle">Defending - Hero</div>
               {stats.heroDefensesTotal > 0 && (
                 <ul className="stats-container">
