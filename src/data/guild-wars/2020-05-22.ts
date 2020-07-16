@@ -26,7 +26,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Regal', 245095),
-      new Player(Guild.MRCO_ID, 'Budge', 218987),
+      new Player(Guild.MRCO_ID, 'MEATeor', 218987),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -274,7 +274,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Marcus', 340833),
-      new Player(Guild.MRCO_ID, 'Budge', 240972),
+      new Player(Guild.MRCO_ID, 'MEATeor', 240972),
       Fortification.LIGHTHOUSE_ID,
       20,
       true,
@@ -505,7 +505,7 @@ export const war = new GuildWar(
       `${warDateString}T09:28:29`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Budge', 218987),
+      new Player(Guild.MRCO_ID, 'MEATeor', 218987),
       new Player(Guild.ASSASSINS_ID, 'Father Zara', 217706),
       Fortification.BASTION_OF_ICE_ID,
       20,
@@ -513,7 +513,7 @@ export const war = new GuildWar(
       `${warDateString}T09:33:16`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'Budge', 218987),
+      new Player(Guild.MRCO_ID, 'MEATeor', 218987),
       new Player(Guild.ASSASSINS_ID, 'Regal', 245095),
       Fortification.BASTION_OF_FIRE_ID,
       14,

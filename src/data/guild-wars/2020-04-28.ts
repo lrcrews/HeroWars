@@ -138,7 +138,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dan', 167028),
-      new Player(Guild.MRCO_ID, 'budge', 131059),
+      new Player(Guild.MRCO_ID, 'MEATeor', 131059),
       Fortification.BASTION_OF_ICE_ID,
       20,
       true,
@@ -226,7 +226,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Gom', 281116),
-      new Player(Guild.MRCO_ID, 'budge', 224686),
+      new Player(Guild.MRCO_ID, 'MEATeor', 224686),
       Fortification.CITADEL_ID,
       0,
       false,
@@ -234,7 +234,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 266785),
-      new Player(Guild.MRCO_ID, 'budge', 224686),
+      new Player(Guild.MRCO_ID, 'MEATeor', 224686),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -393,7 +393,7 @@ export const war = new GuildWar(
       `${warDateString}T04:40:28`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'budge', 131602),
+      new Player(Guild.MRCO_ID, 'MEATeor', 131602),
       new Player(Guild.ASSASSINS_ID, 'Forblitz', 126395),
       Fortification.BASTION_OF_FIRE_ID,
       20,
@@ -401,7 +401,7 @@ export const war = new GuildWar(
       `${warDateString}T05:43:45`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'budge', 131602),
+      new Player(Guild.MRCO_ID, 'MEATeor', 131602),
       new Player(Guild.ASSASSINS_ID, 'Dagul', 120395),
       Fortification.BASTION_OF_FIRE_ID,
       20,

@@ -50,7 +50,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'En4', 257001),
-      new Player(Guild.MRCO_ID, 'budge', 208432),
+      new Player(Guild.MRCO_ID, 'MEATeor', 208432),
       Fortification.BASTION_OF_ICE_ID,
       20,
       true,
@@ -266,7 +266,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Father Zara', 330436),
-      new Player(Guild.MRCO_ID, 'budge', 257210),
+      new Player(Guild.MRCO_ID, 'MEATeor', 257210),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -489,7 +489,7 @@ export const war = new GuildWar(
       `${warDateString}T09:59:04`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'budge', 209048),
+      new Player(Guild.MRCO_ID, 'MEATeor', 209048),
       new Player(Guild.ASSASSINS_ID, 'Father Zara', 215837),
       Fortification.BASTION_OF_ICE_ID,
       18,
@@ -537,7 +537,7 @@ export const war = new GuildWar(
       `${warDateString}T11:08:13`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'budge', 212757),
+      new Player(Guild.MRCO_ID, 'MEATeor', 212757),
       new Player(Guild.ASSASSINS_ID, 'HERO', 181049),
       Fortification.GATES_OF_NATURE_ID,
       20,
