@@ -130,7 +130,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'En4', 258992),
-      new Player(Guild.ROMANIA_ID, 'Fluffy Monkey', 226518),
+      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 226518),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -449,7 +449,7 @@ export const war = new GuildWar(
       `${warDateString}T03:42:31`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Fluffy Monkey', 226518),
+      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 226518),
       new Player(Guild.ASSASSINS_ID, 'Marcus', 195544),
       Fortification.GATES_OF_NATURE_ID,
       20,
@@ -457,7 +457,7 @@ export const war = new GuildWar(
       `${warDateString}T04:11:15`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Fluffy Monkey', 226518),
+      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 226518),
       new Player(Guild.ASSASSINS_ID, 'Father Zara', 219584),
       Fortification.BASTION_OF_ICE_ID,
       18,

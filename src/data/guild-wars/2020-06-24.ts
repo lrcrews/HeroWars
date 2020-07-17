@@ -114,7 +114,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'gertyman', 268913),
-      new Player(Guild.ROMANIA_ID, 'Fluffy Monkey', 235444),
+      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 235444),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -322,7 +322,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 396204),
-      new Player(Guild.ROMANIA_ID, 'Fluffy Monkey', 272920),
+      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 272920),
       Fortification.BARRACKS_ID,
       20,
       true,
@@ -401,7 +401,7 @@ export const war = new GuildWar(
       `${warDateString}T03:49:33`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Fluffy Monkey', 235444),
+      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 235444),
       new Player(Guild.ASSASSINS_ID, 'Father Zara', 243844),
       Fortification.GATES_OF_NATURE_ID,
       19,
@@ -593,7 +593,7 @@ export const war = new GuildWar(
       `${warDateString}T09:39:10`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Fluffy Monkey', 273164),
+      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 273164),
       new Player(Guild.ASSASSINS_ID, 'KP', 275774),
       Fortification.BARRACKS_ID,
       8,
