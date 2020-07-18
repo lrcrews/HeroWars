@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 import * as _ from 'lodash';
 
+import { Link } from 'react-router-dom';
+
 import { Battle } from '../models/battle';
 import { Fortification } from '../models/fortification';
 import { Guild } from '../models/guild';
@@ -221,12 +223,14 @@ const Player: React.FC<PlayerProps> = (props) => {
             </div>
           </section>
           <section className="guild-info">
-            <img
-              src={bannerImageForGuildId(playerGuild.id)}
-              alt={playerGuild.name}
-              title={playerGuild.name}
-              className="guild-banner"
-            />
+            <Link to={`/guilds/${playerGuild.id}`}>
+              <img
+                src={bannerImageForGuildId(playerGuild.id)}
+                alt={playerGuild.name}
+                title={playerGuild.name}
+                className="guild-banner"
+              />
+            </Link>
           </section>
           <section className="graphs">
             <ul>

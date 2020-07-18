@@ -1,3 +1,4 @@
+import Guild from './guilds/Guild';
 import GuildWars from './guild-wars/GuildWars';
 import Home from './home/Home';
 import Player from './players/Player';
@@ -8,6 +9,10 @@ const routes = [
   {
     path: '/guild-wars',
     component: GuildWars,
+  },
+  {
+    path: '/guilds/:id',
+    component: Guild,
   },
   {
     path: '/',

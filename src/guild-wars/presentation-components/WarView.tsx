@@ -2,6 +2,8 @@ import React, { PropsWithChildren, useEffect, useState } from 'react';
 
 import * as _ from 'lodash';
 
+import { Link } from 'react-router-dom';
+
 import badgeImg from '../../data/misc-images/icon-battle.png';
 import victoryPointIconImg from '../../data/misc-images/icon-victory-point.png';
 import vsIconImg from '../../data/misc-images/icon-vs.png';
@@ -190,7 +192,9 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
           <ul className="guild-names">
             <li>
               <ul>
-                <li className="name">{assassinsGuild?.name}</li>
+                <li className="name">
+                  <Link to={`/guilds/${assassinsGuild.id}`}>{assassinsGuild?.name}</Link>
+                </li>
                 <li className="points">
                   <div>{assassinsPointTotal()}</div>
                   <img src={victoryPointIconImg} alt="" />
@@ -202,7 +206,9 @@ const WarView: React.FC<WarViewProps> = (props: WarViewProps) => {
             </li>
             <li>
               <ul>
-                <li className="name">{competitorGuild?.name}</li>
+                <li className="name">
+                  <Link to={`/guilds/${competitorGuild.id}`}>{competitorGuild?.name}</Link>
+                </li>
                 <li className="points">
                   <img src={victoryPointIconImg} alt="" />
                   <div>{competitorPointTotal()}</div>

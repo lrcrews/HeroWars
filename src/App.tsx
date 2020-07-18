@@ -3,9 +3,10 @@ import React from 'react';
 import { Route, RouteComponentProps, Switch, useLocation } from 'react-router-dom';
 
 import { Fortification } from './models/fortification';
-import { Guild } from './models/guild';
+import { Guild as GuildModel } from './models/guild';
 import { GuildWarsData } from './data/guild-wars/guild-wars-data';
 
+import Guild from './guilds/Guild';
 import GuildWars from './guild-wars/GuildWars';
 import Home from './home/Home';
 import PageNotFound from './404/PageNotFound';
@@ -16,15 +17,21 @@ import Tournaments from './tournaments/Tournaments';
 
 import './App.scss';
 
+interface GuildMatchParams {
+  id: string;
+}
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+interface GuildMatchProps extends RouteComponentProps<GuildMatchParams> {}
+
 interface PlayersMatchParams {
   name: string;
 }
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-interface MatchProps extends RouteComponentProps<PlayersMatchParams> {}
+interface PlayerMatchProps extends RouteComponentProps<PlayersMatchParams> {}
 
 const App: React.FC = () => {
   const fortifications = Fortification.ALL();
-  const guilds = Guild.ALL();
+  const guilds = GuildModel.ALL();
   const guildWars = GuildWarsData.data();
 
   const query = new URLSearchParams(useLocation().search);
@@ -45,18 +52,24 @@ const App: React.FC = () => {
               wars={guildWars}
             />
           </Route>
+          <Route
+            path="/guilds/:id"
+            render={({ match }: GuildMatchProps): JSX.Element => (
+              <Guild allGuilds={guilds} selectedGuildId={Number.parseInt(match.params.id)} wars={guildWars} />
+            )}
+          />
+          <Route
+            path="/players/:name"
+            render={({ match }: PlayerMatchProps): JSX.Element => (
+              <Player fortifications={fortifications} guilds={guilds} name={match.params.name} wars={guildWars} />
+            )}
+          />
           <Route exact path="/titans">
             <Titans />
           </Route>
           <Route exact path="/tournaments">
             <Tournaments />
           </Route>
-          <Route
-            path="/players/:name"
-            render={({ match }: MatchProps): JSX.Element => (
-              <Player fortifications={fortifications} guilds={guilds} name={match.params.name} wars={guildWars} />
-            )}
-          />
           <Route component={PageNotFound} />
         </Switch>
       </section>
