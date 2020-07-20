@@ -84,6 +84,19 @@ section#app-container {
           color: $grey-4;
         }
       }
+
+      .hero-line,
+      .titan-line {
+        > * {
+          display: inline-block;
+          margin-right: 1rem;
+          vertical-align: middle;
+
+          .avatar {
+            width: 5rem;
+          }
+        }
+      }
     }
 
     td,
@@ -97,6 +110,12 @@ section#app-container {
 
       .additional-data {
         color: $grey-7;
+      }
+
+      .seperator {
+        color: $grey-7;
+        font-weight: 600;
+        padding: 2rem 0;
       }
     }
 

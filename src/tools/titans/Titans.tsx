@@ -7,11 +7,13 @@ import DungeonStratergy from './DungeonStratergy';
 import TitaniteRequirement from './TitaniteRequirement';
 import TitanLevels from './TitanLevels';
 import TitanStarRank from './TitanStarRank';
+import WarStatergy from './WarStatergy';
 
 const SECTION_DUNGEON_STRATERGY = 'dungeon_stratergy';
 const SECTION_LEVEL = 'titan_level';
 const SECTION_STAR_RANK = 'titan_star_rank';
 const SECTION_TITANITE_REQUIREMENT = 'titanite_requirement';
+const SECTION_WAR_STRATERGY = 'war_stratergy';
 
 const Titans: React.FC = () => {
   const [expandedSections, setExpandedSections] = useState<{ [key: string]: boolean }>({
@@ -47,6 +49,13 @@ const Titans: React.FC = () => {
         onToggleExpanded={(): void => updateExpandedSections(SECTION_DUNGEON_STRATERGY)}
       >
         <DungeonStratergy />
+      </CollapsibleTile>
+      <CollapsibleTile
+        expanded={expandedSections[SECTION_WAR_STRATERGY]}
+        title="War Stratergy"
+        onToggleExpanded={(): void => updateExpandedSections(SECTION_WAR_STRATERGY)}
+      >
+        <WarStatergy />
       </CollapsibleTile>
       <CollapsibleTile
         expanded={expandedSections[SECTION_STAR_RANK]}
