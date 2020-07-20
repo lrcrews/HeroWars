@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DungeonStratergy: React.FC = () => {
+const DungeonStrategy: React.FC = () => {
   return (
     <div>
       <p className="font-large">If you are not able to get 151 titanite consistently please read the following:</p>
@@ -48,4 +48,4 @@ const DungeonStratergy: React.FC = () => {
     </div>
   );
 };
-export default DungeonStratergy;
+export default DungeonStrategy;

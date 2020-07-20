@@ -2,7 +2,7 @@ import React, { Fragment, ReactFragment, ReactNode } from 'react';
 
 import { Titan } from '../../models/titan';
 
-const WarStatergy: React.FC = () => {
+const WarStrategy: React.FC = () => {
   const moloch = Titan.MOLOCH();
   // const vulcan = Titan.VULCAN();
   const ignis = Titan.IGNIS();
@@ -302,7 +302,7 @@ const WarStatergy: React.FC = () => {
 
   return (
     <div>
-      <p className="font-large">Auto-attack stratergy assuming max (or same) level</p>
+      <p className="font-large">Auto-attack strategy assuming max (or same) level</p>
       <table className="tool-table">
         <thead>
           <tr>
@@ -431,4 +431,4 @@ const WarStatergy: React.FC = () => {
     </div>
   );
 };
-export default WarStatergy;
+export default WarStrategy;

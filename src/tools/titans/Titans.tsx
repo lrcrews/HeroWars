@@ -3,21 +3,21 @@ import React, { useState } from 'react';
 import * as _ from 'lodash';
 
 import CollapsibleTile from '../../shared-components/CollapsibleTile/CollapsibleTile';
-import DungeonStratergy from './DungeonStratergy';
+import DungeonStrategy from './DungeonStrategy';
 import TitaniteRequirement from './TitaniteRequirement';
 import TitanLevels from './TitanLevels';
 import TitanStarRank from './TitanStarRank';
-import WarStatergy from './WarStatergy';
+import WarStrategy from './WarStrategy';
 
-const SECTION_DUNGEON_STRATERGY = 'dungeon_stratergy';
+const SECTION_DUNGEON_STRATEGY = 'dungeon_strategy';
 const SECTION_LEVEL = 'titan_level';
 const SECTION_STAR_RANK = 'titan_star_rank';
 const SECTION_TITANITE_REQUIREMENT = 'titanite_requirement';
-const SECTION_WAR_STRATERGY = 'war_stratergy';
+const SECTION_WAR_STRATEGY = 'war_strategy';
 
 const Titans: React.FC = () => {
   const [expandedSections, setExpandedSections] = useState<{ [key: string]: boolean }>({
-    [SECTION_DUNGEON_STRATERGY]: false,
+    [SECTION_DUNGEON_STRATEGY]: false,
     [SECTION_LEVEL]: false,
     [SECTION_STAR_RANK]: false,
     [SECTION_TITANITE_REQUIREMENT]: false,
@@ -44,18 +44,18 @@ const Titans: React.FC = () => {
         <TitaniteRequirement />
       </CollapsibleTile>
       <CollapsibleTile
-        expanded={expandedSections[SECTION_DUNGEON_STRATERGY]}
-        title="Dungeon Stratergy"
-        onToggleExpanded={(): void => updateExpandedSections(SECTION_DUNGEON_STRATERGY)}
+        expanded={expandedSections[SECTION_DUNGEON_STRATEGY]}
+        title="Dungeon Strategy"
+        onToggleExpanded={(): void => updateExpandedSections(SECTION_DUNGEON_STRATEGY)}
       >
-        <DungeonStratergy />
+        <DungeonStrategy />
       </CollapsibleTile>
       <CollapsibleTile
-        expanded={expandedSections[SECTION_WAR_STRATERGY]}
-        title="War Stratergy"
-        onToggleExpanded={(): void => updateExpandedSections(SECTION_WAR_STRATERGY)}
+        expanded={expandedSections[SECTION_WAR_STRATEGY]}
+        title="War Strategy"
+        onToggleExpanded={(): void => updateExpandedSections(SECTION_WAR_STRATEGY)}
       >
-        <WarStatergy />
+        <WarStrategy />
       </CollapsibleTile>
       <CollapsibleTile
         expanded={expandedSections[SECTION_STAR_RANK]}
