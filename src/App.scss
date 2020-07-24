@@ -133,23 +133,25 @@ section#app-container {
 
   @media only screen and (max-width: 620px) {
     .tool-table {
-      th,
-      td {
-        border: 0;
-        display: block;
-        width: 100%;
-      }
+      &:not(.narrow) {
+        th,
+        td {
+          border: 0;
+          display: block;
+          width: 100%;
+        }
 
-      th {
-        border-bottom: solid 1px $blue-4;
-        border-left: solid 1px $blue-4;
-        border-right: solid 1px $blue-4;
-      }
+        th {
+          border-bottom: solid 1px $blue-4;
+          border-left: solid 1px $blue-4;
+          border-right: solid 1px $blue-4;
+        }
 
-      td {
-        border-bottom: solid 1px $grey-4;
-        border-left: solid 1px $grey-4;
-        border-right: solid 1px $grey-4;
+        td {
+          border-bottom: solid 1px $grey-4;
+          border-left: solid 1px $grey-4;
+          border-right: solid 1px $grey-4;
+        }
       }
     }
   }

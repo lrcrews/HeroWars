@@ -120,7 +120,7 @@ const Guild: React.FC<GuildProps> = (props) => {
           {recentWars && (
             <section className="recent-wars">
               <div className="font-subtitle table-title">Recent Wars</div>
-              <table className="tool-table">
+              <table className="tool-table narrow">
                 <thead>
                   <tr>
                     <th>War</th>

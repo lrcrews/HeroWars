@@ -16,6 +16,10 @@
       @supports (-ms-ime-align: auto) {
         margin-right: -4px; // Edge adds margin-right on inline-block, and we happen to care in this case
       }
+
+      @media (max-width: 700px) {
+        display: block;
+      }
     }
 
     .general-info {
@@ -26,10 +30,47 @@
       .name {
         padding-bottom: 1.25rem;
       }
+
+      @media (max-width: 975px) {
+        width: 5rem;
+
+        .name {
+          font-size: $large;
+          line-height: $large-line-height;
+          padding-bottom: 0.25rem;
+        }
+
+        .guild-banner {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 700px) {
+        padding-right: 0;
+        width: 100%;
+
+        .name {
+          font-size: $huge;
+          line-height: $huge-line-height;
+          padding-bottom: 1.25rem;
+        }
+
+        .guild-banner {
+          max-width: 15rem;
+        }
+      }
     }
 
     .recent-wars {
       width: calc(100% - 17.5rem);
+
+      @media (max-width: 975px) {
+        width: calc(100% - 7.5rem);
+      }
+
+      @media (max-width: 700px) {
+        width: 100%;
+      }
 
       > * {
         display: inline-block;
@@ -37,6 +78,10 @@
 
         @supports (-ms-ime-align: auto) {
           margin-right: -4px; // Edge adds margin-right on inline-block, and we happen to care in this case
+        }
+
+        @media (max-width: 700px) {
+          display: block;
         }
       }
 
@@ -46,10 +91,21 @@
         padding-right: 0.25rem;
         text-align: right;
         width: 7.5rem;
+
+        @media (max-width: 700px) {
+          border-right: none;
+          padding-bottom: 1rem;
+          text-align: left;
+          width: 100%;
+        }
       }
 
       .tool-table {
         width: calc(100% - 8.5rem - 1px);
+
+        @media (max-width: 700px) {
+          width: 100%;
+        }
 
         .guild-banner {
           width: 1.5rem;
