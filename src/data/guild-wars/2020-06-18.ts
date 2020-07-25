@@ -202,7 +202,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'KP', 267296),
-      new Player(Guild.MRCO_ID, 'perMEATerik', 181200),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 181200),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -473,7 +473,7 @@ export const war = new GuildWar(
       `${warDateString}T08:04:25`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'perMEATerik', 97209),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 97209),
       new Player(Guild.ASSASSINS_ID, 'agent_chu', 147205),
       Fortification.SPRING_OF_ELEMENTS_ID,
       7,
@@ -593,7 +593,7 @@ export const war = new GuildWar(
       `${warDateString}T12:21:07`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'perMEATerik', 181680),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 181680),
       new Player(Guild.ASSASSINS_ID, 'Murdox06', 229598),
       Fortification.CITADEL_ID,
       5,

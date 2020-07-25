@@ -10,7 +10,7 @@ export const war = new GuildWar(
   [
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Gom', 228443),
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 235148),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 235148),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -210,7 +210,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Don', 193141),
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 193641),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 193641),
       Fortification.CITADEL_ID,
       6,
       false,
@@ -258,7 +258,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'GurraBurra', 270728),
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 193641),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 193641),
       Fortification.CITADEL_ID,
       14,
       true,
@@ -329,7 +329,7 @@ export const war = new GuildWar(
       `${warDateString}T00:06:13`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 235148),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 235148),
       new Player(Guild.ASSASSINS_ID, 'Gom', 228443),
       Fortification.BRIDGE_ID,
       20,
@@ -337,7 +337,7 @@ export const war = new GuildWar(
       `${warDateString}T00:32:26`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 235148),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 235148),
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 225906),
       Fortification.BRIDGE_ID,
       20,

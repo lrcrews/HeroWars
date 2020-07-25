@@ -58,7 +58,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dikree', 187200),
-      new Player(Guild.MRCO_ID, 'perMEATerik', 135379),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 135379),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -90,7 +90,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Disciple', 86274),
-      new Player(Guild.MRCO_ID, 'perMEATerik', 61092),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 61092),
       Fortification.BASTION_OF_FIRE_ID,
       20,
       true,
@@ -593,7 +593,7 @@ export const war = new GuildWar(
       `${warDateString}T09:45:13`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'perMEATerik', 61092),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 61092),
       new Player(Guild.ASSASSINS_ID, 'BOTI', 81208),
       Fortification.SPRING_OF_ELEMENTS_ID,
       8,
@@ -617,7 +617,7 @@ export const war = new GuildWar(
       `${warDateString}T10:03:46`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'perMEATerik', 61092),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 61092),
       new Player(Guild.ASSASSINS_ID, 'Sheevara', 82775),
       Fortification.SPRING_OF_ELEMENTS_ID,
       8,

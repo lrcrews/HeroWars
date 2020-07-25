@@ -10,7 +10,7 @@ export const war = new GuildWar(
   [
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'tntodor', 268882),
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 268882),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 268882),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -114,7 +114,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'gertyman', 268913),
-      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 235444),
+      new Player(Guild.ROMANIA_ID, 'TheUnknown', 235444),
       Fortification.GATES_OF_NATURE_ID,
       20,
       true,
@@ -170,7 +170,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Father Zara', 344617),
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 313895),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 313895),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -322,7 +322,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 396204),
-      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 272920),
+      new Player(Guild.ROMANIA_ID, 'TheUnknown', 272920),
       Fortification.BARRACKS_ID,
       20,
       true,
@@ -345,7 +345,7 @@ export const war = new GuildWar(
       `${warDateString}T02:36:52`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 268882),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 268882),
       new Player(Guild.ASSASSINS_ID, 'Regal', 266223),
       Fortification.BRIDGE_ID,
       20,
@@ -353,7 +353,7 @@ export const war = new GuildWar(
       `${warDateString}T02:52:05`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 268882),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 268882),
       new Player(Guild.ASSASSINS_ID, 'tntodor', 268882),
       Fortification.BRIDGE_ID,
       20,
@@ -401,7 +401,7 @@ export const war = new GuildWar(
       `${warDateString}T03:49:33`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 235444),
+      new Player(Guild.ROMANIA_ID, 'TheUnknown', 235444),
       new Player(Guild.ASSASSINS_ID, 'Father Zara', 243844),
       Fortification.GATES_OF_NATURE_ID,
       19,
@@ -593,7 +593,7 @@ export const war = new GuildWar(
       `${warDateString}T09:39:10`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Fluffy Chicken', 273164),
+      new Player(Guild.ROMANIA_ID, 'TheUnknown', 273164),
       new Player(Guild.ASSASSINS_ID, 'KP', 275774),
       Fortification.BARRACKS_ID,
       8,

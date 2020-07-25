@@ -42,7 +42,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'gertyman', 248819),
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 214294),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 214294),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -210,7 +210,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'KP', 197074),
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 152872),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 152872),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -353,7 +353,7 @@ export const war = new GuildWar(
       `${warDateString}T02:16:55`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 214294),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 214294),
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 203927),
       Fortification.BRIDGE_ID,
       20,
@@ -361,7 +361,7 @@ export const war = new GuildWar(
       `${warDateString}T02:44:11`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Tonydarat', 214294),
+      new Player(Guild.ROMANIA_ID, 'Team RamRod', 214294),
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 222751),
       Fortification.BRIDGE_ID,
       18,

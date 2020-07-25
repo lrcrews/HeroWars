@@ -154,7 +154,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dikree', 149837),
-      new Player(Guild.MRCO_ID, 'perMEATerik', 87072),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 87072),
       Fortification.BASTION_OF_ICE_ID,
       20,
       true,
@@ -186,7 +186,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'KP', 259122),
-      new Player(Guild.MRCO_ID, 'perMEATerik', 172673),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 172673),
       Fortification.CITADEL_ID,
       20,
       true,
@@ -361,7 +361,7 @@ export const war = new GuildWar(
       `${warDateString}T01:05:43`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'perMEATerik', 94912),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 94912),
       new Player(Guild.ASSASSINS_ID, 'tntodor', 268882),
       Fortification.BRIDGE_ID,
       1,
@@ -641,7 +641,7 @@ export const war = new GuildWar(
       `${warDateString}T11:48:00`
     ),
     new Battle(
-      new Player(Guild.MRCO_ID, 'perMEATerik', 94912),
+      new Player(Guild.MRCO_ID, 'pertrainerik', 94912),
       new Player(Guild.ASSASSINS_ID, 'Kairen', 177583),
       Fortification.BASTION_OF_ICE_ID,
       1,
