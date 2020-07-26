@@ -151,7 +151,7 @@ const Guild: React.FC<GuildProps> = (props) => {
                     return (
                       <tr key={war.warDateString}>
                         <td>
-                          <Link to={`/wars?selectedWarOption=${war.warDateString}`}>
+                          <Link to={`/guild-wars?selectedWarOption=${war.warDateString}`}>
                             <div className="display-text">{war.warDateString}</div>
                           </Link>
                         </td>
