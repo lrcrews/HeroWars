@@ -514,7 +514,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ANARCHY_ID, 'Bernde', 73633),
-      new Player(Guild.ASSASSINS_ID, 'hotau086', 107877),
+      new Player(Guild.ASSASSINS_ID, 'hotaru086', 107877),
       Fortification.BASTION_OF_FIRE_ID,
       6,
       true,

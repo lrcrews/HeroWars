@@ -257,7 +257,7 @@ export const war = new GuildWar(
       `${warDateString}T11:24:17`
     ),
     new Battle(
-      new Player(Guild.ASSASSINS_ID, 'hotaru86', 98042),
+      new Player(Guild.ASSASSINS_ID, 'hotaru086', 98042),
       new Player(Guild.LES_FRANCS_ID, 'Nick56450', 59039),
       Fortification.GATES_OF_NATURE_ID,
       20,
@@ -265,7 +265,7 @@ export const war = new GuildWar(
       `${warDateString}T11:39:34`
     ),
     new Battle(
-      new Player(Guild.ASSASSINS_ID, 'hotaru86', 98042),
+      new Player(Guild.ASSASSINS_ID, 'hotaru086', 98042),
       new Player(Guild.LES_FRANCS_ID, 'Ulol4free', 78898),
       Fortification.SPRING_OF_ELEMENTS_ID,
       20,

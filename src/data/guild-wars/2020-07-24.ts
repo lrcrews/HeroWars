@@ -274,7 +274,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'KP', 297581),
-      new Player(Guild.THE_ACADEMY_ID, 'Hire Shumaru', 186565),
+      new Player(Guild.THE_ACADEMY_ID, 'Hiro Shumaru', 186565),
       Fortification.BARRACKS_ID,
       20,
       true,
@@ -377,7 +377,7 @@ export const war = new GuildWar(
       `${warDateString}T01:27:32`
     ),
     new Battle(
-      new Player(Guild.THE_ACADEMY_ID, 'Hiru Shumaru', 186565),
+      new Player(Guild.THE_ACADEMY_ID, 'Hiro Shumaru', 186565),
       new Player(Guild.ASSASSINS_ID, 'Gom', 373376),
       Fortification.LIGHTHOUSE_ID,
       0,
@@ -385,7 +385,7 @@ export const war = new GuildWar(
       `${warDateString}T02:34:42`
     ),
     new Battle(
-      new Player(Guild.THE_ACADEMY_ID, 'Hiru Shumaru', 186565),
+      new Player(Guild.THE_ACADEMY_ID, 'Hiro Shumaru', 186565),
       new Player(Guild.ASSASSINS_ID, 'KP', 295105),
       Fortification.LIGHTHOUSE_ID,
       3,

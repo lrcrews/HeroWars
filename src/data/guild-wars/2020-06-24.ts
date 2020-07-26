@@ -482,7 +482,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ROMANIA_ID, 'Strange Tamer', 147920),
-      new Player(Guild.ASSASSINS_ID, 'Murdox', 174485),
+      new Player(Guild.ASSASSINS_ID, 'Murdox06', 174485),
       Fortification.BASTION_OF_FIRE_ID,
       12,
       false,

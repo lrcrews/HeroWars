@@ -602,7 +602,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.MRCO_ID, 'Angelina', 313263),
-      new Player(Guild.ASSASSINS_ID, 'agent_hero', 255502),
+      new Player(Guild.ASSASSINS_ID, 'agent_chu', 255502),
       Fortification.BARRACKS_ID,
       20,
       true,

@@ -298,7 +298,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'elo', 107892),
-      new Player(Guild.MRCO_ID, 'PetrifieBear', 118334),
+      new Player(Guild.MRCO_ID, 'PetrifiedBear', 118334),
       Fortification.BASTION_OF_ICE_ID,
       15,
       false,
@@ -306,7 +306,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Don', 65099),
-      new Player(Guild.MRCO_ID, 'PetrifieBear', 118334),
+      new Player(Guild.MRCO_ID, 'PetrifiedBear', 118334),
       Fortification.BASTION_OF_ICE_ID,
       1,
       false,

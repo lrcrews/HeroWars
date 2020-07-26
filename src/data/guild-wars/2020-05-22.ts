@@ -466,7 +466,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.MRCO_ID, 'MrTom', 231133),
-      new Player(Guild.ASSASSINS_ID, 'en4', 235430),
+      new Player(Guild.ASSASSINS_ID, 'En4', 235430),
       Fortification.BARRACKS_ID,
       16,
       false,
@@ -482,7 +482,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.MRCO_ID, 'Tfy', 179538),
-      new Player(Guild.ASSASSINS_ID, 'en4', 235430),
+      new Player(Guild.ASSASSINS_ID, 'En4', 235430),
       Fortification.BARRACKS_ID,
       0,
       false,

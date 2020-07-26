@@ -154,7 +154,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Dikree', 140038),
-      new Player(Guild.LES_FRANCS_ID, 'Dmostafa', 42575),
+      new Player(Guild.LES_FRANCS_ID, 'DMostafa', 42575),
       Fortification.BASTION_OF_ICE_ID,
       20,
       true,

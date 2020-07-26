@@ -130,7 +130,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Regal', 243783),
-      new Player(Guild.ROMANIA_ID, 'Adrain', 155152),
+      new Player(Guild.ROMANIA_ID, 'Adrian', 155152),
       Fortification.BASTION_OF_ICE_ID,
       20,
       true,
@@ -314,7 +314,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'LOD 2020', 302648),
-      new Player(Guild.ROMANIA_ID, 'Adrain', 209312),
+      new Player(Guild.ROMANIA_ID, 'Adrian', 209312),
       Fortification.MAGE_ACADEMY_ID,
       20,
       true,
@@ -601,7 +601,7 @@ export const war = new GuildWar(
       `${warDateString}T06:04:59`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Adrain', 209312),
+      new Player(Guild.ROMANIA_ID, 'Adrian', 209312),
       new Player(Guild.ASSASSINS_ID, 'hotaru086', 207127),
       Fortification.FOUNDRY_ID,
       20,
@@ -609,7 +609,7 @@ export const war = new GuildWar(
       `${warDateString}T06:07:29`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Adrain', 209312),
+      new Player(Guild.ROMANIA_ID, 'Adrian', 209312),
       new Player(Guild.ASSASSINS_ID, 'Kairen', 221405),
       Fortification.LIGHTHOUSE_ID,
       20,

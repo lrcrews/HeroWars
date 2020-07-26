@@ -306,7 +306,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Post Goats', 398294),
-      new Player(Guild.MRCO_ID, 'perMEATions', 262907),
+      new Player(Guild.MRCO_ID, 'PerMEATions', 262907),
       Fortification.MAGE_ACADEMY_ID,
       20,
       true,

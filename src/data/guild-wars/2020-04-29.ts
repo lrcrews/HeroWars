@@ -618,7 +618,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ANARCHY_ID, 'Mogor', 162814),
-      new Player(Guild.ASSASSINS_ID, 'hotaru86', 172921),
+      new Player(Guild.ASSASSINS_ID, 'hotaru086', 172921),
       Fortification.BARRACKS_ID,
       4,
       false,
@@ -642,7 +642,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ANARCHY_ID, 'Easton', 210463),
-      new Player(Guild.ASSASSINS_ID, 'hotaru86', 172921),
+      new Player(Guild.ASSASSINS_ID, 'hotaru086', 172921),
       Fortification.BARRACKS_ID,
       16,
       true,

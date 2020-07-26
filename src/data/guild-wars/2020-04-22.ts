@@ -634,7 +634,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.MRCO_ID, 'Kifyu', 170174),
-      new Player(Guild.ASSASSINS_ID, 'Disicple', 166968),
+      new Player(Guild.ASSASSINS_ID, 'Disciple', 166968),
       Fortification.CITADEL_ID,
       20,
       true,
