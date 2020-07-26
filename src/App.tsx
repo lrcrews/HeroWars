@@ -11,6 +11,7 @@ import GuildWars from './guild-wars/GuildWars';
 import Home from './home/Home';
 import PageNotFound from './404/PageNotFound';
 import Player from './players/Player';
+import Players from './players/Players';
 import SiteHeader from './site-header/SiteHeader';
 import Titans from './tools/titans/Titans';
 import Tournaments from './tournaments/Tournaments';
@@ -58,6 +59,9 @@ const App: React.FC = () => {
               <Guild allGuilds={guilds} selectedGuildId={Number.parseInt(match.params.id)} wars={guildWars} />
             )}
           />
+          <Route exact path="/players">
+            <Players wars={guildWars} />
+          </Route>
           <Route
             path="/players/:name"
             render={({ match }: PlayerMatchProps): JSX.Element => (

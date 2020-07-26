@@ -19,6 +19,11 @@ const Home: React.FC = () => {
             </Link>
           </li>
           <li>
+            <Link to="/players">
+              <button>Players</button>
+            </Link>
+          </li>
+          <li>
             <Link to="/titans">
               <button>Tools</button>
             </Link>
