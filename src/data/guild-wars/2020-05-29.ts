@@ -34,7 +34,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'tntodor', 268882),
-      new Player(Guild.ROMANIA_ID, 'Team RamRod', 262208),
+      new Player(Guild.ROMANIA_ID, 'Car RamRod', 262208),
       Fortification.BRIDGE_ID,
       20,
       true,
@@ -298,7 +298,7 @@ export const war = new GuildWar(
     ),
     new Battle(
       new Player(Guild.ASSASSINS_ID, 'Father Zara', 323814),
-      new Player(Guild.ROMANIA_ID, 'Team RamRod', 284529),
+      new Player(Guild.ROMANIA_ID, 'Car RamRod', 284529),
       Fortification.FOUNDRY_ID,
       20,
       true,
@@ -361,7 +361,7 @@ export const war = new GuildWar(
       `${warDateString}T01:58:50`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Team RamRod', 262208),
+      new Player(Guild.ROMANIA_ID, 'Car RamRod', 262208),
       new Player(Guild.ASSASSINS_ID, 'En4', 258992),
       Fortification.BRIDGE_ID,
       20,
@@ -369,7 +369,7 @@ export const war = new GuildWar(
       `${warDateString}T02:05:41`
     ),
     new Battle(
-      new Player(Guild.ROMANIA_ID, 'Team RamRod', 264206),
+      new Player(Guild.ROMANIA_ID, 'Car RamRod', 264206),
       new Player(Guild.ASSASSINS_ID, 'Gom', 256390),
       Fortification.BRIDGE_ID,
       20,
