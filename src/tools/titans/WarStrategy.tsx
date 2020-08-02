@@ -22,13 +22,13 @@ const WarStrategy: React.FC = () => {
     return (
       <Fragment>
         <li className="titan">
-          <img src={hyperion.imagePath} alt={hyperion.name} title={hyperion.name} className="avatar" />
+          <img src={hyperion.imagePath} alt={hyperion.name} title={hyperion.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={eden.imagePath} alt={eden.name} title={eden.name} className="avatar" />
+          <img src={eden.imagePath} alt={eden.name} title={eden.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={araji.imagePath} alt={araji.name} title={araji.name} className="avatar" />
+          <img src={araji.imagePath} alt={araji.name} title={araji.name} className="titan-avatar" />
         </li>
       </Fragment>
     );
@@ -39,10 +39,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="avatar" />
+          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="avatar" />
+          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -53,10 +53,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="avatar" />
+          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="avatar" />
+          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -66,11 +66,11 @@ const WarStrategy: React.FC = () => {
     return (
       <ul className="titan-line">
         <li className="titan">
-          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="avatar" />
+          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="titan-avatar" />
         </li>
         {superTitanLine()}
         <li className="titan">
-          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="avatar" />
+          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -81,10 +81,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="avatar" />
+          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="avatar" />
+          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -94,11 +94,11 @@ const WarStrategy: React.FC = () => {
     return (
       <ul className="titan-line">
         <li className="titan">
-          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="avatar" />
+          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="titan-avatar" />
         </li>
         {superTitanLine()}
         <li className="titan">
-          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="avatar" />
+          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -109,10 +109,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="avatar" />
+          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="avatar" />
+          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -123,10 +123,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="avatar" />
+          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="avatar" />
+          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -137,10 +137,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="avatar" />
+          <img src={moloch.imagePath} alt={moloch.name} title={moloch.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="avatar" />
+          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -151,10 +151,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="avatar" />
+          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="avatar" />
+          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -165,10 +165,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="avatar" />
+          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="avatar" />
+          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -178,11 +178,11 @@ const WarStrategy: React.FC = () => {
     return (
       <ul className="titan-line">
         <li className="titan">
-          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="avatar" />
+          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="titan-avatar" />
         </li>
         {superTitanLine()}
         <li className="titan">
-          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="avatar" />
+          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -193,10 +193,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="avatar" />
+          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="avatar" />
+          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -207,10 +207,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="avatar" />
+          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="avatar" />
+          <img src={sigurd.imagePath} alt={sigurd.name} title={sigurd.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -220,11 +220,11 @@ const WarStrategy: React.FC = () => {
     return (
       <ul className="titan-line">
         <li className="titan">
-          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="avatar" />
+          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="titan-avatar" />
         </li>
         {superTitanLine()}
         <li className="titan">
-          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="avatar" />
+          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -235,10 +235,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="avatar" />
+          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="avatar" />
+          <img src={angus.imagePath} alt={angus.name} title={angus.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -248,11 +248,11 @@ const WarStrategy: React.FC = () => {
     return (
       <ul className="titan-line">
         <li className="titan">
-          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="avatar" />
+          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="titan-avatar" />
         </li>
         {superTitanLine()}
         <li className="titan">
-          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="avatar" />
+          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -262,11 +262,11 @@ const WarStrategy: React.FC = () => {
     return (
       <ul className="titan-line">
         <li className="titan">
-          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="avatar" />
+          <img src={ignis.imagePath} alt={ignis.name} title={ignis.name} className="titan-avatar" />
         </li>
         {superTitanLine()}
         <li className="titan">
-          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="avatar" />
+          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -277,10 +277,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="avatar" />
+          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="avatar" />
+          <img src={avalon.imagePath} alt={avalon.name} title={avalon.name} className="titan-avatar" />
         </li>
       </ul>
     );
@@ -291,10 +291,10 @@ const WarStrategy: React.FC = () => {
       <ul className="titan-line">
         {superTitanLine()}
         <li className="titan">
-          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="avatar" />
+          <img src={mairi.imagePath} alt={mairi.name} title={mairi.name} className="titan-avatar" />
         </li>
         <li className="titan">
-          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="avatar" />
+          <img src={nova.imagePath} alt={nova.name} title={nova.name} className="titan-avatar" />
         </li>
       </ul>
     );
