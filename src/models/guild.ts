@@ -5,12 +5,13 @@ export class Guild {
 
   static ASSASSINS_ID = 1;
   static ANARCHY_ID = 2;
-  static LES_FRANCS_ID = 3;
-  static MERICA_ID = 4;
-  static MRCO_ID = 5;
-  static ROMANIA_ID = 6;
-  static THE_ACADEMY_ID = 7;
-  static USA_ID = 8;
+  static COFFEE_TIME_ID = 3;
+  static LES_FRANCS_ID = 4;
+  static MERICA_ID = 5;
+  static MRCO_ID = 6;
+  static ROMANIA_ID = 7;
+  static THE_ACADEMY_ID = 8;
+  static USA_ID = 9;
 
   static ASSASSINS(): Guild {
     const img = GuildBannerUtil.bannerResourceFromImageName('assassinsBannerImg');
@@ -20,6 +21,11 @@ export class Guild {
   static ANARCHY(): Guild {
     const img = GuildBannerUtil.bannerResourceFromImageName('anarchyBannerImg');
     return new Guild(img, Guild.ANARCHY_ID, 'Anarchy', 184);
+  }
+
+  static COFFEE_TIME(): Guild {
+    const img = GuildBannerUtil.bannerResourceFromImageName('coffeeTimeBannerImg');
+    return new Guild(img, Guild.COFFEE_TIME_ID, 'Coffee time', 184);
   }
 
   static LES_FRANCS(): Guild {

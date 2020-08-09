@@ -3,6 +3,7 @@ import assassinsBannerImg from '../data/guild-banners/assassins-banner.png';
 import noGuildBannerImg from '../data/guild-banners/no-guild-banner.png';
 
 import anarchyBannerImg from '../data/guild-banners/anarchy-banner.png';
+import coffeeTimeBannerImg from '../data/guild-banners/coffee-time-banner.png';
 import lesFrancsBannerImg from '../data/guild-banners/les-francs-banner.png';
 import mericaBannerImg from '../data/guild-banners/merica-banner.png';
 import mrcoBannerImg from '../data/guild-banners/mrco-banner.png';
@@ -17,6 +18,8 @@ export class GuildBannerUtil {
         return assassinsBannerImg;
       case 'anarchyBannerImg':
         return anarchyBannerImg;
+      case 'coffeeTimeBannerImg':
+        return coffeeTimeBannerImg;
       case 'lesFrancsBannerImg':
         return lesFrancsBannerImg;
       case 'mericaBannerImg':
