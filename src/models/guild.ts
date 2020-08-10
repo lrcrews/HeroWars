@@ -67,6 +67,7 @@ export class Guild {
     return [
       Guild.ASSASSINS(),
       Guild.ANARCHY(),
+      Guild.COFFEE_TIME(),
       Guild.LES_FRANCS(),
       Guild.MERICA(),
       Guild.MRCO(),
