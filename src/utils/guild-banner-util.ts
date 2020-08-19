@@ -7,6 +7,7 @@ import coffeeTimeBannerImg from '../data/guild-banners/coffee-time-banner.png';
 import lesFrancsBannerImg from '../data/guild-banners/les-francs-banner.png';
 import mericaBannerImg from '../data/guild-banners/merica-banner.png';
 import mrcoBannerImg from '../data/guild-banners/mrco-banner.png';
+import roAcademyBannerImg from '../data/guild-banners/ro-academy-banner.png';
 import romaniaBannerImg from '../data/guild-banners/romania-banner.png';
 import theAcademyBannerImg from '../data/guild-banners/the-academy-banner.png';
 import usaBannerImg from '../data/guild-banners/usa-banner.png';
@@ -28,6 +29,8 @@ export class GuildBannerUtil {
         return mrcoBannerImg;
       case 'noGuildBannerImg':
         return noGuildBannerImg;
+      case 'roAcademyBannerImg':
+        return roAcademyBannerImg;
       case 'romaniaBannerImg':
         return romaniaBannerImg;
       case 'theAcademyBannerImg':
